@@ -68,7 +68,9 @@
     "witsec-mailform": false,
     "witsec-white-label": false,
     "witsec-jquery": false,
-    "witsec-language": false
+    "witsec-language": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
