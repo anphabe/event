@@ -77,7 +77,7 @@
       "settings": {
         "main": true,
         "title": "Hội nghị trực tuyến Nơi Làm Việc Tốt Nhất Việt Nam 2021",
-        "meta_descr": "Điểm hội tụ trí tuệ tập thể, cập nhật xu hướng mới nhất trên thị trường, chia sẻ kinh nghiệm và bài học thực tiễn dành cho CEO và các nhà hoạch định chính sách Nhân sự.",
+        "meta_descr": "",
         "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://event.anphabe.com/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://event.anphabe.com/assets/images/share2.jpg\">\n",
         "footer_custom": "",
         "html_before": ""
