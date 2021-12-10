@@ -1043,7 +1043,7 @@ a {
 .cid-sQlYJeNQOX {
   padding-top: 7rem;
   padding-bottom: 10rem;
-  background-image: url("../../../assets/images/cover-3-1920x791.jpg");
+  background-image: url("../../../assets/images/cover.jpg");
   background-position: 55% 50%;
   height: 700px;
 }
@@ -1141,11 +1141,6 @@ a {
   .cid-sQrzwqDrQk {
     padding-top: 2.5rem;
     padding-bottom: 1rem;
-  }
-}
-@media (max-width: 992px) {
-  .cid-sQrzwqDrQk .display-2 {
-    font-size: 2rem;
   }
 }
 .cid-sQrzxfT18Q {
