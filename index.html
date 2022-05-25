@@ -28,7 +28,42 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGZGNVL');</script>
+
+<script>
+function keep_url_query(){
+    let query = window.location.search;
+    
+    if(query == "") {
+        return false;
+    }
+    let searchParams = new URLSearchParams(query);
+
+    let atags = document.getElementsByTagName("a"); 
+    let i;
+    for (i = 0; i < atags.length; i++) {
+        let new_url = new URL(atags[i].href);
+        for (const [key, value] of searchParams) {
+            new_url.searchParams.set(key, value);
+        }
+        atags[i].href = new_url.toString();  
+    } 
+
+}
+
+if (
+    document.readyState === "complete" ||
+    (document.readyState !== "loading" && !document.documentElement.doScroll)
+) {
+  keep_url_query();
+} else {
+  document.addEventListener("DOMContentLoaded", keep_url_query);
+}
+</script>
   <meta property="og:site_name" content="Diễn đàn trực tuyến hứa hẹn kết nối hơn 50.000 nhân tài trẻ Việt Nam với những “kiến thức đinh” cùng các “nhà tuyển dụng đỉnh” và nhận thêm nhiều quà tặng cực cháy. "/>
 <meta property="og:rich_attachment" content="true"/>
 <meta property="og:type" content="website"/>
@@ -44,7 +79,10 @@
 
 </head>
 <body>
-  
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGZGNVL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <section data-bs-version="5.1" class="menu menu2 cid-sQrzo2bRPs" once="menu" id="menu2-2f">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
