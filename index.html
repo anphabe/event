@@ -15,7 +15,6 @@
   
   
   <title>Ngày hội Nghề nghiệp Sinh viên Việt Nam 2022​</title>
-  <link rel="stylesheet" href="assets/themify/css/themify-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -403,7 +402,7 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="form5 cid-t6K4jjsvlE" id="dangky">
+<section data-bs-version="5.1" class="form5x cid-t6K4jjsvlE" id="dangky">
     
     
 
@@ -420,10 +419,13 @@
             <h3 class="mbr-section-title mbr-fonts-style align-center text-style display-2">ĐĂNG KÝ NGAY</h3>
         </div>
         <div class="row justify-content-center mt-4">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="OM7oZ7fAZt9w61eu2a9M2/OHAEtcEYXGShoebq9mv0LuiT3fUACwPWFNZeJUYXcyFJTtNxfBreP2zkq6N5zdk3tlWqXhyuVDvixhDnYCrGD1BXnjjQH5bIcJmds2EIR8">
+            <div class="col-lg-8 mx-auto">
+                <form class="mbr-form form-with-styler form-register" action="https://mobirise.eu/" data-verified="">
+                    <input type="hidden" name="utm_source" id="utm_source-dangky" value="">
+                    <input type="hidden" name="utm_medium" id="utm_medium-dangky" value="">
+                    <input type="hidden" name="utm_campaign" id="utm_campaign-dangky" value="">
                     <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                             Oops...! some problem!
                         </div>
@@ -437,10 +439,10 @@
                         </div>
                         
                         <div class="col-md-6 col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Họ tên" data-form-field="name" class="form-control" value="" id="name-dangky">
+                            <input type="text" name="name" placeholder="Họ tên" data-form-field="name" data-required="true" class="form-control" value="" id="name-dangky">
                         </div>
-                        <div class="col-md-6 col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-dangky">
+                        <div class="col-md-6 col-sm-12 form-group mb-3" data-for="mail">
+                            <input type="text" name="mail" placeholder="Email" data-form-field="mail" data-required="true" class="form-control" value="" id="mail-dangky">
                         </div>
                         <div class="col-md-6 col-sm-12 form-group mb-3" data-for="name">
                             <input type="text" name="tel" placeholder="Số điện thoại" data-form-field="tel" class="form-control" value="" id="tel-dangky">
@@ -451,52 +453,73 @@
                                 <option value="1">Năm 1</option>
                                 <option value="2">Năm 2</option>
                                 <option value="3">Năm 3</option>
-                                <option value="cuoi">Năm cuối</option>
+                                <option value="namcuoi">Năm cuối</option>
                                 <option value="totnghiep">Đã tốt nghiệp</option>
                             </select>
                         </div>
                         <div class="col-md-6 col-sm-12 form-group mb-3" data-for="city">
-                            <select id="city-dangky" name="city" data-form-field="city" class="form-control" value="">
-                                <option value="">Bạn đang sống &amp; học tập tại khu vực nào?</option>
-                                <option value="1">Hà Nội</option>
-                                <option value="2">Hồ Chí Minh</option>
-                                <option value="3">Long An</option>
-                                <option value="4">Thanh Hóa</option>
-                            </select>
+                            <input type="text" name="city" placeholder="Bạn đang sống &amp; học tập tại khu vực nào?" data-form-field="city" class="form-control" value="" id="city-dangky">
                         </div>
                         <div class="col-md-6 col-sm-12 form-group mb-4" data-for="school">
-                            <select id="school-dangky" name="school" data-form-field="school" class="form-control" value="">
-                                <option value="">Bạn đang học tại trường nào?</option>
-                                <option value="1">Khoa học tự nhiên</option>
-                                <option value="2">Bách khoa</option>
-                                <option value="3">Khoa học xã hội &amp; nhân văn</option>
-                                <option value="4">Sư phạm kỹ thuật</option>
-                                <option value="5">Đại học công nghiệp</option>
-                            </select>
+                          <input type="text" name="school" placeholder="Bạn đang học tại trường nào?" data-form-field="school" class="form-control" value="" id="school-dangky">
                         </div>
-                        <div class="col-sm-12 form-group mb-4" data-for="noidung">
+                        <div class="col-sm-12 form-group mb-4" data-for="noidungquantam">
                             <p class="mbr-text mbr-fonts-style mb-3 display-7">
                             Bạn quan tâm phiên nội dung nào của sự kiện này?</p>
-                            <label class="mbr-text mbr-fonts-style mb-3 display-7" for="zxuhuong-dangky">
-                                <input type="checkbox" id="zxuhuong-dangky" name="zxuhuong" value="Xuhuong" data-form-field="">
+                            <label class="mbr-text mbr-fonts-style mb-3 display-7" for="zxuhuong">
+                                <input type="checkbox" id="noidungquantam1-dangky" name="noidungquantam1" value="Z Xu Hướng: TrendZetter – Bắt bài để bất bại">
                                 Z Xu Hướng: TrendZetter – Bắt bài để bất bại
                             </label>                            
-                            <label class="mbr-text mbr-fonts-style mb-3 display-7" for="zbatsong-dangky">
-                                <input type="checkbox" id="zbatsong-dangky" name="zbatsong" value="BatSong" data-form-field="">
+                            <label class="mbr-text mbr-fonts-style mb-3 display-7" for="zbatsong">
+                                <input type="checkbox" id="noidungquantam2-dangky" name="noidungquantam2" value="Z Bắt Sóng: Z đi làm – Vượt những hiểu lầm thường gặp">
                                 Z Bắt Sóng: Z đi làm – Vượt những hiểu lầm thường gặp
                             </label>                            
-                            <label class="mbr-text mbr-fonts-style mb-3 display-7" for="ztamtinh-dangky">
-                                <input type="checkbox" id="ztamtinh-dangky" name="ztamtinh" value="TamTinh" data-form-field="">
+                            <label class="mbr-text mbr-fonts-style mb-3 display-7" for="ztamtinh">
+                                <input type="checkbox" id="noidungquantam3-dangky" name="noidungquantam3" value="Z Tâm Tình: Bạn trăn trở - Doanh nghiệp tháo gỡ">
                                 Z Tâm Tình: Bạn trăn trở - Doanh nghiệp tháo gỡ
                             </label>                            
-                            <label class="mbr-text mbr-fonts-style mb-4 display-7" for="zhenho-dangky">
-                                <input type="checkbox" id="zhenho-dangky" name="zhenho" value="HenHo" data-form-field="">
+                            <label class="mbr-text mbr-fonts-style mb-4 display-7" for="zhenho">
+                                <input type="checkbox" id="noidungquantam4-dangky" name="noidungquantam4" value="Z Hẹn Hò: Kỳ thực tập trong mơ">
                                 Z Hẹn Hò: Kỳ thực tập trong mơ
                             </label>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-4">ĐĂNG KÝ NGAY</button></div>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade mbr-text mbr-fonts-style" tabindex="-1" role="dialog" style="display: none" id="dangky_thanhcong">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-blue">
+                    <h5 class="modal-title white display-7">Đăng ký thành công</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body mbr-text mbr-fonts-style display-4">
+                    <p>Mời bạn thêm lịch nhắc sự kiện</p>
+                    <style>.addToCalendar {background-color:#44c767;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar:hover {background-color:#5cbf2a;}.addToCalendar:active {position:relative;top:1px;}</style><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220624T063000Z%2F20220624T103000Z&details=S%E1%BB%B1%20ki%E1%BB%87n%20tr%E1%BB%B1c%20tuy%E1%BA%BFn%20k%E1%BA%BFt%20n%E1%BB%91i%20h%C6%A1n%2050K%20t%C3%A0i%20n%C4%83ng%20tr%E1%BA%BB%20v%C3%A0%20c%C3%A1c%20nh%C3%A0%20tuy%E1%BB%83n%20d%E1%BB%A5ng%20h%C3%A0ng%20%C4%91%E1%BA%A7u.%0AXem%20tr%E1%BB%B1c%20truy%E1%BA%BFn%20t%E1%BA%A1i%3A%0AFacebook%3A%20https%3A%2F%2Ffacebook.com%2Fanphabe%0AYoutube%3A%20https%3A%2F%2Fyoutube.com%2Fanphabevideo&location=H%E1%BB%93%20Ch%C3%AD%20Minh&text=Ng%C3%A0y%20h%E1%BB%99i%20Ngh%E1%BB%81%20nghi%E1%BB%87p%20Sinh%20vi%C3%AAn%20Vi%E1%BB%87t%20Nam%202022" class="addToCalendar">Google Calendar</a>
+                    <style>.addToCalendar {background-color:#44c767;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar:hover {background-color:#5cbf2a;}.addToCalendar:active {position:relative;top:1px;}</style><a href="https://outlook.live.com/calendar/0/deeplink/compose?allday=false&body=S%E1%BB%B1%20ki%E1%BB%87n%20tr%E1%BB%B1c%20tuy%E1%BA%BFn%20k%E1%BA%BFt%20n%E1%BB%91i%20h%C6%A1n%2050K%20t%C3%A0i%20n%C4%83ng%20tr%E1%BA%BB%20v%C3%A0%20c%C3%A1c%20nh%C3%A0%20tuy%E1%BB%83n%20d%E1%BB%A5ng%20h%C3%A0ng%20%C4%91%E1%BA%A7u.%0AXem%20tr%E1%BB%B1c%20truy%E1%BA%BFn%20t%E1%BA%A1i%3A%0AFacebook%3A%20https%3A%2F%2Ffacebook.com%2Fanphabe%0AYoutube%3A%20https%3A%2F%2Fyoutube.com%2Fanphabevideo&enddt=2022-06-24T10%3A30%3A00%2B00%3A00&location=H%E1%BB%93%20Ch%C3%AD%20Minh&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-06-24T06%3A30%3A00%2B00%3A00&subject=Ng%C3%A0y%20h%E1%BB%99i%20Ngh%E1%BB%81%20nghi%E1%BB%87p%20Sinh%20vi%C3%AAn%20Vi%E1%BB%87t%20Nam%202022" class="addToCalendar">Outlook Calendar</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade mbr-text mbr-fonts-style" tabindex="-1" role="dialog" style="display: none" id="error_message">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-blue">
+                    <h5 class="modal-title white display-7">Đăng ký thất bại</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body mbr-text mbr-fonts-style display-4">
+                    Vui lòng đăng ký lại.
+                </div>
+                
             </div>
         </div>
     </div>
@@ -663,8 +686,8 @@
             </div>
         </div>
     </div>
-</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/witsec-jquery-3.5.1/jquery-3.5.1.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/countdown/countdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/witsec-mailform/witsec-mailform.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
-  
+</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/witsec-jquery-3.5.1/jquery-3.5.1.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/countdown/countdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  <script src="assets/js/form.js"></script>
   
 </body>
 </html>
