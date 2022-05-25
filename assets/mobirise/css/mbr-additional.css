@@ -1046,6 +1046,10 @@ a {
 .cid-sQrzo2bRPs button.navbar-toggler .hamburger span {
   background-color: #e82686;
 }
+.cid-sQrzo2bRPs .modal-dialog,
+.cid-sQrzo2bRPs .modal-content {
+  height: initial;
+}
 .cid-t6mKR0S0a8 {
   display: flex;
   background-image: url("../../../assets/images/cover-homepage-1635x1174.jpg");
