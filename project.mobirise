@@ -942,7 +942,7 @@
               "letter-spacing": "0.3rem",
               "@media (max-width: 768px)": {
                 "letter-spacing": "0",
-                "font-size": "1.8rem"
+                "font-size": "2.2rem"
               }
             }
           },
@@ -1147,8 +1147,7 @@
               },
               ".display-4": {
                 "font-size": "1.6rem",
-                "line-height": "1.35",
-                "letter-spacing": "0.1rem"
+                "line-height": "1.35"
               },
               ".time-wrapper": {
                 "padding": "0 2rem"
