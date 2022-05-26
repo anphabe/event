@@ -1176,8 +1176,8 @@ a {
   letter-spacing: -0.01px;
   -webkit-text-stroke: 2px;
   stroke-width: 2px;
-  -webkit-text-stroke-color: #E3E3E4;
-  stroke: #E3E3E4;
+  -webkit-text-stroke-color: #949494;
+  stroke: #949494;
 }
 .cid-t6skLxiyPF H3 {
   text-align: left;
@@ -1253,7 +1253,8 @@ a {
     padding-top: 0;
   }
   .cid-t6skLxiyPF .text-style {
-    font-size: 97px;
+    font-size: 60px;
+    margin-bottom: 0!important;
   }
   .cid-t6skLxiyPF .countdown-cont {
     top: 0;
@@ -1297,8 +1298,8 @@ a {
   letter-spacing: -0.01px;
   -webkit-text-stroke: 2px;
   stroke-width: 2px;
-  -webkit-text-stroke-color: #E3E3E4;
-  stroke: #E3E3E4;
+  -webkit-text-stroke-color: #949494;
+  stroke: #949494;
 }
 .cid-t6mPwrJ7zK .mbr-section-title {
   text-align: right;
@@ -1329,7 +1330,7 @@ a {
     padding-top: 3rem;
   }
   .cid-t6mPwrJ7zK .text-style {
-    font-size: 97px;
+    font-size: 60px;
   }
   .cid-t6mPwrJ7zK .elementor {
     left: 95%;
@@ -1670,8 +1671,8 @@ a {
   letter-spacing: -0.01px;
   -webkit-text-stroke: 2px;
   stroke-width: 2px;
-  -webkit-text-stroke-color: #E3E3E4;
-  stroke: #E3E3E4;
+  -webkit-text-stroke-color: #949494;
+  stroke: #949494;
 }
 @media (max-width: 768px) {
   .cid-t6EspA252X .text-style {
