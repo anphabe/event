@@ -10,7 +10,7 @@ body {
   font-size: 6.75rem;
 }
 .display-2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 5.8rem;
   line-height: 1.1;
 }
@@ -1120,7 +1120,6 @@ a {
 .cid-t6skLxiyPF .number {
   color: #000000;
   white-space: nowrap;
-  font-family: "Anton", Sans-serif;
   font-size: 120px;
   font-weight: 400;
 }
@@ -1169,13 +1168,12 @@ a {
 }
 .cid-t6skLxiyPF .text-style {
   color: #6EC1E400;
-  font-family: 'Oswald', sans-serif;
   font-size: 200px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -0.01px;
-  -webkit-text-stroke: 2px;
-  stroke-width: 2px;
+  -webkit-text-stroke: 1px;
+  stroke-width: 1px;
   -webkit-text-stroke-color: #949494;
   stroke: #949494;
 }
@@ -1253,7 +1251,7 @@ a {
     padding-top: 0;
   }
   .cid-t6skLxiyPF .text-style {
-    font-size: 60px;
+    font-size: 75px;
     margin-bottom: 0!important;
   }
   .cid-t6skLxiyPF .countdown-cont {
@@ -1268,7 +1266,7 @@ a {
   }
   .cid-t6skLxiyPF .elementor2 {
     left: 75%;
-    top: 3%;
+    top: -16%;
   }
 }
 .cid-t6mPwrJ7zK {
@@ -1291,13 +1289,12 @@ a {
 }
 .cid-t6mPwrJ7zK .text-style {
   color: #6EC1E400;
-  font-family: 'Oswald', sans-serif;
   font-size: 200px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -0.01px;
-  -webkit-text-stroke: 2px;
-  stroke-width: 2px;
+  -webkit-text-stroke: 1px;
+  stroke-width: 1px;
   -webkit-text-stroke-color: #949494;
   stroke: #949494;
 }
@@ -1330,7 +1327,7 @@ a {
     padding-top: 3rem;
   }
   .cid-t6mPwrJ7zK .text-style {
-    font-size: 60px;
+    font-size: 75px;
   }
   .cid-t6mPwrJ7zK .elementor {
     left: 95%;
@@ -1664,19 +1661,18 @@ a {
 }
 .cid-t6EspA252X .text-style {
   color: #6EC1E400;
-  font-family: 'Oswald', sans-serif;
   font-size: 200px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -0.01px;
-  -webkit-text-stroke: 2px;
-  stroke-width: 2px;
+  -webkit-text-stroke: 1px;
+  stroke-width: 1px;
   -webkit-text-stroke-color: #949494;
   stroke: #949494;
 }
 @media (max-width: 768px) {
   .cid-t6EspA252X .text-style {
-    font-size: 97px;
+    font-size: 75px;
   }
 }
 .cid-t6EspA252X H3 {
