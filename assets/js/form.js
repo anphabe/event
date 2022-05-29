@@ -1,4 +1,4 @@
-var app_url = 'https://script.google.com/macros/s/AKfycbxDqaPfmuU5LYNIBoHtZvSY5b9pVXQG6MCDpHJzYhIRf_cN0JDKlbvWh1J4Jq2m0lwxAA/exec';
+var app_url = 'https://www.anphabe.com/aapi-lead/register';
  /** Anphabe function */
  function updateUtmInput() {
     let query = window.location.search;  
@@ -28,12 +28,11 @@ jQuery(function ($) {
         $('input[data-required="true"]').blur(function () {
             validationRequiredElement($(this))
         })
-        $('#mail-dangky').blur(function () {
+        $('input[name="email"]').blur(function () {
             validationEmailField($(this));
         })
 
         $(".form-register").submit(function (e) {
-          
             e.stopPropagation();
             e.preventDefault();
             var error = validation();
@@ -48,7 +47,7 @@ jQuery(function ($) {
             }
 
             else {
-                $('#btn-register').addClass('disabled');
+                $('[type="submit"]').addClass('disabled');
                 dataString = $(".form-register").serialize();
                 $.ajax({
                     type: "POST",
@@ -57,13 +56,11 @@ jQuery(function ($) {
                     dataType: "json",
                     cache: false,
                     success: function (data) {
-                        if (data.result == 'success') {
-                        
+                        if (data.response) {
                             $('#dangky_thanhcong').modal('show');
-
+                            $('[type="submit"]').removeClass('disabled');
                         }
                         else {
-                            alert(2);
                             $('#error_message').modal('show');
                         }
                     },
@@ -144,7 +141,7 @@ jQuery(function ($) {
 
     function validation() {
         error2 = validationRequiredFields();
-        error3 = validationEmailField($('#mail-dangky'));
+        error3 = validationEmailField($('input[name="email"]'));
         return error2 || error3;
     }
 
