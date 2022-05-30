@@ -1052,6 +1052,7 @@ a {
 }
 .cid-t6mKR0S0a8 {
   display: flex;
+  min-height: 95vh;
   background-image: url("../../../assets/images/cover-homepage-1-1635x1174.jpg");
 }
 .cid-t6mKR0S0a8 .mbr-overlay {
@@ -1392,6 +1393,8 @@ a {
   }
   .cid-t6mPwrJ7zK .elementor {
     z-index: 0;
+    left: 56%;
+    top: 16%;
   }
 }
 .cid-t6DIf0NN1P {

@@ -554,6 +554,7 @@
           "alias": false,
           "_styles": {
             "display": "flex",
+            "min-height": "95vh",
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
@@ -960,7 +961,9 @@
                 "font-size": "75px"
               },
               ".elementor": {
-                "z-index": "0"
+                "z-index": "0",
+                "left": "56%",
+                "top": "16%"
               },
               "padding-top": "3rem"
             }
