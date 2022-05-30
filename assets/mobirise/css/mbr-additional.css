@@ -1391,11 +1391,7 @@ a {
     font-size: 75px;
   }
   .cid-t6mPwrJ7zK .elementor {
-    left: 95%;
-    top: -15%;
-  }
-  .cid-t6mPwrJ7zK .text-wrapper {
-    margin-top: 2.5rem;
+    z-index: 0;
   }
 }
 .cid-t6DIf0NN1P {
