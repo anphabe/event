@@ -1371,7 +1371,7 @@ a {
   left: 74%;
   top: 1%;
   opacity: 1;
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   pointer-events: none;
 }
@@ -1729,10 +1729,12 @@ a {
 .cid-t6EspA252X .item-title {
   text-align: left;
   font-weight: 600;
+  font-size: 1.6rem;
 }
 .cid-t6EspA252X .item-subtitle {
   text-align: left;
   color: #808080;
+  font-size: 1.1rem;
 }
 .cid-t6EspA252X .text-style {
   color: #6EC1E400;
