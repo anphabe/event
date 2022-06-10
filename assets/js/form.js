@@ -71,6 +71,11 @@ jQuery(function ($) {
             return false;
         });
 
+        let dangkyModalEl = document.getElementById('dangky_thanhcong');
+        dangkyModalEl.addEventListener('hidden.bs.modal', function (event) {
+            window.location.href = "/?register_success=1";
+        })
+
 
     }); // end function document ready
 
