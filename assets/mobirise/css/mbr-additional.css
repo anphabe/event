@@ -1109,6 +1109,11 @@ a {
   margin-top: 0rem;
   margin-bottom: 4rem;
 }
+@media (max-width: 768px) {
+  .cid-t8l21OMQBQ .btn-primary {
+    margin-top: -7rem;
+  }
+}
 .cid-t8l21OMQBQ .btn {
   border-radius: 0;
 }

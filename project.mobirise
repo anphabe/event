@@ -625,7 +625,10 @@
               "text-transform": "uppercase ",
               "letter-spacing": "0.1rem",
               "margin-top": "0rem",
-              "margin-bottom": "4rem"
+              "margin-bottom": "4rem",
+              "@media (max-width: 768px)": {
+                "margin-top": "-7rem"
+              }
             },
             ".btn": {
               "border-radius": "0"
