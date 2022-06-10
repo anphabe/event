@@ -1097,6 +1097,21 @@ a {
     min-height: 68vh;
   }
 }
+.cid-t8l21OMQBQ {
+  padding-top: 0rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-t8l21OMQBQ .btn-primary {
+  padding: 1.5rem 3.5rem;
+  text-transform: uppercase ;
+  letter-spacing: 0.1rem;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+}
+.cid-t8l21OMQBQ .btn {
+  border-radius: 0;
+}
 .cid-t7hGOWnpNQ {
   padding-top: 2rem;
   padding-bottom: 0rem;
@@ -1157,6 +1172,10 @@ a {
   .cid-t7hGOWnpNQ img {
     width: 45%;
   }
+}
+.cid-t7hGOWnpNQ .btn-primary {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 .cid-t6skLxiyPF {
   padding-top: 0rem;
