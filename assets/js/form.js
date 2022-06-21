@@ -58,7 +58,7 @@ jQuery(function ($) {
                     success: function (data) {
                         if (data.response) {
                             $('#dangky_thanhcong').modal('show');
-                            $('[type="submit"]').removeClass('disabled');
+                         //   $('[type="submit"]').removeClass('disabled');
                         }
                         else {
                             $('#error_message').modal('show');
