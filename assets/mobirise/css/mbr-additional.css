@@ -1649,6 +1649,31 @@ a {
     padding: 0 2rem;
   }
 }
+.cid-t9Eae93Ygy {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-t9Eae93Ygy .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t9Eae93Ygy .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-t9Eae93Ygy .video-wrapper iframe {
+  width: 100%;
+}
+.cid-t9Eae93Ygy .mbr-section-title,
+.cid-t9Eae93Ygy .mbr-section-subtitle,
+.cid-t9Eae93Ygy .mbr-text {
+  text-align: center;
+}
 .cid-t77xNdm7Jv {
   padding-top: 6rem;
   padding-bottom: 6rem;
