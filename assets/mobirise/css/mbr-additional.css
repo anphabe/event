@@ -1820,6 +1820,40 @@ a {
     max-width: 12.5%;
   }
 }
+.cid-thv1jC59GN {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-thv1jC59GN hr {
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 778px) {
+  .cid-thv1jC59GN {
+    padding-top: 1.5rem;
+  }
+}
+.cid-thv1ku6ptz {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-thv1ku6ptz img {
+  width: 120px;
+  margin: auto;
+}
+.cid-thv1ku6ptz .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-thv1ku6ptz .card {
+    max-width: 25%;
+  }
+}
 .cid-t82hNcgpfl {
   padding-top: 3rem;
   padding-bottom: 0rem;
