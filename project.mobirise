@@ -2531,10 +2531,10 @@
             },
             "@media (max-width: 767px)": {
               ".row": {
-                "text-align": "center"
+                "text-align": "left"
               },
               ".social-row": {
-                "justify-content": "center"
+                "justify-content": "left"
               }
             },
             ".list": {

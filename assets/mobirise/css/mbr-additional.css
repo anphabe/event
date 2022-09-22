@@ -2566,10 +2566,10 @@ a {
 }
 @media (max-width: 767px) {
   .cid-sQrzSYobjA .row {
-    text-align: center;
+    text-align: left;
   }
   .cid-sQrzSYobjA .social-row {
-    justify-content: center;
+    justify-content: left;
   }
 }
 .cid-sQrzSYobjA .list {
