@@ -714,6 +714,9 @@
               ".no-p": {
                 "padding": "0"
               },
+              ".highlight": {
+                "font-size": "1.8rem"
+              },
               "padding-top": "0.2rem"
             }
           },
