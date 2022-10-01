@@ -2535,18 +2535,29 @@ a {
   background-color: #ffffff;
 }
 .cid-t7vCmRuf6R img {
+  width: 100px;
+  margin: auto;
+}
+.cid-t7vCmRuf6R .gold img {
+  width: 200px;
+  margin: auto;
+}
+.cid-t7vCmRuf6R .silver img {
   width: 150px;
   margin: auto;
 }
 .cid-t7vCmRuf6R .card {
   transition: all 0.3s;
   height: fit-content;
-  padding: 1rem 0;
+  padding: 0;
   margin-bottom: 1rem;
 }
 @media (min-width: 992px) {
-  .cid-t7vCmRuf6R .card {
+  .cid-t7vCmRuf6R .card .silver {
     max-width: 15.5%;
+  }
+  .cid-t7vCmRuf6R .card .gold {
+    max-width: 17.5%;
   }
 }
 .cid-sQrzSYobjA {
