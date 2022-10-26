@@ -1097,11 +1097,21 @@ a {
   display: none;
 }
 @media (max-width: 767px) {
+  .cid-thu4KqfSVx .number-wrap {
+    min-width: 60px;
+    margin-left: -3px;
+  }
   .cid-thu4KqfSVx .period {
     font-size: 0.8rem;
   }
   .cid-thu4KqfSVx .daycd {
     min-width: 90px;
+  }
+}
+@media (max-width: 767px) and (min-width: 374px) {
+  .cid-thu4KqfSVx .number-wrap {
+    min-width: 90px;
+    margin-left: -3px;
   }
 }
 .cid-thu4KqfSVx .btn {

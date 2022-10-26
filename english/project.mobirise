@@ -620,6 +620,16 @@
               "display": "none"
             },
             "@media (max-width: 767px)": {
+              ".number-wrap": {
+                "min-width": "60px",
+                "margin-left": "-3px"
+              },
+              "@media (min-width: 374px)": {
+                ".number-wrap": {
+                  "min-width": "90px",
+                  "margin-left": "-3px"
+                }
+              },
               ".period": {
                 "font-size": "0.8rem"
               },

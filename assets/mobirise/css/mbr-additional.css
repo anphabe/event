@@ -1097,8 +1097,18 @@ a {
   display: none;
 }
 @media (max-width: 767px) {
+  .cid-thu4KqfSVx .number-wrap {
+    min-width: 60px;
+    margin-left: -3px;
+  }
   .cid-thu4KqfSVx .period {
     font-size: 0.8rem;
+  }
+}
+@media (max-width: 767px) and (min-width: 374px) {
+  .cid-thu4KqfSVx .number-wrap {
+    min-width: 90px;
+    margin-left: -3px;
   }
 }
 .cid-thu4KqfSVx .btn {
@@ -1534,6 +1544,9 @@ a {
   .cid-thuFemIHB6 .schedule-header {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .cid-thuFemIHB6 .number-wrap {
+    min-width: 90px;
   }
   .cid-thuFemIHB6 .schedule-wrapper {
     padding: 0 18px 18px 20px;
