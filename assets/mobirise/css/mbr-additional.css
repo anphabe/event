@@ -1405,6 +1405,18 @@ a {
   font-size: 2rem;
   color: #99CA3C;
 }
+.cid-thuFemIHB6 .mb-30 {
+  margin-bottom: 30px;
+}
+.cid-thuFemIHB6 .ml-10 {
+  margin-left: 10px;
+}
+.cid-thuFemIHB6 .ml-50 {
+  margin-left: 30px;
+}
+.cid-thuFemIHB6 .ml-85 {
+  margin-left: 85px;
+}
 @media (max-width: 991px) {
   .cid-thuFemIHB6 .card {
     margin-bottom: 2rem;
