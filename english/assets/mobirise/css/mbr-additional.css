@@ -1522,12 +1522,13 @@ a {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 .cid-thuFemIHB6 .speaker-title {
   font-weight: 600;
   display: inline-block;
   padding: 5px 35px 5px 0;
+  width: 100%;
 }
 .cid-thuFemIHB6 ul.list li {
   margin-left: -1rem;
@@ -1585,6 +1586,9 @@ a {
   .cid-thuFemIHB6 .icon-title.mb-4 {
     margin-bottom: 0!important;
   }
+}
+.cid-thuFemIHB6 .mb-30 {
+  margin-bottom: 30px;
 }
 .cid-thXIZlMXgp {
   padding-top: 0rem;
