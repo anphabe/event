@@ -27,19 +27,19 @@ body {
 }
 .display-5 {
   font-family: 'Mulish', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.875rem;
+  font-size: 1.625rem;
 }
 .display-7 {
   font-family: 'Mulish', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -68,14 +68,14 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.04rem;
+    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.88rem;
-    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1228,7 +1228,7 @@ a {
 .cid-saCY7M6val .mbr-form {
   background-color: #ffffff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .cid-saCY7M6val .mbr-form .btn-primary,
 .cid-saCY7M6val .mbr-form .btn-primary:active {
@@ -1338,15 +1338,15 @@ a {
     border-radius: 16px;
   }
 }
-.cid-txfpJeJjHr {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #fafafa;
+.cid-txjHqz46fw {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
-.cid-txfpJeJjHr .mbr-fallback-image.disabled {
+.cid-txjHqz46fw .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-txfpJeJjHr .mbr-fallback-image {
+.cid-txjHqz46fw .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1355,40 +1355,60 @@ a {
   position: absolute;
   top: 0;
 }
-@media (min-width: 1500px) {
-  .cid-txfpJeJjHr .container {
-    max-width: 1400px;
+.cid-txjHqz46fw .img-wrapper {
+  text-align: center;
+}
+.cid-txjHqz46fw img {
+  margin: auto;
+  width: 140px;
+  padding-bottom: 2rem;
+}
+.cid-txjHqz46fw .row {
+  align-items: flex-start;
+}
+.cid-txjHqz46fw .card-wrapper {
+  min-height: 350px;
+  background: #fafafa;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media (max-width: 992px) {
+  .cid-txjHqz46fw .card-wrapper {
+    margin-bottom: 2rem;
   }
 }
-.cid-txfpJeJjHr .mbr-iconfont {
-  display: block;
-  font-size: 3rem;
-  color: #353535;
-  margin-bottom: 2rem;
-  text-align: left;
+@media (min-width: 768px) {
+  .cid-txjHqz46fw .card-wrapper {
+    padding: 2rem;
+  }
 }
-.cid-txfpJeJjHr .card-wrapper {
-  margin-top: 3rem;
-  padding: 3rem;
-  border-radius: 0.5rem;
-  background-color: #ffffff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+@media (max-width: 767px) {
+  .cid-txjHqz46fw .card-wrapper {
+    padding: 1rem;
+  }
 }
-.cid-txfpJeJjHr .row {
-  justify-content: center;
+.cid-txjHqz46fw .card-title {
+  color: #087096;
 }
-.cid-txfpJeJjHr .card-text {
-  text-align: left;
+.cid-txjHqz46fw .display-1 {
+  font-size: 8rem;
+  font-weight: 700;
 }
 @media (max-width: 768px) {
-  .cid-txfpJeJjHr {
-    padding-top: 2rem;
+  .cid-txjHqz46fw .display-1 {
+    min-height: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
   }
 }
+.cid-txjHqz46fw .mbr-section-title,
+.cid-txjHqz46fw .card-box {
+  text-align: center;
+}
 .cid-txfyXfcjLK {
-  padding-top: 7rem;
-  padding-bottom: 8rem;
-  background-image: url("../../../assets/images/bg.jpg");
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url("../../../assets/images/abstract-view-modern-architecture.jpg");
 }
 .cid-txfyXfcjLK .mbr-fallback-image.disabled {
   display: none;
@@ -1403,7 +1423,7 @@ a {
   top: 0;
 }
 .cid-txfyXfcjLK .card-wrapper {
-  background: #ffffff;
+  background: none;
   border-radius: 4px;
 }
 @media (max-width: 767px) {
@@ -1423,13 +1443,18 @@ a {
 }
 .cid-txfyXfcjLK .mbr-text,
 .cid-txfyXfcjLK .mbr-section-btn {
-  text-align: left;
+  text-align: center;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .cid-txfyXfcjLK {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
+}
+.cid-txfyXfcjLK .card-title {
+  color: #ffffff;
+  text-align: center;
 }
 .cid-twozrwXc1i {
   padding-top: 5rem;
