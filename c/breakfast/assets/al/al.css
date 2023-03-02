@@ -72,7 +72,16 @@
 
 .selectBox select {
   width: 100%;
-  font-weight: bold;
+  padding-left:10px;
+  font-size: 1rem !important;
+  background-color: #ffffff;
+  background-clip: border-box;
+  transition: border-color 0.25s ease 0s;
+  border: 1px solid transparent !important;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 0px, rgb(0 0 0 / 7%) 0px 1px 3px 0px, rgb(0 0 0 / 3%) 0px 0px 0px 1px;
+  min-height: 48px;
+  font-family: 'Mulish', sans-serif;
 }
 
 .overSelect {
@@ -81,6 +90,7 @@
   right: 0;
   top: 0;
   bottom: 0;
+  
 }
 
 #checkboxes {
