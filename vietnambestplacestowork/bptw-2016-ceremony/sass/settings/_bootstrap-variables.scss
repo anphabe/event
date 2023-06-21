@@ -1,0 +1,41 @@
+//
+// Custom Bootstrap Variables
+// ------------------------------------
+
+$brand-primary: $blue;
+$brand-success: $green;
+
+$body-bg: $white;
+$body-color: $black;
+
+$btn-primary-color: $black;
+$btn-primary-bg: $orange;
+$btn-primary-border: $btn-primary-bg;
+
+$btn-secondary-color: $black;
+$btn-secondary-bg: $white;
+$btn-secondary-border: $gray-light;
+
+$headings-font-weight: 500;
+
+$link-color:            $brand-primary;
+$link-decoration:       none ;
+$link-hover-color:      $brand-primary;
+$link-hover-decoration: underline;
+
+$grid-columns: 24;
+$grid-gutter-width-base:     20px !default;
+
+$font-size-base: 0.875rem;
+$font-family-base: Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$input-color: $black;
+$input-color-focus: $black;
+$input-color-placeholder: $gray-dark;
+$input-border-focus: $blue;
+
+$navbar-light-color: $black;
+$navbar-light-hover-color: $blue;
+$navbar-light-active-color: $blue;
+
+

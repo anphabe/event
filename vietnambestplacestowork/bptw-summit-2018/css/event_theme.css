@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.u-btn-primary:link, .u-btn-primary:visited{background-color: #f97e05; color: #ffffff!important}
+.u-btn-primary:hover {background-color: #f9ab05; border-color:#f9ab05;}
+.g-color-primary, .g-color-primary *, .g-color-primary p {color:#99ca3c!important;}
+.g-color-secondary, .g-color-secondary *, .g-color-secondary p {color:#005670!important;}
+.g-brd-primary {border-color:#99ca3c!important}
+.g-theme-business-bg-blue-dark-v1 {background-color: #363636!important}
+
+
+.g-brd-bottom-primary--hover:hover {border-bottom-color: #99ca3c!important}
+.g-parent:hover .g-bg-primary--parent-hover {background-color: #005670!important;}
+.g-color-green {color: #99ca3c!important}
+.g-bg-green {background-color:#99ca3c!important}
+.g-brd-gray-light-v4 {
+	border-color: #eee!important}
+
+.g-bg-gray-dark-v1 {background-color: #005670!important}
+
+a:link {color: #005670; text-decoration: none}
+a:hover {color: #005670; text-decoration: underline}
+a.secondary-link:link {color: #99ca3c!important; text-decoration: none}
+a.secondary-link:hover {color: #99ca3c!important; text-decoration: underline}
+
+.bg-primary{background-color:#005670!important}
+.navbar-top {
+	font-size: 13px;
+	color: #ffffff;
+	margin-right: 5px;
+}
+.navbar-top a {
+	color: #ffffff;
+}
+
+.js-header-change-moment .navbar-top {
+	color: #333333;
+}
+.js-header-change-moment .navbar-top a {
+	color: #333333;
+}
+
+.u-heading-v1-4::before {
+	top: 16px !important;
+}
+.g-absolute-centered--y {
+	top: 16px !important;
+}
+
+.landing-block-node-card-img {
+	height: 700px;
+	padding-top: 150px;
+}
+@media (min-width: 950px) {
+	.landing-block-node-card-img {
+		height: 650px;
+	}
+}
+
+.u-btn-primary:link, .u-btn-primary:visited {
+	color: #fff;
+	background-color: #e48b0c;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	background: linear-gradient(to left, #e48b0c 50%, #d17b00 50%);
+	background-size: 200% 100%;
+	background-position:right bottom;
+	margin-left:10px;
+	transition:all 0.3s ease;
+}
+
+
+.u-btn-primary:focus,
+.u-btn-primary:active,
+.u-btn-primary:active:focus,
+.u-btn-primary:hover {
+	border-color: #d17b00;
+	background-color: #d17b00;
+	color: #fff;
+	background-position:left bottom;
+}

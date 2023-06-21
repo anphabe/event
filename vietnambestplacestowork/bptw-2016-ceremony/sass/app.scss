@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   INUITCSS
+   ========================================================================== */
+/**
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ * https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+ */
+/**
+ * This is an example inuitcss manifest file. DO NOT MODIFY THIS FILE DIRECTLY.
+ * Instead, copy and paste it into your own CSS directory and make additions,
+ * extension, and modifications there.
+ */
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Used with preprocessors and contain font, colors definitions, etc.
+ *
+ * Config...............Project-level configuration and feature switches.
+ * Core.................inuitcss’ core and setup settings.
+ * Global...............Project-wide variables and settings.
+ *
+ * TOOLS
+ * Globally used mixins and functions. It’s important not to output any CSS in the first 2 layers.
+ *
+ * Rem..................Tools for converting pixel inputs into their rem
+ *                      equivalents.
+ * Font-size............A mixin which guarantees baseline-friendly line-heights.
+ * Clearfix.............Micro clearfix mixin.
+ * Hidden...............Mixin for hiding elements.
+ * Sass MQ..............inuitcss’ default media query manager.
+ *
+ * GENERIC
+ * Reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS.
+ *
+ * Box-sizing...........Better default `box-sizing`.
+ * Normalize.css........A level playing field using @necolas’ Normalize.css.
+ * Reset................A tiny reset to complement Normalize.css.
+ * Shared...............Sensibly and tersely share some global commonalities
+ *                      (particularly useful when managing vertical rhythm).
+ *
+ * ELEMENTS
+ * Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+ *
+ * Page.................Set up our document’s default `font-size` and
+ *                      `line-height`.
+ * Headings.............Very minimal (i.e. only font-size information) for
+ *                      headings 1 through 6.
+ * Images...............Base image styles.
+ * Tables...............Simple table styles.
+ *
+ * OBJECTS
+ * class-based selectors which define undecorated design patterns, for example media object known from OOCSS
+ *
+ * Wrapper..............Page constraint object.
+ * Layout...............Generic layout module.
+ * Media................Image- and text-like content side by side. The
+ *                      poster-child of OOCSS.
+ * Flag.................Table-layout-based advancement on the Media object.
+ * List-bare............Lists with no bullets or indents.
+ * List-inline..........A list whose items all site in a line.
+ * Box..................Simple boxing abstraction.
+ * Block................Image-on-top-of-text object.
+ * Ratio................A container for maintaining aspect ratio of content.
+ * Crop.................Provide a cropping context for media (images, etc.).
+ * Tables...............Classes for manipulating `table`s.
+ * Pack.................Pack items into available horizontal space.
+ *
+ * COMPONENTS
+ * Specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
+ *
+ * Buttons..............An example button component, and how it fits into the
+ *                      inuitcss framework.
+ *
+ * UTILITIES
+ * Clearfix.............Bind our clearfix onto a utility class.
+ * Widths...............Simple width helper classes.
+ * Headings.............Reassigning our heading styles to helper classes.
+ * Spacing..............Nudge bits of the DOM around with these spacing
+ *                      classes.
+ * Print................Reset-like styles taken from the HTML5 Boilerplate.
+ *                      classes..
+ * Hide.................Helper classes to hide content
+ *
+ *
+ * Trumps
+ * utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+ */
+
+//
+// SETTINGS
+// Core variables
+//----------------------------------------------
+@import "settings/mio-variables";
+// Import Override Bootstrap variables
+@import "settings/bootstrap-variables";
+// Import default Bootstrap variables
+
+//
+// TOOLS
+// Globally used mixins and functions.
+//----------------------------------------------
+@import "lib-bootstrap";
+
+//
+// GENERIC
+// Reset and dependencies.
+//------------------------------------------------
+
+
+//
+// ELEMENTS + OBJECTS
+// Core CSS
+//----------------------------------------------
+
+//
+// UTILITIES
+//-------------------------------------------------
+@import "utilities/mio-utilities";
+
+
+//
+// STYLES
+//-------------------------------------------------
+@import "styles.scss";

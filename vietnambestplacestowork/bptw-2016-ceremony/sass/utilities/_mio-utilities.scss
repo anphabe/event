@@ -1,0 +1,418 @@
+//
+// MIO - UTILITIES CLASSES
+//--------------------------------------------------
+
+//
+// Text color
+//-------------------------------------
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.blue {
+  color: $blue;
+}
+
+.blue-dark {
+  color: $blue-dark;
+
+}
+
+.blue-light {
+  color: $blue-light;
+
+}
+
+.green {
+  color: $green;
+
+}
+
+.green-dark {
+  color: $green-dark;
+
+}
+
+.green-light {
+  color: $green-light;
+}
+
+.orange {
+  color: $orange;
+}
+
+.orange-dark {
+  color: $orange-dark;
+}
+
+.orange-light {
+  color: $orange-light;
+}
+
+.gray {
+  color: $gray;
+}
+
+.gray-dark {
+  color: $gray-dark;
+}
+
+.gray-light {
+  color: $gray-light;
+}
+
+//
+// Mio Utilities: Typography
+// ----------------------------------
+
+@mixin font_size_px($px) {
+  font-size: #{$px/16}rem;
+}
+
+@for $i from 10 through 40 {
+  .em#{$i} {
+    font-size: px($i)
+  }
+}
+
+.font-size-xs {
+  font-size: px(11);
+}
+
+.font-size-s {
+  font-size: px(13);
+}
+
+.font-size-m {
+  font-size: px(14);
+}
+
+.font-size-l {
+  font-size: px(16);
+}
+
+/** padding **/
+.p0, .np, .no-padding {
+  padding: 0 !important;
+}
+
+.pt0 {
+  padding: 0;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.p5, .padding-5 {
+  padding: 5px !important;
+}
+
+.p10, .padding-10 {
+  padding: 10px !important;
+}
+
+.p15, .padding-15 {
+  padding: 15px !important;
+}
+
+.p20, .padding-20 {
+  padding: 20px !important;
+}
+
+.pl5, .padding-left-5 {
+  padding-left: 5px !important;
+}
+
+.pl10, .padding-left-10 {
+  padding-left: 10px !important;
+}
+
+.pl15, .padding-left-15 {
+  padding-left: 15px !important;
+}
+
+.pl20, .padding-left-20 {
+  padding-left: 20px !important;
+}
+
+.pr5, .padding-right-5 {
+  padding-right: 5px !important;
+}
+
+.pr10, .padding-right-10 {
+  padding-right: 10px !important;
+}
+
+.pr15, .padding-right-15 {
+  padding-right: 15px !important;
+}
+
+.pr20, .padding-right-20 {
+  padding-right: 20px !important;
+}
+
+.pt5, .padding-top-5 {
+  padding-top: 5px !important;
+}
+
+.pt10, .padding-top-10 {
+  padding-top: 10px !important;
+}
+
+.pt15, .padding-top-15 {
+  padding-top: 15px !important;
+}
+
+.pt20, .padding-top-20 {
+  padding-top: 20px !important;
+}
+
+.pb5, .padding-bottom-5 {
+  padding-bottom: 5px !important;
+}
+
+.pb10, .padding-bottom-10 {
+  padding-bottom: 10px !important;
+}
+
+.pb15, .padding-bottom-15 {
+  padding-bottom: 15px !important;
+}
+
+.pb20, .padding-bottom-20 {
+  padding-bottom: 20px !important;
+}
+
+/*** margin ***/
+.m0, .nm, .no-margin {
+  margin: 0 !important;
+}
+
+.mt0 {
+  margin-top: 0 !important;;
+}
+
+.mr0 {
+  margin-right: 0 !important;;
+}
+
+.ml0 {
+  margin-left: 0 !important;;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;;
+}
+
+.m5, .margin-5 {
+  margin: 5px !important;
+}
+
+.m10, .margin-10 {
+  margin: 10px !important;
+}
+
+.m15, .margin-15 {
+  margin: 15px !important;
+}
+
+.m20, .margin-20 {
+  margin: 20px !important;
+}
+
+.ml5, .margin-left-5 {
+  margin-left: 5px !important;
+}
+
+.ml10, .margin-left-10 {
+  margin-left: 10px !important;
+}
+
+.ml15, .margin-left-15 {
+  margin-left: 15px !important;
+}
+
+.ml20, .margin-left-20 {
+  margin-left: 20px !important;
+}
+
+.mr5, .margin-right-5 {
+  margin-right: 5px !important;
+}
+
+.mr10, .margin-right-10 {
+  margin-right: 10px !important;
+}
+
+.mr15, .margin-right-15 {
+  margin-right: 15px !important;
+}
+
+.mr20, .margin-right-20 {
+  margin-right: 20px !important;
+}
+
+.mt5, .margin-top-5 {
+  margin-top: 5px !important;
+}
+
+.mt10, .margin-top-10 {
+  margin-top: 10px !important;
+}
+
+.mt15, .margin-top-15 {
+  margin-top: 15px !important;
+}
+
+.mt20, .margin-top-20 {
+  margin-top: 20px !important;
+}
+
+.mb5, .margin-bottom-5 {
+  margin-bottom: 5px !important;
+}
+
+.mb10, .margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb15, .margin-bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+.mb20, .margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+// Custom margin for avatar_small and avatar_medium
+.ml-as, .margin-avatar-small {
+  margin-left: 56px;
+}
+
+.ml-am, .margin-avatar-medium {
+  margin-left: 76px;
+}
+
+.ml-al, .margin-avatar-large {
+  margin-left: 206px;
+}
+
+//
+// Layout
+// -------------------------------------
+
+.float-left, .left {
+  float: left;
+}
+
+.float-right, .right {
+  float: right;
+}
+
+.no-float {
+  float: none;
+}
+
+.clear-float, .clear-both {
+  clear: both;
+}
+
+//
+// Display
+// --------------------------------
+
+.none {
+  display: none !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.d-table, .display-table {
+  display: table
+}
+
+.d-table-cell, .table-cell {
+  display: table-cell
+}
+
+.overflow-hidden {
+  overflow: hidden
+}
+
+.overflow-scroll {
+  overflow: scroll
+}
+
+.overflow-auto {
+  overflow: auto
+}
+
+//
+// Background
+// ---------------------------------
+.bg-white {
+  background: $white;
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-blue-light {
+  background: lighten($blue, 70%);
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.bg-gray-lightest {
+  background: $gray-lightest;
+}
+
+//
+// Border
+// --------------------------------
+.border {
+  border: 1px solid $gray-lighter;
+}
+
+.border-left {
+  border-left: 1px solid $gray-lighter;
+}
+
+.border-right {
+  border-right: 1px solid $gray-lighter;
+}
+
+.border-top {
+  border-top: 1px solid $gray-lighter;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $gray-lighter;
+}
+
+.border-none {
+  border: none;
+}

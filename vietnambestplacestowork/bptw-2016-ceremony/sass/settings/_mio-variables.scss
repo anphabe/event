@@ -1,0 +1,38 @@
+//
+// MIO - Variables
+// --------------------------------------------------
+
+@function px($px, $base_font_size: 16) {
+  @return #{$px/$base_font-size}rem;
+}
+
+//
+// Colors
+// --------------------------------------------------
+$white: #FFFFFF;
+$black: #1A1A1A;
+
+// Create grayscale
+$gray-dark: #292b2c;
+$gray: #464a4c;
+$gray-light: #636c72;
+$gray-lighter: #C3C1C3;
+$gray-lightest: #f7f7f9;
+
+$blue: #005670;
+$blue-dark: darken($blue, 5%);
+$blue-light: #015770;
+$blue-lighter: lighten($blue, 30%);
+
+$green: #99CA3C;
+$green-dark: darken($green, 10%);
+$green-light: lighten($green, 10%);
+$green-lighter: lighten($green, 20%);
+
+$orange: #e49f0c;
+$orange-dark: darken($orange, 10%);
+$orange-light: lighten($orange, 10%);
+$orange-lighter: lighten($orange, 20%);
+
+// Start with assigning color names to specific hex values.
+

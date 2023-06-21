@@ -1,0 +1,264 @@
+.btn-primary {
+  box-shadow: 0 2px 0 #8d5a02;
+  color: $black;
+}
+
+.btn-primary--top {
+  box-shadow: 0 5px 0 #8d5a02;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// section header
+.header__banner {
+  background-color: #321505;
+  background-image: url("../images/visual_home.jpg");
+  background-size: cover;
+  font-size: px(24);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.header__event-type {
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  font-weigth: normal;
+}
+
+.header__event-name {
+  font-size: px(64);
+  margin: 35px 0;
+}
+
+
+.header__location {
+  margin-bottom: 35px;
+  .location-box {
+    border: 1px solid #99CA3C;
+    background-color: rgba(153, 202, 60, 0.1);
+    padding: 20px 30px;
+    font-size: px(16);
+  }
+  .location-box__title {
+    font-size: px(26);
+    font-weight: bold;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header__location {
+    text-align: left;
+    margin-bottom: 35px;
+    .location-box {
+      display: inline-block;
+      width: 470px;
+      vertical-align: top;
+      height: 316px;
+      text-align: left;
+      
+      
+    }
+  }
+}
+
+.header__headline {
+  background-color: $white;
+  text-align: center;
+  color: $black;
+  padding: 30px 0;
+  font-size: px(16);
+}
+
+.header__headline__item {
+  text-align: center;
+  font-size: px(16);
+}
+
+
+@include media-breakpoint-up(lg) {
+  .header__banner {
+    padding-top: 50px;
+  }
+  .header__event-name {
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+}
+
+// end section header
+
+// section agenda
+
+.section-title {
+  font-size: px(30);
+  text-align: center;
+  padding: 40px 0 30px 0;
+  
+}
+.agenda__event-type {
+  border: 1px solid $green-dark;
+  display: inline-block;
+  padding: 5px 20px;
+  text-align: center;
+  color: $green-dark;
+  margin-top: 60px;
+  font-size: px(16);
+}
+.agenda__event-title {
+  text-align: center;
+  font-size: px(24);
+  font-weight: bold;
+  margin: 15px 0 30px 0;
+}
+.agenda__item {
+  padding-bottom: 20px;
+}
+
+@include media-breakpoint-up(lg) {
+  .agenda__timing {
+    border: 1px solid $gray-lighter;
+  }
+  .agenda__morning {
+    border-bottom: 1px solid $gray-lighter;
+  }
+  .agenda__afternoon {
+    border-bottom: 1px solid $gray-lighter;
+  }
+  .agenda__item {
+    padding: 30px 0;
+  }
+  .agenda__item__topic {
+    border-right: 1px solid $gray-lighter;
+    padding-right: 30px;
+    padding-left: 0;
+    margin-right: 30px;
+  }
+}
+
+// end section agenda
+
+// section register
+.section-register {
+  height: 198px;
+  background-image: url("../images/bookticket_background.jpg");
+  background-size: cover;
+  background-color: $gray-light;
+  padding-top: 80px;
+}
+
+// section speaker
+.section-speaker {
+  padding-bottom: 50px;
+}
+
+.speaker-info {
+  padding: 50px 30px 0 0;
+}
+.speaker__box__border {
+  width: 80px;
+  height: 3px;
+  background: $blue;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+// end section speaker
+
+// sestion about
+.about-hr {
+  margin-top: 40px;
+}
+
+.about-box {
+  background-color: #DDEEF7;
+  height: 140px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+.about-box__cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.about-box__title {
+  font-size: 24px;
+  display: block;
+  line-height: 1em;
+}
+
+.about-box__number {
+  font-size: 36px;
+  display: block;
+  line-height: 1em;
+  font-weight: bold;
+
+}
+
+.about-box--large {
+  height: 216px;
+}
+
+//end section about
+
+// section ticket
+.section-ticket {
+  background-color: $gray-light;
+  background-image: url("../images/info_ticket.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ticket-box {
+  background-color: $white;
+  padding: 30px;
+  vertical-align: middle;
+}
+
+.ticket-free {
+  border-top: 1px solid $green;
+  border-bottom: 1px solid $green;
+}
+
+@include media-breakpoint-up(lg) {
+  .section-ticket {
+    height: 582px;
+  }
+  .ticket-box {
+    height: 245px;
+  }
+}
+
+// end section ticket
+
+// start footer
+.footer {
+  border-top: 3px solid $green;
+  color: $white;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  .footer__top {
+    background: $gray_dark;
+    padding: 40px 0;
+  }
+
+  .footer__bottom {
+    padding: 10px 0;
+    background: $black;
+  }
+  .footer__list-info li {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted $gray-light;
+    list-style-type: none;
+  }
+}
+
+// end footer
+
+
