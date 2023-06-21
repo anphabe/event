@@ -1790,6 +1790,10 @@
               "padding": "1rem 0",
               "margin-bottom": "1rem"
             },
+            "img": {
+              "width": "250px",
+              "margin": "auto"
+            },
             "@media (min-width: 992px)": {
               ".card": {
                 "max-width": "12.5%"
