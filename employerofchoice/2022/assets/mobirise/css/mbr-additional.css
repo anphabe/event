@@ -1970,6 +1970,22 @@ a {
     max-width: 100%;
   }
 }
+.cid-tHO2SGhTF3 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tHO2SGhTF3 .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-tHO2SGhTF3 .card {
+    max-width: 12.5%;
+  }
+}
 .cid-sQrzDNTsaS {
   padding-top: 3rem;
   padding-bottom: 0rem;
