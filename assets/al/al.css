@@ -24,3 +24,86 @@
   
   }
 }
+
+.select2-container {
+  font-size: 1rem !important;
+  background-color: #ffffff;
+  background-clip: border-box;
+  transition: border-color 0.25s ease 0s;
+  border: 1px solid transparent !important;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 0px, rgb(0 0 0 / 7%) 0px 1px 3px 0px, rgb(0 0 0 / 3%) 0px 0px 0px 1px;
+  min-height: 48px;
+  font-family: 'Mulish', sans-serif;
+  
+}
+
+.form-group .select2-container .select2-search--inline .select2-search__field{
+  padding: 1rem 1rem;
+  margin:0;
+}
+
+.form-group  .select2-container--default .select2-selection--multiple{
+  border: none;
+}
+
+.form-group .select2-container--default .select2-selection--multiple .select2-selection__choice{
+  padding:5px;
+  padding-left: 40px
+}
+.form-group .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  border-right:none;
+}
+
+.select2-selection ul li span {
+  color: #6c757d;
+  font-size: 1rem !important;
+  font-weight: normal;
+}
+
+
+.multiselect {
+  width: 100%;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  padding-left:10px;
+  font-size: 1rem !important;
+  background-color: #ffffff;
+  background-clip: border-box;
+  transition: border-color 0.25s ease 0s;
+  border: 1px solid transparent !important;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 0px, rgb(0 0 0 / 7%) 0px 1px 3px 0px, rgb(0 0 0 / 3%) 0px 0px 0px 1px;
+  min-height: 48px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  padding: 10px;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
