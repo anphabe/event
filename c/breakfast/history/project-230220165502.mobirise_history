@@ -1,0 +1,1737 @@
+{
+  "settings": {
+    "name": "linkedin painpoint",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#4326c4",
+        "secondaryColor": "#4326c4",
+        "successColor": "#e43f3f",
+        "infoColor": "#47b5ed",
+        "warningColor": "#4326c4",
+        "dangerColor": "#ff9a00",
+        "mainFont": "Jost",
+        "display1Font": "Nunito Sans",
+        "display1Size": "4.2",
+        "display2Font": "Nunito Sans",
+        "display2Size": "2.4",
+        "display5Font": "Nunito Sans",
+        "display5Size": "1.5",
+        "display7Font": "Nunito Sans",
+        "display7Size": "1.1",
+        "display4Font": "Nunito",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#0073b1",
+        "#f9fafb",
+        "#20cae2",
+        "#4326c4",
+        "#ff9a00",
+        "#294cef",
+        "#3d35d4"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.0.21",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Montserrat', sans-serif",
+        "name": "Montserrat",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      },
+      {
+        "css": "'Open Sans', sans-serif",
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      },
+      {
+        "css": "'Nunito', sans-serif",
+        "name": "Nunito",
+        "url": "https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      },
+      {
+        "css": "'Poppins', sans-serif",
+        "name": "Poppins",
+        "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Source Sans Pro', sans-serif",
+        "name": "Source Sans Pro",
+        "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+      },
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Nunito Sans', sans-serif",
+        "name": "Nunito Sans",
+        "url": "https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "imageResize": false,
+    "uniqCompNum": 69,
+    "versionPublish": "5.8.0",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-mailform": false,
+    "witsec-white-label": true,
+    "mbrsiteDomain": "rnmhqolciz",
+    "witsec-language": "vi",
+    "global_header_custom": "<meta property=\"og:site_name\" content=\"workplace.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://workplace.anphabe.com/truyenthong-v2\"/>\n<meta name=\"twitter:image:src\" content=\"https://workplace.anphabe.com/truyenthong-v2/assets/images/social-share.jpg\">\n<meta property=\"og:image\" content=\"https://workplace.anphabe.com/truyenthong-v2/assets/images/social-share.jpg\">\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KG2VC3R');</script>\n<!-- End Google Tag Manager -->\n",
+    "global_footer_custom": "    <script src=\"assets/web/assets/jquery/jquery.min.js\"></script>\n<script src=\"assets/al/al.min.js\"></script>",
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KG2VC3R\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n",
+    "witsec-jquery": "3.6.0",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Đăng ký nhận ưu đãi khủng từ Anphabe",
+        "meta_descr": "Giải pháp LinkedIn Talent Solutions - Tuyển dụng những ứng viên phù hợp nhanh hơn với giải pháp tuyển dụng dễ dàng và thông tin chi tiết mạnh mẽ từ cộng đồng tích cực của LinkedIn.",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)",
+              ".logo": {
+                "width": "180px"
+              },
+              ".hero-img": {
+                "width": "700px"
+              },
+              ".arrow": {
+                "display": "none"
+              },
+              "@media (max-width: 768px)": {
+                "padding-top": "(@paddingTop * 0.5rem)",
+                "padding-bottom": "(@paddingBottom * 0.5rem)",
+                ".logo": {
+                  "width": "200px"
+                }
+              },
+              ".mbr-section-form-title": {
+                "font-family": "'Nunito Sans', sans-serif",
+                "font-size": "30px"
+              },
+              ".hero-section": {
+                "h1": {
+                  "line-height": "58px"
+                },
+                "hr": {
+                  "background-color": "#FFF",
+                  "width": "526px"
+                },
+                ".hero-title-line1": {
+                  "font-weight": "700",
+                  "font-style": "normal",
+                  "font-size": "48px",
+                  "color": "#FFFFFF"
+                },
+                ".hero-title-line2": {
+                  "font-weight": "700",
+                  "font-style": "normal",
+                  "font-size": "48px",
+                  "color": "#ffb635"
+                },
+                ".usp": {
+                  "p": {
+                    "margin-bottom": "5px",
+                    "line-height": "25px"
+                  }
+                },
+                "ul": {
+                  "text-align": "justify"
+                }
+              },
+              "@media (max-width: 600px)": {
+                ".logo": {
+                  "width": "120px !important"
+                },
+                ".mbr-section-form-title": {
+                  "font-size": "25px"
+                },
+                ".hero-section": {
+                  "h1": {
+                    "line-height": "32px"
+                  },
+                  ".hero-title-line1": {
+                    "font-size": "24px"
+                  },
+                  ".hero-title-line2": {
+                    "font-size": "24px"
+                  },
+                  "hr": {
+                    "width": "300px"
+                  },
+                  ".mbr-section-title": {
+                    "font-size": "24px",
+                    "font-weight": "700"
+                  },
+                  ".hero-img": {
+                    "width": "320px",
+                    "height": "199px"
+                  },
+                  ".arrow": {
+                    "display": "block"
+                  }
+                }
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background": "url(@bg-value) #4326c4"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row"
+              }
+            },
+            "img.arrow": {
+              "width": "70px",
+              "height": "50px"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "margin-bottom": "0"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#f9fafb",
+              "font-size": "2.8rem"
+            },
+            ".mbr-section-btn": {
+              "color": "#000"
+            },
+            ".checkdone": {
+              "flex-basis": "40px",
+              "height": "40px",
+              "flex-grow": "0",
+              "flex-shrink": "0",
+              "padding-right": "5px"
+            },
+            "ul li": {
+              "list-style": "none",
+              "color": "#ffffff",
+              "padding-left": "0px",
+              "margin-bottom": "5px",
+              "margin-left": "0"
+            },
+            "ul li span": {
+              "font-size": "20px",
+              "font-weight": "bold",
+              "color": "#ffffff",
+              "margin-left": "-35px",
+              "padding-right": "12px"
+            },
+            "& when (@fullScreen)": {
+              "padding-bottom": "0!important",
+              "padding-top": "2rem",
+              "min-height": "90vh"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "h1": {
+              "line-height": "1.1"
+            },
+            "@media (max-width: 767px)": {
+              ".image-wrapper": {
+                "margin-top": "2rem"
+              }
+            },
+            "form": {
+              "padding": "15px",
+              ".mbr-section-btn": {
+                "text-align": "center",
+                "width": "100%",
+                ".btn": {
+                  "display": "inline-flex",
+                  "@media (max-width: 991px)": {
+                    "width": "100%"
+                  }
+                }
+              }
+            },
+            ".mbr-form": {
+              "background-color": "#fafafa",
+              "border-style": "solid",
+              "border-width": "1px",
+              "border-color": "#ffb303",
+              "border-radius": "15px",
+              ".btn-primary, .btn-primary:active": {
+                "background-color": "#ff9a00   !important",
+                "border-color": "#ff9a00   !important",
+                "color": "#ffffff !important",
+                "box-shadow": "0 2px 2px 0 "
+              },
+              ".mbr-section-title": {
+                "color": "#232323",
+                "font-size": "28px",
+                "text-align": "center"
+              }
+            },
+            ".form-control": {
+              "padding": "0rem 1rem",
+              "line-height": "1rem !important",
+              "font-family": "'Nunito', sans-serif",
+              "font-size": "1rem !important"
+            },
+            ".was-validated .invalid-feedback": {
+              "font-family": "'Mulish', sans-serif"
+            },
+            ".mbr-section-form-title": {
+              "color": "#0073b1",
+              "text-align": "center"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"formWidth\" title=\"Form Width\" min=\"4\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"From Title\" name=\"showFormTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/header-img-1.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#0073b1\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n      <div class=\"row justify-content-left align-items-top mb-3\">\n        <div class=\"col-12 col-md\">\n       <img class=\"logo d-inline-block \" src=\"@PROJECT_PATH@/assets/images/logo-anphabe-w-159x61.png\" alt=\"Anphabe logo\" title> <img class=\"logo d-inline-block\" src=\"@PROJECT_PATH@/assets/images/eb3e24691738d0668929.jpg\" alt=\"Linkedin Logo\" title></div>\n       \n      </div>\n        <div class=\"row justify-content-center align-items-top\">\n            <div class=\"col-12 col-md\">\n                <div class=\"hero-section pr-0 d-flex  flex-column\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style order-md-0  order-0 text-uppercase\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span class=\"hero-title-line2\"><font color=\"#ffffff\">TUYỂN ĐÂU TRÚNG ĐÓ</font></span><br><span class=\"hero-title-line2\">Với linkedin talent solutions</span></h1>\n                    <hr class=\"mt-0\">\n                    <ul class=\"usp p-0 mbr-text mbr-fonts-style display-5 order-md-1 order-2 mb-0\">\n                      <li class=\"d-flex \"><p class=\"checkdone\"><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 30 30\" xml:space=\"preserve\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" class fill=\"rgba(238, 233, 102, 1)\"><g transform=\"translate(-570 -260)\"><g xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M592,277c0,4.963-4.037,9-9,9s-9-4.037-9-9s4.037-9,9-9c1.613,0,3.126,0.432,4.438,1.18    c0.419-0.535,0.839-1.059,1.26-1.572c-1.664-1.014-3.61-1.607-5.697-1.607c-6.065,0-11,4.934-11,11c0,6.065,4.935,11,11,11    c6.065,0,11-4.935,11-11c0-2.605-0.914-4.996-2.433-6.883c-0.389,0.58-0.775,1.174-1.161,1.781    C591.409,273.35,592,275.107,592,277z\"></path><path d=\"M595.831,261.455c-1.591,1.443-3.085,2.994-4.509,4.603c-1.806,2.043-3.5,4.184-5.107,6.389    c-1.229,1.695-2.406,3.402-3.535,5.182l-3.431-3.191l-2.5,3.123l5.299,3.627l1.558,1.066l0.741-1.545    c1.125-2.35,2.421-4.717,3.773-7.004c1.361-2.293,2.815-4.535,4.387-6.693c1.24-1.699,2.555-3.35,3.975-4.904L595.831,261.455z\"></path></g></g></svg></p><p class=\"align-self-center\">Đăng tin tuyển dụng <strong>không giới hạn</strong></p></li>\n                      <li class=\"d-flex\"><p class=\"checkdone\"><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 30 30\" xml:space=\"preserve\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" class fill=\"rgba(238, 233, 102, 1)\"><g transform=\"translate(-570 -260)\"><g xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M592,277c0,4.963-4.037,9-9,9s-9-4.037-9-9s4.037-9,9-9c1.613,0,3.126,0.432,4.438,1.18    c0.419-0.535,0.839-1.059,1.26-1.572c-1.664-1.014-3.61-1.607-5.697-1.607c-6.065,0-11,4.934-11,11c0,6.065,4.935,11,11,11    c6.065,0,11-4.935,11-11c0-2.605-0.914-4.996-2.433-6.883c-0.389,0.58-0.775,1.174-1.161,1.781    C591.409,273.35,592,275.107,592,277z\"></path><path d=\"M595.831,261.455c-1.591,1.443-3.085,2.994-4.509,4.603c-1.806,2.043-3.5,4.184-5.107,6.389    c-1.229,1.695-2.406,3.402-3.535,5.182l-3.431-3.191l-2.5,3.123l5.299,3.627l1.558,1.066l0.741-1.545    c1.125-2.35,2.421-4.717,3.773-7.004c1.361-2.293,2.815-4.535,4.387-6.693c1.24-1.699,2.555-3.35,3.975-4.904L595.831,261.455z\"></path></g></g></svg></p><p class=\"align-self-center\">Giá <strong>ưu đãi lên tới 50%</strong> dành riêng cho khách hàng Anphabe</p></li>\n                      <li class=\"d-flex\"><p class=\"checkdone\"><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 30 30\" xml:space=\"preserve\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" class fill=\"rgba(238, 233, 102, 1)\"><g transform=\"translate(-570 -260)\"><g xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M592,277c0,4.963-4.037,9-9,9s-9-4.037-9-9s4.037-9,9-9c1.613,0,3.126,0.432,4.438,1.18    c0.419-0.535,0.839-1.059,1.26-1.572c-1.664-1.014-3.61-1.607-5.697-1.607c-6.065,0-11,4.934-11,11c0,6.065,4.935,11,11,11    c6.065,0,11-4.935,11-11c0-2.605-0.914-4.996-2.433-6.883c-0.389,0.58-0.775,1.174-1.161,1.781    C591.409,273.35,592,275.107,592,277z\"></path><path d=\"M595.831,261.455c-1.591,1.443-3.085,2.994-4.509,4.603c-1.806,2.043-3.5,4.184-5.107,6.389    c-1.229,1.695-2.406,3.402-3.535,5.182l-3.431-3.191l-2.5,3.123l5.299,3.627l1.558,1.066l0.741-1.545    c1.125-2.35,2.421-4.717,3.773-7.004c1.361-2.293,2.815-4.535,4.387-6.693c1.24-1.699,2.555-3.35,3.975-4.904L595.831,261.455z\"></path></g></g></svg></p> <p class=\"align-self-center\">Đội ngũ tư vấn trực tiếp tại Việt Nam &amp; Singapore</p></li>\n                      \n                    </ul>\n                    <img class=\"arrow align-self-center order-md-2 order-3\" src=\"@PROJECT_PATH@/assets/images/1ue0y6p-next-arrow.gif\" alt=\"Mobirise\" title>\n                    <img class=\"hero-img order-md-3 order-1 mb-3\" src=\"@PROJECT_PATH@/assets/images/home-module1-recruiter-dsk-2x.original.png\" alt=\"Mobirise\" title>\n                    \n                </div>\n            </div>\n           <div class=\"col-12 col-md-{{formWidth}} \">\n                <!--- FORM -->\n                <div class=\"mx-auto mbr-form\">\n                    <form class=\"mbr-form anphabe-lead form-with-styler  needs-validation\" novalidate data-form-type=\"anphabe-lead\" name=\"Form Name\" method=\"POST\">\n                     <!-- <input type=\"hidden\" name=\"mail_template\" value=\"eoc2022\"> -->\n                    <a href=\"#register\" style=\"display:none;\"></a>\n                    <a id=\"destination\" href=\"thankyou.html\" style=\"display:none;\"></a>\n                    <input type=\"hidden\" name=\"product_name\" value=\"linkedin\">\n                    <input type=\"hidden\" name=\"utm_source\" id=\"utm_source\" value>\n                    <input type=\"hidden\" name=\"utm_medium\" id=\"utm_medium\" value>\n                    <input type=\"hidden\" name=\"utm_campaign\" id=\"utm_campaign\" value>\n                    <input type=\"hidden\" name=\"utm_term\" value>\n                    <input type=\"hidden\" name=\"utm_content\" value>\n                    <input type=\"hidden\" name=\"landingpage\" value=\"linkedin-giamgia50\">\n                    \n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                Oops...! some problem!\n                            </div>\n                        </div>\n                        <div class=\"dragArea row\">\n                         <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\">\n                        <h2 mbr-theme-style=\"display-2\" class=\"mbr-section-form-title\" data-app-selector=\".mbr-section-form-title\" mbr-if=\"showFormTitle\"><b>Săn nhân tài nhanh chóng và tiết kiệm</b><br><b>ĐĂNG KÝ NGAY</b></h2>\n                        </div>\n                            <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-2\" data-for=\"fullname\">\n                                <input id=\"fullname\" type=\"text\" name=\"fullname\" placeholder=\"Họ và tên bạn\" data-form-field=\"fullname\" required data-required=\"true\" class=\"form-control\" value>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng nhập tên của bạn\n                                </div>\n                            </div>\n                            <div class=\"col-lg-12 col-sm-12 form-group mb-2\" data-for=\"email\">\n                                <input id=\"email\" type=\"email\" name=\"email\" data-required=\"true\" required placeholder=\"Email\" data-form-field=\"email\" class=\"form-control\" value>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng nhập email của bạn\n                                </div>\n                            </div>\n                            <div class=\"col-lg-12 col-sm-12 form-group mb-2\" data-for=\"phone\">\n                                <input type=\"text\" id=\"phone\" name=\"phone\" data-required=\"true\" required placeholder=\"Số điện thoại\" data-form-field=\"phone\" class=\"form-control\" value>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng nhập số điện thoại liên lạc của bạn\n                                </div>\n                            </div>\n                            <div class=\"col-lg-12 col-sm-12 form-group mb-2\" data-for=\"position\">\n                                <input type=\"text\" id=\"position\" name=\"position\" data-required=\"true\" required placeholder=\"Vị trí công việc\" data-form-field=\"position\" class=\"form-control\" value>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng nhập vị trí công việc của bạn trong công ty\n                                </div>\n                            </div>\n                            <div class=\"col-lg-12 col-sm-12 form-group mb-2\" data-for=\"company-name\">\n                                <input id=\"companyname\" type=\"text\" name=\"companyname\" placeholder=\"Tên công ty\" required data-form-field=\"companyname\" data-required=\"true\" class=\"form-control\" value>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng nhập tên công ty của bạn\n                                </div>\n                            </div>\n                            <div class=\"col-12 form-group mb-2\" data-for=\"company-size\">\n                                <select id=\"company-size\" name=\"company-size\" data-form-field=\"company-size\" required data-required=\"true\" class=\"form-control form-select\" value>\n                                    <option value>Quy mô công ty</option>\n                                    <option value=\"1-60 nhân sự \">1-60 nhân sự </option>\n                                    <option value=\"61-200 nhân sự\">61-200 nhân sự​</option>\n                                    <option value=\"201-500 nhân sự\">201-500 nhân sự</option>\n                                    <option value=\"501-1000 nhân sự\">501-1000 nhân sự</option>\n                                    <option value=\"~1000\">Hơn 1000 nhân sự </option>\n                                </select>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng chọn quy mô công ty của bạn\n                                </div>\n                            </div>\n                            <div class=\"col-12 form-group mb-2\" data-for=\"budget\">\n                                <select id=\"budget\" name=\"budget\" data-form-field=\"budget\" required data-required=\"true\" class=\"form-control form-select\" value>\n                                    <option value>Ngân sách tuyển dụng trong năm của công ty</option>\n                                    <option value=\"Dưới 3000 USD\">Dưới 3000 USD/ 1 năm</option>\n                                    <option value=\"Từ 3000 – 5000 USD\">Từ 3000 – 5000 USD/ 1 năm</option>\n                                    <option value=\"Trên 5000 USD\">Trên 5000 USD/ 1 năm</option>\n                                </select>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng chọn Ngân sách tuyển dụng trong năm của công ty\n                                </div>\n                            </div>\n                            <div class=\"col-12 form-group mb-2\" data-for=\"painpoint\">\n                                <select onchange=\"show_other('painpoint','painpoint_other')\" id=\"painpoint\" name=\"painpoint\" data-form-field=\"painpoint\" required data-required=\"true\" class=\"form-control form-select\" value>\n                                    <option value>Nhu cầu nào bạn cần tư vấn?</option>\n                                    <option value=\"Tìm & liên lạc ứng viên\">Tìm &amp; liên lạc ứng viên</option>\n                                    <option value=\"Đăng tuyển\">Đăng tuyển</option>\n                                    <option value=\"Thương hiệu nhà tuyển dụng\">Thương hiệu nhà tuyển dụng​</option>\n                                    <option value=\"Cả ba nhu cầu trên\">Cả ba nhu cầu trên</option>\n                                    <option value=\"other\">Khác (vui lòng chia sẻ cụ thể)</option>\n                                </select>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng chọn nhu cầu bạn cần tư vấn\n                                </div>\n                                <input id=\"painpoint_other\" style=\"display:none;margin-left:2px;margin-top:10px;\" type=\"textarea\" name=\"painpoint_other\" placeholder=\"Vui lòng ghi rõ nhu cầu của bạn\" data-form-field=\"painpoint_other\" class=\"form-control\" value>\n                            </div>\n                            <div class=\"col-12 form-group mb-2\" data-for=\"numberhire\">\n                                <input id=\"numberhire\" type=\"text\" name=\"numberhire\" data-required=\"true\" required placeholder=\"Số lượng vị trí bạn cần tuyển trong 6 tháng tới?\" data-form-field=\"numberhire\" class=\"form-control\" value>\n                                <div class=\"invalid-feedback\">\n                                  Vui lòng nhập số lượng nhân sự cần tuyển\n                                </div>\n                                <input type=\"checkbox\" id=\"allow_contact_me\" name=\"allow_contact_me\" value=\"1\" tabindex=\"-1\" autocomplete=\"off\">\n                            </div>\n                            <div mbr-buttons=\"true\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn\"><input data-app-placeholder=\"Type Text\" type=\"submit\" class=\"btn btn-danger display-4\" value=\"HOÀN TẤT ĐĂNG KÝ\"></div>\n\n                            \n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "saCY7M6val",
+          "_anchor": "FORMLEAD",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_sourceTheme": "mobirise5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "display": "-webkit-flex",
+                "-webkit-flex-wrap": "wrap"
+              }
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            "ul.list-layout2": {
+              "margin": "0",
+              "padding": "10px 0 0",
+              "list-style": "none",
+              "clear": "both",
+              "overflow": "hidden"
+            },
+            "li": {
+              "display": "flex",
+              "line-height": "1.8",
+              "text-align": "left"
+            },
+            ".mbri-question": {
+              "font-size": "40px",
+              "font-weight": "bold",
+              "padding-right": "12px",
+              "transition": "all 0.3s",
+              "color": "#ff9c00",
+              "margin-top": "7px",
+              "margin-left": "2px"
+            },
+            "& when (@fullScreen)": {
+              "min-height": "80vh"
+            },
+            ".icon-check": {
+              "font-size": "2rem",
+              "font-weight": "bolder"
+            },
+            ".mbri-success": {
+              "font-size": "1.2rem",
+              "margin-right": "1rem",
+              "color": "#0073b1",
+              "font-weight": "700"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
+            },
+            "@media (max-width: 768px)": {
+              "padding-bottom": "(@paddingBottom * 0rem)"
+            }
+          },
+          "_name": "header9",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">            \n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Tuyển nhân tài càng ngày càng khó​</h1>\n                    <ul class=\"list-layout2\">\n                        <li><span class=\"mbri-success\"></span><p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap, .mbr-section-btn\"> Thiếu người ứng tuyển​</p></li>\n                        <li><span class=\"mbri-success\"></span><p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap, .mbr-section-btn\">Hồ sơ không đủ chất lượng</p></li>\n                        <li><span class=\"mbri-success\"></span><p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap, .mbr-section-btn\">Ứng viên không phù hợp​</p></li>\n                        <li><span class=\"mbri-success\"></span><p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap, .mbr-section-btn\">Tốn nhiều thời gian &amp; tiền bạc để tuyển dụng thành công​</p></li>\n                    </ul>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Explore all features</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pic2-1.jpg\" alt=\"Mobirise\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "header9-1m",
+          "_isUserblock": true,
+          "_cid": "twn7tv3wif",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (min-width: 1500px)": {
+              ".container": {
+                "max-width": "1400px"
+              }
+            },
+            ".mbr-iconfont": {
+              "display": "block",
+              "font-size": "5rem",
+              "color": "@iconColor",
+              "margin-bottom": "2rem"
+            },
+            ".card-wrapper": {
+              "margin-top": "3rem"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#0073b1"
+            },
+            ".number-typo": {
+              "line-height": "72px",
+              "font-weight": "200",
+              "color": "rgba(0, 0, 0, 0.85)",
+              "font-size": "60px"
+            },
+            "@media (max-width: 768px)": {
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingBottom * 0.5rem)"
+            }
+          },
+          "_name": "features1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#6592e6\" selected condition=\"showIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ebf1fb\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showMainTitle || showMainSubtitle\" mbr-class=\"{'col-lg-9': cardsAmount == '3'}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">CÙNG ANPHABE KHÁM PHÁ NGAY LINKEDIN TALENT SOLUTIONS</h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">Giải pháp tuyển dụng &amp; thương hiệu nhà tuyển dụng toàn diện</h5>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"card col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        \n                        <p class=\"number-typo mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">+810 triệu</p>                   \n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Thành viên toàn cầu, +3,5 triệu người tại Việt Nam​</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        \n                        <p class=\"number-typo mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">90%​</p>                   \n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Thành viên phản hồi lại các tin nhắn chia sẻ cơ hội nghề nghiệp​</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        \n                        <p class=\"number-typo mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">4 vị trí/phút​</p>                   \n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Trung bình mỗi phút, có 4 vị trí được tuyển dụng thành công</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-sites mobi-mbri\"></span>\n                        </div>\n                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\"><b>Unlimited Sites</b></h5>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Use Mobirise website building software to create multiple\n                            sites for commercial and non-profit projects.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features1-1n",
+          "_isUserblock": true,
+          "_cid": "twn7wJ5H1E",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value",
+              "padding-top": "7rem",
+              "padding-bottom": "5rem"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "background-position": "50% 156%",
+              "background-repeat": "no-repeat",
+              "background-size": "100% 121%",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "border-radius": "4px",
+              "background": "#ffffff",
+              "box-shadow": "0 20px 20px 0 rgba(0, 11, 40, 0.06)",
+              "border": "1px solid rgba(33, 40, 50, 0.125)",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 4rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 4rem 3rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              ".item-img img": {
+                "border": "1px solid #ededed"
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#353535"
+            },
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left"
+            },
+            ".item-top img": {
+              "width": "80px",
+              "position": "absolute",
+              "top": "-9px",
+              "left": "37px"
+            },
+            ".item-top .partner-thumb img": {
+              "width": "178px!important",
+              "margin-top": "1rem",
+              "z-index": "1000",
+              "position": "absolute",
+              "top": "-14px",
+              "left": "37px"
+            },
+            ".item-top .partner-thumb-2 img": {
+              "width": "146px!important",
+              "margin-top": "1rem",
+              "z-index": "1000",
+              "position": "absolute",
+              "top": "-11px",
+              "left": "37px"
+            },
+            ".item-top .partner-thumb-3 img": {
+              "width": "105px!important",
+              "margin-top": "1rem",
+              "z-index": "1000",
+              "position": "absolute",
+              "top": "-29px",
+              "left": "37px"
+            },
+            ".item-top": {
+              "@media (min-width: 768px)": {
+                "padding": "3rem 2rem 0"
+              },
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              }
+            },
+            ".icon-wrapper": {
+              "display": "inline-block",
+              "margin-bottom": "10px",
+              "position": "relative",
+              "z-index": "1"
+            },
+            ".icon-wrapper:before": {
+              "top": "0",
+              "left": "28%",
+              "bottom": "0",
+              "z-index": "-1",
+              "content": "\"\"",
+              "width": "68px",
+              "height": "86px",
+              "position": "absolute",
+              "-webkit-clip-path": "polygon(0 0, 100% 0%, 100% 95%, 0% 100%)",
+              "clip-path": "polygon(0 0, 100% 0%, 100% 86%, 0% 100%)"
+            },
+            ".card-title": {
+              "color": "#353535",
+              "line-height": "1.4",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center",
+              "color": "#bbbbbb"
+            },
+            ".subtitle": {
+              "font-size": "1.1rem",
+              "text-transform": "uppercase",
+              "font-weight": "bold",
+              "letter-spacing": "0.1rem"
+            },
+            ".hex": {
+              "width": "84px",
+              "height": "48px",
+              "position": "relative",
+              "display": "inline-block",
+              "left": "0"
+            },
+            ".hex:before": {
+              "content": "''",
+              "width": "0",
+              "height": "0",
+              "border-bottom": "24px solid",
+              "border-color": "inherit",
+              "border-left": "42px solid transparent",
+              "border-right": "42px solid transparent",
+              "position": "absolute",
+              "top": "-24px"
+            },
+            ".hex:after": {
+              "content": "''",
+              "width": "0",
+              "position": "absolute",
+              "bottom": "-24px",
+              "border-top": "24px solid",
+              "border-color": "inherit",
+              "border-left": "42px solid transparent",
+              "border-right": "42px solid transparent"
+            },
+            ".hex-col-1": {
+              "background-color": "rgba(232, 227, 255, 1) !important",
+              "border-color": "rgba(232, 227, 255, 1) !important"
+            },
+            ".hex-col-2": {
+              "background-color": "rgba(238, 243, 248, 1) !important",
+              "border-color": "rgba(238, 243, 248, 1) !important"
+            },
+            ".hex-col-3": {
+              "background-color": "rgba(245, 245, 245, 1) !important",
+              "border-color": "rgba(245, 245, 245, 1) !important"
+            },
+            ".hex-col-4": {
+              "background-color": "rgba(255, 223, 213, 1) !important",
+              "border-color": "rgba(255, 223, 213, 1) !important"
+            },
+            ".hex-col-5": {
+              "background-color": "rgba(255, 244, 229, 1) !important",
+              "border-color": "rgba(255, 244, 229, 1) !important"
+            },
+            ".hex-col-6": {
+              "background-color": "rgba(235, 244, 217, 1) !important",
+              "border-color": "rgba(235, 244, 217, 1) !important"
+            },
+            ".hex-col-7": {
+              "background-color": "rgba(225, 240, 255, 1) !important",
+              "border-color": "rgba(225, 240, 255, 1) !important"
+            },
+            ".hex-col-8": {
+              "background-color": "rgba(118, 155, 250, 0.2) !important",
+              "border-color": "rgba(118, 155, 250, 0.2) !important"
+            },
+            "H5": {
+              "color": "#878787",
+              "text-align": "center"
+            },
+            ".display-7": {
+              "line-height": "1.7"
+            },
+            "ul": {
+              "margin-bottom": "1rem"
+            },
+            "ul li": {
+              "margin-left": "-1rem",
+              "line-height": "1.7"
+            },
+            ".box": {
+              "width": "100%",
+              "height": "49%",
+              "position": "absolute",
+              "bottom": "0",
+              "left": "0",
+              "background": "#ffffff"
+            },
+            "@media (max-width: 767px)": {
+              "padding-top": "(@paddingBottom * 0.75rem)",
+              ".item-top": {
+                "padding-top": "3rem"
+              },
+              ".mbr-section-title": {
+                "font-size": "2rem",
+                "line-height": "1.2",
+                "text-align": "left",
+                "padding-left": "1rem"
+              },
+              ".subtitle": {
+                "font-size": "0.8rem",
+                "margin-bottom": "0!important",
+                "letter-spacing": "0",
+                "text-align": "left",
+                "padding-left": "1rem"
+              },
+              ".item-wrapper .item-content": {
+                "padding": "1rem 2rem"
+              },
+              ".card-title": {
+                "font-size": "1.6rem",
+                "line-height": "1.2"
+              },
+              ".item-wrapper .item-footer": {
+                "padding": "0rem 2rem 3rem"
+              },
+              "h5.mb-4": {
+                "margin-bottom": "1rem!important"
+              }
+            }
+          },
+          "_name": "features3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"8\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#f6f6f6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg2.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"box\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\"> \n        <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>TUYỂN DỤNG CÁC VỊ TRÍ CAO CẤP, KHÓ TÌM NHANH CHÓNG VÀ TIẾT KIỆM HƠN VỚI</b></h4>      \n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-4 subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">CỦA NHỮNG ĐỐI TÁC HÀNG ĐẦU THẾ GIỚI</h5>\n        </div>       \n        <div class=\"row\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-top\">\n                        <div class=\"icon-wrapper partner-thumb\">\n                            <div class=\"hex hex-col-1\"></div>\n                            <img src=\"@PROJECT_PATH@/assets/images/linkedin-4.png\" alt=\"Linkedin\">\n                        </div>                                               \n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">                        \n                        <h5 class=\"card-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>LINKEDIN RECRUITER</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Công cụ tìm kiếm, liên lạc và quản trị nguồn ứng viên khó tìm, giúp chuyên viên tuyển dụng trở thành “chuyên gia Săn Đầu Người” nội bộ hiệu quả.</p>\n                        \n                    </div>\n          \n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-top\">\n                        <div class=\"icon-wrapper partner-thumb-2 icon-wrapper2\">\n                            <div class=\"hex hex-col-2\"></div>\n                            <img src=\"@PROJECT_PATH@/assets/images/linkedin-4.png\" alt=\"Linkedin\">\n                        </div>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">                        \n                        <h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>LINKEDIN JOBS</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Góc đăng tuyển riêng, cho phép đăng tin tuyển dụng không giới hạn và tùy chỉnh đẩy tin tới ứng viên phù hợp nhất bằng công nghệ AI tân tiến.\n</p>\n                        \n                    </div>\n    \n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-top\">\n                        <div class=\"icon-wrapper partner-thumb-2 icon-wrapper2\">\n                            <div class=\"hex hex-col-2\"></div>\n                            <img src=\"@PROJECT_PATH@/assets/images/linkedin-4.png\" alt=\"Linkedin\">\n                        </div>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">                        \n                        <h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>CAREER PAGES</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Chuyên trang doanh nghiệp giới thiệu môi trường làm việc &amp; cơ hội nghề nghiệp, giúp gia tăng thương hiệu nhà tuyển dụng và xây ngân hàng hồ sơ phù hợp.\n\n</p>\n                    </div>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features3-1p",
+          "_isUserblock": true,
+          "_cid": "twncvRWuLR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".video-wrapper iframe": {
+              "width": "100%"
+            },
+            ".mbr-section-title, .mbr-section-subtitle, .mbr-text": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".header-description": {
+              "margin": "0% 20% 0% 0%",
+              "padding-left": "20px"
+            },
+            ".draw-line": {
+              "content": "''",
+              "left": "0",
+              "top": "3px",
+              "width": "4px",
+              "height": "1.2rem",
+              "display": "flex",
+              "background": "#89bc26",
+              "font-size": "1.1rem",
+              "text-transform": "uppercase",
+              "font-weight": "bold",
+              "animation": "start-draw 1.5s ease forwards"
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-section-title": {
+                "font-size": "1.6rem",
+                "line-height": "1.2"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)"
+            }
+          },
+          "_name": "video2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"3\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#fafafa\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>CHÚNG TÔI ĐANG ĐỒNG HÀNH CÙNG VỚI CÁC DOANH NGHIỆP</b></h4>            \n        </div>\n\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-website-homepage-1440x641.png\" alt=\"Hơn 600 doanh nghiệp đã chọn Anphabe\">                   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "video2-1s",
+          "_isUserblock": true,
+          "_cid": "twnlHJcKcU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)",
+              "@media (max-width: 768px)": {
+                "padding-top": "(@paddingTop * 0.5rem)",
+                "padding-bottom": "(@paddingBottom * 0.5rem)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "#0073b1"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "line-height": "1.6",
+                "text-align": "left"
+              },
+              "text-align": "left"
+            }
+          },
+          "_name": "info1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Info\" class=\"info1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#0073b1\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-8\">\n                <h3 class=\"mbr-section-title mb-4 mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Anphabe hiện là Đại lý chiến lược độc quyền của LinkedIn Talent Solutions tại Việt Nam</b>, chuyên cung cấp các giải pháp Tuyển Dụng &amp; Thương Hiệu Nhà Tuyển Dụng trên nền tảng LinkedIn. Với đội ngũ tư vấn được đào tạo bài bản bởi LinkedIn, Anphabe đã và đang đồng hành và hỗ trợ các doanh nghiệp tuyển dụng nhanh, đúng người đúng việc và gia tăng sức hấp dẫn với ứng viên tiềm năng thông qua các giải pháp toàn diện, từ&nbsp;<b>LINKEDIN RECRUITER,&nbsp;LINKEDIN JOBS&nbsp;cho đến&nbsp;CAREER PAGES</b>.\n<div><br></div></h3>\n                <p class=\"mbr-text mb-5 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing pages, online resumes and portfolios. 3100+ beautiful website blocks, templates and themes help you to start easily.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"index.html#FORMLEAD\" data-app-placeholder=\"Type Text\"><strong>TRẢI NGHIỆM NGAY</strong></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "info1-1r",
+          "_isUserblock": true,
+          "_cid": "twnfGZ5iH2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".text-wrapper": {
+              "background-color": "#ffffff",
+              "padding": "3rem",
+              "@media (max-width: 768px)": {
+                "padding": "1rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#353535"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#353535"
+            },
+            "@media (max-width: 768px)": {
+              "padding-top": "(@paddingTop * 0.2rem)",
+              "padding-bottom": "(@paddingBottom * 0.2rem)"
+            },
+            "min-height": "68vh"
+          },
+          "_name": "header5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected>Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-trophy-2.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#001537\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"text-wrapper\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Đặc quyền khi mua dịch vụ LinkedIn qua Anphabe</h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <ul>\n                    <li class=\"mbr-text mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Hưởng chính sách giá ưu đãi dành riêng cho thị trường Việt Nam​</li>\n                    <li class=\"mbr-text mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Được hỗ trợ bởi đội ngũ chuyên viên từ cả Việt Nam &amp; Singapore​</li>\n                    <li class=\"mbr-text mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Quy trình dễ dàng khi ký hợp đồng, xuất hóa đơn &amp; thanh toán tại Việt Nam​​</li>\n                    <li class=\"mbr-text mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Kết hợp hiệu quả các giải pháp Thương hiệu nhà tuyển dụng &amp; Môi trường làm việc toàn diện khác từ Anphabe​</li>\n                </ul>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-danger\" href=\"index.html#FORMLEAD\" data-app-placeholder=\"Type Text\">TRẢI NGHIỆM NGAY</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "header5-1o",
+          "_isUserblock": true,
+          "_cid": "twn7IUuwIu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item-wrapper": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem",
+              "box-shadow": "0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important",
+              "position": "relative",
+              "border-radius": "4px",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 2rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 2rem 2rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".item-title": {
+              "text-align": "left",
+              "font-size": "1.3rem"
+            },
+            ".item-subtitle": {
+              "text-align": "left"
+            },
+            ".mbr-iconfont": {
+              "line-height": "2",
+              "font-weight": "bold",
+              "margin-left": "15px"
+            },
+            ".margin-link": {
+              "margin-top": "25px"
+            },
+            "a.text-primary:link": {
+              "color": "#005670!important"
+            },
+            "a.text-primary:hover": {
+              "color": "#005670!important"
+            }
+          },
+          "_name": "features3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3 witsec-draft-mode\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>TRUYỀN THÔNG VÀ BÁO CHÍ ĐƯA TIN VỀ CỦA LINKEDIN TALENT SOLUTIONS VÀ ANPHABE&nbsp;</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://vnexpress.net/linkedin-va-anphabe-hop-tac-ho-tro-doanh-nghiep-viet-tuyen-dung-4489449.html\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/image-239318492-extractword-0-6307-3819.png\" alt=\"Thương hiệu nhà tuyển dụng là gì\" data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>LinkedIn và Anphabe hợp tác hỗ trợ doanh nghiệp Việt tuyển dụng</b></h5>\n                        <div ><a class=\"card__button text-primary mbr-fonts-style\" mbr-theme-style=\"display-7\" href=\"https://vnexpress.net/linkedin-va-anphabe-hop-tac-ho-tro-doanh-nghiep-viet-tuyen-dung-4489449.html\" target=\"_blank\" style=\"color:#ff9a00\">https://vnexpress.net</a></div>\n                        <div class=\"margin-link\"><a class=\"card__button text-primary mbr-fonts-style\" mbr-theme-style=\"display-7\" href=\"https://vnexpress.net/linkedin-va-anphabe-hop-tac-ho-tro-doanh-nghiep-viet-tuyen-dung-4489449.html\" target=\"_blank\">Đọc thêm</a><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" style=\"color: rgb(0, 86, 112);\"></span></div>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://vnexpress.net/linkedin-va-anphabe-hop-tac-ho-tro-doanh-nghiep-viet-tuyen-dung-4489449.html\" class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More\n                            &gt;</a></div>\n                </div>\n            </div>\n            \n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://cafebiz.vn/thi-truong-nhan-luc-viet-nam-nua-dau-2022-muc-do-gan-ket-cua-nguoi-di-lam-voi-cong-ty-dang-thap-chua-tung-co-2022070919014853.chn\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/395134ec2725fd7ba434.jpeg\" alt=\"5 bí quyết toàn thắng trong truyền thông Thương hiệu Nhà tuyển dụng\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>Thị trường nhân lực Việt Nam nửa đầu 2022: Mức độ gắn kết của người đi làm với công ty đang thấp chưa từng có</b></h5>\n                        <div ><a class=\"card__button text-primary mbr-fonts-style\" mbr-theme-style=\"display-7\" href=\"https://cafebiz.vn/thi-truong-nhan-luc-viet-nam-nua-dau-2022-muc-do-gan-ket-cua-nguoi-di-lam-voi-cong-ty-dang-thap-chua-tung-co-2022070919014853.chn\" target=\"_blank\" style=\"color:#ff9a00\">https://cafebiz.vn</a></div>\n                        <div class=\"margin-link\"><a class=\"card__button text-primary mbr-fonts-style\" mbr-theme-style=\"display-7\" href=\"https://cafebiz.vn/thi-truong-nhan-luc-viet-nam-nua-dau-2022-muc-do-gan-ket-cua-nguoi-di-lam-voi-cong-ty-dang-thap-chua-tung-co-2022070919014853.chn\" target=\"_blank\">Đọc thêm</a><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" style=\"color: rgb(0, 86, 112);\"></span></div>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://cafebiz.vn/thi-truong-nhan-luc-viet-nam-nua-dau-2022-muc-do-gan-ket-cua-nguoi-di-lam-voi-cong-ty-dang-thap-chua-tung-co-2022070919014853.chn\" class=\"btn btn-primary item-btn\" data-app-placeholder=\"Type Text\" target=\"_blank\">Learn More\n                            &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://cafebiz.vn/hanh-trinh-chuyen-doi-so-trong-bai-toan-tuyen-dung-nhan-su-2022-20220728083404783.chn\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/c3aab6a49c6d46331f7c.jpg\" data-slide-to=\"2\" data-bs-slide-to=\"2\" alt=\"Làm sao để xác định đúng thông điệu Thương hiệu Nhà tuyển dụng?\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>Hành trình chuyển đổi số trong bài toán tuyển dụng nhân sự 2022</b></h5>\n                        <div ><a class=\"card__button text-primary mbr-fonts-style\" mbr-theme-style=\"display-7\" href=\"https://cafebiz.vn/hanh-trinh-chuyen-doi-so-trong-bai-toan-tuyen-dung-nhan-su-2022-20220728083404783.chn\" target=\"_blank\" style=\"color:#ff9a00\">https://cafebiz.vn</a></div>\n                        <div class=\"margin-link\"><a class=\"card__button text-primary mbr-fonts-style\" mbr-theme-style=\"display-7\" href=\"https://cafebiz.vn/hanh-trinh-chuyen-doi-so-trong-bai-toan-tuyen-dung-nhan-su-2022-20220728083404783.chn\" target=\"_blank\">Đọc thêm</a><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" style=\"color: rgb(0, 86, 112);\"></span></div>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://cafebiz.vn/hanh-trinh-chuyen-doi-so-trong-bai-toan-tuyen-dung-nhan-su-2022-20220728083404783.chn\" class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More\n                            &gt;</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n<style class=\"witsec-draft-mode-style\">.witsec-draft-mode { border: 3px dashed red; }</style></section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features3-1q",
+          "_isUserblock": true,
+          "_cid": "twnfrOa8PO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "min-height": "45vh",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "& when not (@gradientBg)": {
+                "background-color": "@bg-value"
+              },
+              "& when (@gradientBg)": {
+                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
+              }
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".subtitle": {
+              "font-size": "1.1rem",
+              "text-transform": "uppercase",
+              "font-weight": "bold",
+              "letter-spacing": "0.1rem"
+            },
+            ".display-2": {
+              "line-height": "1.4"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "header18",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/pic-5-1285x735.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\">4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3 subtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Liên hệ ANPHABE ĐỂ</h2>\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" style><b>“SĂN &amp; TUYỂN” NHÂN TÀI NHANH CHÓNG, TIẾT KIỆM​</b></h1>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-danger\" href=\"index.html#FORMLEAD\" data-app-placeholder=\"Type Text\">LIÊN HỆ ANPHABE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "header18-1t",
+          "_isUserblock": true,
+          "_cid": "twnmCZcRN7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-twozrwXc1i-twozrwXc1i-twozrwXc1i-twozrwXc1i",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".media-wrap": {
+              "padding": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "line-height": "1.3em",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "@media (max-width: 991px)": {
+              "div > *:last-child": {
+                "margin-top": "0 !important"
+              }
+            },
+            ".copyright": {
+              "text-align": "left"
+            },
+            ".footer-title": {
+              "border-bottom": "1px solid #bbbbbb",
+              "line-height": "1.6"
+            },
+            ".copyright-style": {
+              "font-size": "0.8rem"
+            },
+            ".hotline": {
+              "font-weight": "bold",
+              "color": "#99ca3c",
+              "font-size": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center",
+                "& > div": {
+                  "margin": "auto"
+                }
+              },
+              ".social-row": {
+                "justify-content": "center"
+              },
+              ".media-wrap img": {
+                "width": "auto"
+              },
+              ".row > div": {
+                "margin-bottom": "1rem",
+                "text-align": "left",
+                "padding-left": "2rem"
+              },
+              ".footer-title": {
+                "text-align": "left"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingTop * 0.5rem)"
+            },
+            ".bg-facebook when (@facebook)": {
+              "background": "#1778f2",
+              "color": "contrast(#1778f2)",
+              "&:hover": {
+                "background": "darken(#1778f2, 10)"
+              }
+            },
+            ".bg-twitter when (@twitter)": {
+              "background": "#1da1f2",
+              "color": "contrast(#1da1f2)",
+              "&:hover": {
+                "background": "darken(#1da1f2, 10)"
+              }
+            },
+            ".bg-pinterest when (@pinterest)": {
+              "background": "#e60023",
+              "color": "contrast(#e60023)",
+              "&:hover": {
+                "background": "darken(#e60023, 10)"
+              }
+            },
+            ".bg-instagram when (@instagram)": {
+              "background": "#f00075",
+              "color": "contrast(#f00075)",
+              "&:hover": {
+                "background": "darken(#f00075, 10)"
+              }
+            },
+            ".bg-slack when (@slack)": {
+              "background": "#4a154b",
+              "color": "contrast(#4a154b)",
+              "&:hover": {
+                "background": "darken(#4a154b, 10)"
+              }
+            },
+            ".bg-linkedin when (@linkedin)": {
+              "background": "#0077b5",
+              "color": "contrast(#0077b5)",
+              "&:hover": {
+                "background": "darken(#0077b5, 10)"
+              }
+            },
+            ".bg-behance when (@behance)": {
+              "background": "#0056ff",
+              "color": "contrast(#0056ff)",
+              "&:hover": {
+                "background": "darken(#0056ff, 10)"
+              }
+            },
+            ".bg-dribbble when (@dribbble)": {
+              "background": "#ea4c89",
+              "color": "contrast(#ea4c89)",
+              "&:hover": {
+                "background": "darken(#ea4c89, 10)"
+              }
+            },
+            ".bg-tiktok when (@tiktok)": {
+              "background": "#000000",
+              "color": "contrast(#000000)",
+              "&:hover": {
+                "background": "darken(#000000, 10)"
+              }
+            },
+            ".bg-youtube when (@youtube)": {
+              "background": "#ff0000",
+              "color": "contrast(#ff0000)",
+              "&:hover": {
+                "background": "darken(#ff0000, 10)"
+              }
+            },
+            ".bg-twitch when (@twitch)": {
+              "background": "#9146ff",
+              "color": "contrast(#9146ff)",
+              "&:hover": {
+                "background": "darken(#9146ff, 10)"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "font-size": "20px",
+              "border-radius": "50%",
+              "width": "35px",
+              "height": "35px",
+              "line-height": "35px",
+              "text-align": "center",
+              "transition": "all 0.3s ease-in-out"
+            },
+            "& when (@squareIcons)": {
+              ".iconfont-wrapper": {
+                "border-radius": "0 !important"
+              }
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "35px",
+              "padding": ".4rem"
+            },
+            ".m-2": {
+              "margin": "0.2rem!important"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>        \n        <input type=\"checkbox\" title=\"Square Icons\" name=\"squareIcons\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Instagram\" name=\"instagram\" checked>\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Slack\" name=\"slack\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked>\n        <input type=\"checkbox\" title=\"Behance\" name=\"behance\">\n        <input type=\"checkbox\" title=\"Dribbble\" name=\"dribbble\">\n        <input type=\"checkbox\" title=\"Tiktok\" name=\"tiktok\">\n        <input type=\"checkbox\" title=\"Youtube\" name=\"youtube\" checked>\n        <input type=\"checkbox\" title=\"Twitch\" name=\"twitch\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">                    \n                        <img src=\"@PROJECT_PATH@/assets/images/logo-anphabe-w-159x61.png\" style=\"width:auto;\" alt=\"Anphabe\">                    \n                </div>\n                <div class=\"mbr-text mt-3 mbr-fonts-style copyright align-center copyright-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    Tầng 6, tòa nhà Packsimex<br>\n                    52 Đông Du, Phường Bến Nghé, Quận 1, Tp.HCM</div>\n                <div class=\"mbr-text mt-3 mb-2 mbr-fonts-style copyright align-center copyright-style mt-3\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">Hotline: <span class=\"hotline\"><a href=\"tel:+842862682222\" class=\"text-info\">(+84) 28 6268 2222</a></span></div>                \n                <div class=\"social-list\">  \n                    <a class=\"iconfont-wrapper bg-linkedin m-2\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"linkedin\">\n                        <span mbr-icon class=\"socicon-linkedin socicon\"></span>\n                    </a> \n                    <a class=\"iconfont-wrapper bg-facebook m-2 \" target=\"_blank\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/anphabe\" mbr-if=\"facebook\">\n                        <span mbr-icon class=\"socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-youtube m-2\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"youtube\">\n                        <span mbr-icon class=\"socicon-youtube socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-twitter m-2\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"twitter\">\n                        <span mbr-icon class=\"socicon-twitter socicon\"></span>\n                    </a>   \n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-2 padding-footer\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>Về Anphabe</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/index.html#gioi-thieu\" class=\"text-white  text-primary\">Giới thiệu</a></li>\n                    \n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/discussions/questions-answers?mio_source=homepage\" class=\"text-white  text-primary\">Tài nguyên</a></li>\n                    \n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.anphabe.com/vi/lien-he.html\" class=\"text-white  text-primary\">Liên hệ</a></span></li>\n                    <li class=\"mbr-text item-wrap\"></li>\n                  \n                </ul>\n            </div>            \n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải pháp</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-linkedin-talent-solutions.html\" class=\"text-white text-primary\">LinkedIn Talent Solutions</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-workplace-from-meta.html\" class=\"text-white text-primary\">Workplace from Meta</a></li>\n                    <li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải thưởng</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://vietnambestplacestowork.com/\" class=\"text-white text-primary\">100 Nơi Làm Việc Tốt Nhất Việt Nam®</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://vietnamexcellence.vn/\" class=\"text-white text-primary\">Vietnam Excellence®</a></li>\n                    \n                </ul>\n            </div>            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-1w",
+          "_isUserblock": true,
+          "_cid": "twozrwXc1i",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "border-radius": "4px",
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#bbbbbb"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left"
+            },
+            ".display-7": {
+              "font-size": "0.9rem"
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-section-btn": {
+                "text-align": "left"
+              },
+              ".card-wrapper": {
+                "padding-top": "2rem",
+                "padding-bottom": "3rem"
+              }
+            },
+            ".copyright-style": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "content15",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content15\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Content Width\" name=\"contentWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#000000\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background8-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected=\"\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-8 col-lg-8\">\n                <div class=\"text-center text-md-start\">\n                    <h4 class=\"card-title mbr-fonts-style mbr-white mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Create Site Now</b></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Đơn vị chủ quản: Công ty Cổ phần Anphabe\n<br>Giấy phép MXH số 124/GP-BTTTT do Bộ Thông Tin và Truyền thông cấp ngày 27/03/2017.\n<br>Giấy phép hoạt động dịch vụ việc làm số 15257/2022/13/SLĐTBXH-VLATLĐ cấp lần đầu 12/6/2013, thay đổi lần thứ 2 ngày 26/4/2022<br>Giấy CNĐKDN: 0310684215 - Ngày cấp: 12/03/2011, được sửa đổi lần thứ 6 ngày 07/09/2016.\n<br><a href=\"https://www.anphabe.com/static/quy-che-hoat-dong\" class=\"text-white\">Quy chế hoạt động</a> | <a href=\"https://www.anphabe.com/static/chinh-sach-bao-mat\" class=\"text-white\">Chính sách bảo mật</a> | <a href=\"https://www.anphabe.com/static/chinh-sach-giai-quyet-khieu-nai\" class=\"text-white\">Chính sách giải quyết khiếu nại</a></p>                          \n                  <div class=\"mbr-text mt-3 mbr-fonts-style copyright copyright-style mt-3\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">© Copyright 2022 Anphabe - All Rights Reserved </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-4 col-lg-4\">\n                <div class=\"text-center text-md-end\">\n                  <img src=\"@PROJECT_PATH@/assets/images/bct-verified-180x68.png\" style=\"width: auto; display:inline;\" alt=\"Bộ công thương\">                    \n                </div>  \n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content15-1v",
+          "_isUserblock": true,
+          "_cid": "twnn7TUJyG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "thankyou.html": {
+      "settings": {
+        "title": "Giải pháp LinkedIn Talent Solutions- Thankyou - Anphabe",
+        "order": 1,
+        "meta_descr": "Giải pháp LinkedIn Talent Solutions - Tuyển dụng những ứng viên phù hợp nhanh hơn với giải pháp tuyển dụng dễ dàng và thông tin chi tiết mạnh mẽ từ cộng đồng tích cực của LinkedIn.",
+        "footer_custom": "",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "#0073b1 !important"
+            },
+            ".mbr-section-title, .mbr-text, .mbr-section-btn": {
+              "text-align": "center"
+            },
+            "img": {
+              "margin": "auto",
+              "width": "(@imageWidth * 10%)"
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "text-align": "left !important"
+            }
+          },
+          "_name": "header6",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"8\" condition=\"showImage\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#9fdbf8\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2299aa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Chúc mừng bạn đã đăng ký thành công!</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Đội ngũ tư vấn của Anphabe sẽ liên hệ với bạn trong vòng ba (03) ngày làm việc. Trường hợp đăng ký vào cuối tuần, chúng tôi sẽ liên hệ với bạn vào tuần làm việc tiếp theo.<br><br>Rất mong bạn chú ý điện thoại, email trong khoảng thời gian này. <br>Cám ơn bạn đã quan tâm đến dịch vụ của Anphabe!&nbsp;<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://business.anphabe.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Xem thêm thông tin</a></div>\n                <div class=\"image-wrap mt-4\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/pic12.png\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "saDYXTYIwH",
+          "_anchor": "header6-q",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_sourceTheme": "mobirise5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-twozrwXc1i-twozrwXc1i-twozrwXc1i-twozrwXc1i",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".media-wrap": {
+              "padding": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "line-height": "1.3em",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "@media (max-width: 991px)": {
+              "div > *:last-child": {
+                "margin-top": "0 !important"
+              }
+            },
+            ".copyright": {
+              "text-align": "left"
+            },
+            ".footer-title": {
+              "border-bottom": "1px solid #bbbbbb",
+              "line-height": "1.6"
+            },
+            ".copyright-style": {
+              "font-size": "0.8rem"
+            },
+            ".hotline": {
+              "font-weight": "bold",
+              "color": "#99ca3c",
+              "font-size": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center",
+                "& > div": {
+                  "margin": "auto"
+                }
+              },
+              ".social-row": {
+                "justify-content": "center"
+              },
+              ".media-wrap img": {
+                "width": "auto"
+              },
+              ".row > div": {
+                "margin-bottom": "1rem",
+                "text-align": "left",
+                "padding-left": "2rem"
+              },
+              ".footer-title": {
+                "text-align": "left"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingTop * 0.5rem)"
+            },
+            ".bg-facebook when (@facebook)": {
+              "background": "#1778f2",
+              "color": "contrast(#1778f2)",
+              "&:hover": {
+                "background": "darken(#1778f2, 10)"
+              }
+            },
+            ".bg-twitter when (@twitter)": {
+              "background": "#1da1f2",
+              "color": "contrast(#1da1f2)",
+              "&:hover": {
+                "background": "darken(#1da1f2, 10)"
+              }
+            },
+            ".bg-pinterest when (@pinterest)": {
+              "background": "#e60023",
+              "color": "contrast(#e60023)",
+              "&:hover": {
+                "background": "darken(#e60023, 10)"
+              }
+            },
+            ".bg-instagram when (@instagram)": {
+              "background": "#f00075",
+              "color": "contrast(#f00075)",
+              "&:hover": {
+                "background": "darken(#f00075, 10)"
+              }
+            },
+            ".bg-slack when (@slack)": {
+              "background": "#4a154b",
+              "color": "contrast(#4a154b)",
+              "&:hover": {
+                "background": "darken(#4a154b, 10)"
+              }
+            },
+            ".bg-linkedin when (@linkedin)": {
+              "background": "#0077b5",
+              "color": "contrast(#0077b5)",
+              "&:hover": {
+                "background": "darken(#0077b5, 10)"
+              }
+            },
+            ".bg-behance when (@behance)": {
+              "background": "#0056ff",
+              "color": "contrast(#0056ff)",
+              "&:hover": {
+                "background": "darken(#0056ff, 10)"
+              }
+            },
+            ".bg-dribbble when (@dribbble)": {
+              "background": "#ea4c89",
+              "color": "contrast(#ea4c89)",
+              "&:hover": {
+                "background": "darken(#ea4c89, 10)"
+              }
+            },
+            ".bg-tiktok when (@tiktok)": {
+              "background": "#000000",
+              "color": "contrast(#000000)",
+              "&:hover": {
+                "background": "darken(#000000, 10)"
+              }
+            },
+            ".bg-youtube when (@youtube)": {
+              "background": "#ff0000",
+              "color": "contrast(#ff0000)",
+              "&:hover": {
+                "background": "darken(#ff0000, 10)"
+              }
+            },
+            ".bg-twitch when (@twitch)": {
+              "background": "#9146ff",
+              "color": "contrast(#9146ff)",
+              "&:hover": {
+                "background": "darken(#9146ff, 10)"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "font-size": "20px",
+              "border-radius": "50%",
+              "width": "35px",
+              "height": "35px",
+              "line-height": "35px",
+              "text-align": "center",
+              "transition": "all 0.3s ease-in-out"
+            },
+            "& when (@squareIcons)": {
+              ".iconfont-wrapper": {
+                "border-radius": "0 !important"
+              }
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "35px",
+              "padding": ".4rem"
+            },
+            ".m-2": {
+              "margin": "0.2rem!important"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>        \n        <input type=\"checkbox\" title=\"Square Icons\" name=\"squareIcons\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Instagram\" name=\"instagram\" checked>\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Slack\" name=\"slack\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked>\n        <input type=\"checkbox\" title=\"Behance\" name=\"behance\">\n        <input type=\"checkbox\" title=\"Dribbble\" name=\"dribbble\">\n        <input type=\"checkbox\" title=\"Tiktok\" name=\"tiktok\">\n        <input type=\"checkbox\" title=\"Youtube\" name=\"youtube\" checked>\n        <input type=\"checkbox\" title=\"Twitch\" name=\"twitch\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">                    \n                        <img src=\"@PROJECT_PATH@/assets/images/logo-anphabe-w-159x61.png\" style=\"width:auto;\" alt=\"Anphabe\">                    \n                </div>\n                <div class=\"mbr-text mt-3 mbr-fonts-style copyright align-center copyright-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    Tầng 6, tòa nhà Packsimex<br>\n                    52 Đông Du, Phường Bến Nghé, Quận 1, Tp.HCM</div>\n                <div class=\"mbr-text mt-3 mb-2 mbr-fonts-style copyright align-center copyright-style mt-3\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">Hotline: <span class=\"hotline\"><a href=\"tel:+842862682222\" class=\"text-info\">(+84) 28 6268 2222</a></span></div>                \n                <div class=\"social-list\">  \n                    <a class=\"iconfont-wrapper bg-linkedin m-2\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"linkedin\">\n                        <span mbr-icon class=\"socicon-linkedin socicon\"></span>\n                    </a> \n                    <a class=\"iconfont-wrapper bg-facebook m-2 \" target=\"_blank\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/anphabe\" mbr-if=\"facebook\">\n                        <span mbr-icon class=\"socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-youtube m-2\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"youtube\">\n                        <span mbr-icon class=\"socicon-youtube socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-twitter m-2\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"twitter\">\n                        <span mbr-icon class=\"socicon-twitter socicon\"></span>\n                    </a>   \n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-2 padding-footer\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>Về Anphabe</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/index.html#gioi-thieu\" class=\"text-white  text-primary\">Giới thiệu</a></li>\n                    \n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/discussions/questions-answers?mio_source=homepage\" class=\"text-white  text-primary\">Tài nguyên</a></li>\n                    \n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.anphabe.com/vi/lien-he.html\" class=\"text-white  text-primary\">Liên hệ</a></span></li>\n                    <li class=\"mbr-text item-wrap\"></li>\n                  \n                </ul>\n            </div>            \n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải pháp</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-linkedin-talent-solutions.html\" class=\"text-white text-primary\">LinkedIn Talent Solutions</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-workplace-from-meta.html\" class=\"text-white text-primary\">Workplace from Meta</a></li>\n                    <li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải thưởng</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://vietnambestplacestowork.com/\" class=\"text-white text-primary\">100 Nơi Làm Việc Tốt Nhất Việt Nam®</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://vietnamexcellence.vn/\" class=\"text-white text-primary\">Vietnam Excellence®</a></li>\n                    \n                </ul>\n            </div>            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-1w",
+          "_isUserblock": true,
+          "_cid": "twozrwXc1i",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
