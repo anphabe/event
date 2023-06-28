@@ -2091,8 +2091,8 @@ a {
     text-align: left!important;
   }
   .cid-thuR119nOU .item {
-    padding-bottom: 0;
-    height: 170px;
+    padding-bottom: 10px;
+    height: auto;
   }
 }
 @media (max-width: 767px) {
