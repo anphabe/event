@@ -560,6 +560,9 @@
               },
               ".navbar-dropdown": {
                 "padding": "0"
+              },
+              ".navbar.opened": {
+                "background-color": "#01264d!important"
               }
             }
           },
@@ -1183,9 +1186,6 @@
                 "background-color": "#ed9d11",
                 "padding": "2px 5px"
               },
-              "ul.list.mb-4": {
-                "margin-bottom": "0!important"
-              },
               "ul.speaker-list": {
                 "margin": "-7.5px 0 0 0",
                 "width": "100%!important"
@@ -1208,10 +1208,16 @@
               "color": "#000000"
             },
             ".mbr-text": {
-              "color": "#898888"
+              "color": "#000000"
             },
             ".text-blue": {
               "color": "#087096"
+            },
+            "@media (max-width: 768px)": {
+              ".time-slot": {
+                "background-color": "#ed9d11",
+                "padding": "2px 5px 14px"
+              }
             }
           },
           "_name": "features13",
