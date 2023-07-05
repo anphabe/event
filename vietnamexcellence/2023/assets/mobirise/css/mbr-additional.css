@@ -1463,7 +1463,7 @@ a {
 }
 .cid-thuFemIHB6 .time-slot {
   font-size: 1.2rem;
-  width: 120px;
+  width: 70px;
 }
 .cid-thuFemIHB6 ul li {
   font-size: 1rem;
@@ -1483,6 +1483,11 @@ a {
   padding: 1rem 1rem 0;
   background-color: #ed9d11;
   margin-right: 2rem;
+}
+@media (max-width: 768px) {
+  .cid-thuFemIHB6 .time-wrapper {
+    width: 100%!important;
+  }
 }
 .cid-thuFemIHB6 .mbr-section-title {
   color: #353535;
