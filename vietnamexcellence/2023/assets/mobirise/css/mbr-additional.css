@@ -2270,6 +2270,11 @@ a {
     max-width: 17.5%;
   }
 }
+@media (min-width: 768px) {
+  .cid-t7vCmRuf6R .col-md-3 {
+    width: 16%;
+  }
+}
 .cid-tInjS2dVst {
   padding-top: 3rem;
   padding-bottom: 3rem;
