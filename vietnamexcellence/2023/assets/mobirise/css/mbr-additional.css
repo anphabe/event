@@ -2225,6 +2225,56 @@ a {
     max-width: 20%;
   }
 }
+.cid-tJjVJPeokI {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tJjVJPeokI hr {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 778px) {
+  .cid-tJjVJPeokI {
+    padding-top: 1.5rem;
+  }
+}
+.cid-tJjVOnoVVS {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-tJjVOnoVVS img {
+  width: 140px;
+  margin: auto;
+}
+.cid-tJjVOnoVVS .gold img {
+  width: 200px;
+  margin: auto;
+}
+.cid-tJjVOnoVVS .silver img {
+  width: 160px;
+  margin: auto;
+}
+.cid-tJjVOnoVVS .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-tJjVOnoVVS .card .silver {
+    max-width: 15.5%;
+  }
+  .cid-tJjVOnoVVS .card .gold {
+    max-width: 17.5%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-tJjVOnoVVS .col-md-3 {
+    width: 16%;
+  }
+}
 .cid-t82hNcgpfl {
   padding-top: 3rem;
   padding-bottom: 0rem;
