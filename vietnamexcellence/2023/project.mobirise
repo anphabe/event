@@ -108,7 +108,7 @@
         "url": "https://fonts.googleapis.com/css?family=Niramit:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i"
       }
     ],
-    "uniqCompNum": 245,
+    "uniqCompNum": 247,
     "versionPublish": "5.6.13",
     "screenshot": "screenshot.png",
     "imageResize": false,
@@ -569,7 +569,7 @@
           },
           "_name": "menu2-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-sQrzo2bRPs-tjrHKMxbtl",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"2.5\" selected>2.5</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://event.anphabe.com/vietnamexcellence/2023/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence-1.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRANG CHỦ</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#sukien\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ĐIỂM NHẤN SỰ KIỆN</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#noidung\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NỘI DUNG SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#diengia\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BAN CỐ VẤN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#taitro\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ĐỐI TÁC</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnamexcellence.vn/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">VỀ GIẢI THƯỞNG</a></li></ul>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a href=\"https://event-register.anphabe.com/register.vi.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">ĐĂNG KÝ NGAY<span class=\"ti-alarm-clock mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </nav>\n    \n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"2.5\" selected>2.5</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://event.anphabe.com/vietnamexcellence/2023/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence-1.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRANG CHỦ</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#sukien\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ĐIỂM NHẤN SỰ KIỆN</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#noidung\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NỘI DUNG SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#bancovan\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BAN CỐ VẤN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#diengia\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DIỄN GIẢ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#taitro\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ĐỐI TÁC</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnamexcellence.vn/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">VỀ GIẢI THƯỞNG</a></li></ul>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a href=\"https://event-register.anphabe.com/register.vi.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">ĐĂNG KÝ NGAY<span class=\"ti-alarm-clock mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </nav>\n    \n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
@@ -1445,7 +1445,7 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13-1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>BAN CỐ VẤN CHƯƠNG TRÌNH</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
-          "_anchor": "diengia",
+          "_anchor": "bancovan",
           "_isUserblock": true,
           "_cid": "thuQrWhNKf",
           "_protectedParams": [],
@@ -1721,7 +1721,7 @@
               "cursor": "pointer"
             },
             "H6": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".content-bio": {
               "text-align": "left",
@@ -1821,7 +1821,7 @@
               }
             },
             "H4": {
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "gallery5",
@@ -1832,6 +1832,447 @@
           "_anchor": "gallery5-55",
           "_isUserblock": true,
           "_cid": "thuR119nOU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#010a30"
+            },
+            ".highlight": {
+              "color": "#99ca3c"
+            },
+            "@media (max-width: 768px)": {
+              "padding-top": "(@paddingTop * 0.5rem)",
+              ".mb-4": {
+                "margin-bottom": "0!important"
+              }
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>VỚI SỰ THAM GIA DIỄN GIẢ</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "diengia",
+          "_isUserblock": true,
+          "_cid": "tJNvOg9lTk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when (@spacing)": {
+              ".item": {
+                "padding-bottom": "2rem",
+                "display": "flex",
+                "align-items": "center",
+                "@media (min-width: 768px)": {
+                  "display": "block"
+                }
+              }
+            },
+            ".item-wrapper": {
+              "& when (@autoSize)": {
+                "& when not (@showItemSubtitle)": {
+                  "height": "100%"
+                },
+                "& when (@showItemSubtitle)": {
+                  "height": "(@imageHeight * 100px)"
+                },
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              "position": "relative",
+              ".icon-wrapper": {
+                "pointer-events": "none",
+                "position": "absolute",
+                "width": "60px",
+                "height": "60px",
+                "font-size": "22px",
+                "left": "50%",
+                "top": "50%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "border": "2px solid #ffffff",
+                "border-radius": "50%",
+                "opacity": "0",
+                "color": "#ffffff",
+                "transform": "translateX(-50%) translateY(-50%)",
+                "background-color": "#1b1b1b",
+                "transition": "0.2s"
+              },
+              "&:hover": {
+                ".icon-wrapper": {
+                  "opacity": "0.7"
+                }
+              },
+              "width": "300px",
+              "@media (min-width: 768px)": {
+                "width": "auto"
+              },
+              "@media (max-width: 767px)": {
+                "position": "relative",
+                "width": "40%"
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem",
+              "span": {
+                "margin-right": "5px"
+              }
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem",
+              "span": {
+                "margin-left": "5px"
+              }
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'Moririse2'",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#042d66",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "display": "flex",
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "#ed9d11 ",
+              "border-radius": "50%",
+              "opacity": "1",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              },
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-inner": {
+              "display": "flex",
+              "padding": "0 7rem",
+              "background-color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "overflow": "scroll"
+              }
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control:hover": {
+              "background": "#ed9d11",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#000000",
+              "opacity": "0.5",
+              "border": "4px solid #000000"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "1440px",
+              "background-color": "#fff"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "H6": {
+              "text-align": "center"
+            },
+            ".content-bio": {
+              "text-align": "left",
+              "padding-right": "2rem",
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 0 5rem"
+              }
+            },
+            ".winner-intro": {
+              "text-align": "left",
+              "text-transform": "uppercase",
+              "color": "#969696",
+              "font-weight": "bold",
+              "font-size": "1.6rem!important",
+              "line-height": "1.4!important"
+            },
+            "h1.winner-name": {
+              "line-height": "1.6",
+              "color": "#1a1a1a",
+              "text-transform": "capitalize",
+              "font-family": "'Nunito', sans-serif"
+            },
+            ".ul": {
+              "margin-left": "-20px"
+            },
+            ".title-category": {
+              "color": "#ed9d11"
+            },
+            "h6.display-7": {
+              "font-size": "1rem!important"
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              },
+              ".carousel-inner": {
+                "padding": "0 2rem"
+              },
+              ".close": {
+                "top": "0",
+                "right": "0"
+              },
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".winner-caption": {
+                "text-align": "left!important",
+                "margin-left": "1rem"
+              },
+              ".align-center": {
+                "text-align": "left!important"
+              },
+              ".item": {
+                "padding-bottom": "10px",
+                "height": "auto"
+              }
+            },
+            ".winner-caption": {
+              "@media (max-width: 767px)": {
+                "margin-left": "10px",
+                "width": "calc(60% - 10px)"
+              }
+            },
+            ".listcontent": {
+              "position": "relative",
+              "padding-left": "2rem"
+            },
+            ".listcontent::before": {
+              "position": "absolute",
+              "left": "0px",
+              "top": "15px",
+              "transform": "translateY(-50%)",
+              "width": "30px",
+              "font-weight": "900",
+              "content": "\"✓\"",
+              "color": "rgb(0, 0, 0)",
+              "height": "30px",
+              "display": "flex"
+            },
+            ".mbr-item-subtitle.display-7": {
+              "line-height": "1.4rem"
+            },
+            "@media (max-width: 992px)": {
+              "h1.winner-name": {
+                "line-height": "1.2!important"
+              },
+              ".content-bio p.display-7": {
+                "font-size": "1rem!important"
+              },
+              ".winner-intro .display-2": {
+                "font-size": "1.6rem!important"
+              }
+            },
+            "H4": {
+              "text-align": "center"
+            },
+            ".display-5": {
+              "font-size": "1.2rem"
+            }
+          },
+          "_name": "gallery5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">        \n        <div class=\"row mbr-gallery\">\n            <div class=\"col-12 col-md-4 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\" data-bs-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 image-speaker\" src=\"@PROJECT_PATH@/assets/images/thanh-2023.jpg\" alt=\"Bà THANH NGUYỄN\" data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                    <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Bà <b>THANH NGUYỄN</b></h4>\n                    <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showItemSubtitle\">GĐĐH &amp; Truyền cảm hứng Hạnh Phúc<br>Anphabe</h6>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-4 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\" data-bs-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 image-speaker\" src=\"@PROJECT_PATH@/assets/images/eddy-2023.jpg\" alt=\"Ông EDDYMAN KHARMA\" data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                    <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Ông <b>EDDYMAN KHARMA</b></h4>\n                    <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showItemSubtitle\">Giám Đốc Khu Vực - Kênh Đối Tác<br>LinkedIn</h6>\n                </div>\n            </div>            \n            <div class=\"col-12 col-md-4 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\" data-bs-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/xuan-2023.jpg\" alt=\"Bà TRẦN HOÀNG PHÚ XUÂN\" data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                    <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4\" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Bà <b>TRẦN HOÀNG PHÚ XUÂN</b></h4>\n                    <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showItemSubtitle\">Sáng lập &amp; CEO Faslink Group\n<div>Phó Chủ tịch Hội Dệt May Thêu Đan Thành phố Hồ Chí Minh</div></h6>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-4 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\" data-bs-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 image-speaker\" src=\"@PROJECT_PATH@/assets/images/hoa-adp-2023.jpg\" alt=\"Bà NGUYỄN THỊ THU HÒA\" data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                    <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Bà <b>NGUYỄN THỊ THU HÒA</b></h4>\n                    <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showItemSubtitle\">Tổng Giám Đốc<br>ADP Group</h6>\n                </div>\n            </div>\n            \n            \n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ông <b>VÕ TÂN THÀNH</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                                Phó Chủ tịch Phòng Thương mại và Công nghiệp Việt Nam (VCCI)\n                                            </p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/tanthanh-2022.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ông Võ Tân Thành hiện đang là Phó Chủ tịch Phòng Thương mại và Công nghiệp Việt Nam. Trải qua quá trình hơn 30 năm công tác, ông đã từng nắm giữ nhiều vị trí chủ chốt, điển hình như Phó Tổng thư ký VCCI và Giám đốc Chi nhánh VCCI-HCM. Ông đã có những đóng góp và cống hiến to lớn vào sự phát triển của cộng đồng doanh nghiệp tại Việt Nam.</p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tốt nghiệp trường Đại học Ngoại thương và Học viện Chính trị Quốc gia Hồ Chí Minh, những kiến thức chuyên sâu về kinh tế và thị trường sẽ luôn là một trong những thế mạnh hàng đầu của ông.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                                                GS.TS. <b>NGUYỄN ĐỨC KHƯƠNG</b>\n                                            </h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                            Thành viên Tổ tư vấn kinh tế của Thủ Tướng Chính phủ<br>\n                                            Chủ tịch Tổ chức Khoa học và Chuyên gia Việt Nam toàn cầu (AVSE Global)</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 image-speaker\" src=\"@PROJECT_PATH@/assets/images/khuong-2022.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">GS.TS. Nguyễn Đức Khương có nhiều năm kinh nghiệm trong tham vấn và tư vấn chiến lược ở cấp Chính phủ, địa phương và các tập đoàn đa quốc gia trong định hướng phát triển tương lai bền vững. Ông là người Việt đầu tiên lọt vào top 10 chuyên gia kinh tế trẻ hàng đầu của thế giới do RePEc (Dự án nghiên cứu kinh tế học toàn cầu) bầu chọn năm 2016. Những nghiên cứu gần đây của Ông tập trung nhiều vào năng lực kháng cự và tính bền vững của doanh nghiệp dưới tác động của những cú sốc thị trường không được dự báo trước.</p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Là Chủ tịch của AVSE Global đang hoạt động ở 20 quốc gia khác nhau, GS.TS. Nguyễn Đức Khương thúc đẩy sự phát triển của một mạng lưới trí thức, chuyên gia rộng trên toàn thế giới nhằm đóng góp tích cực, hiệu quả vào sự phát triển bền vững của Việt Nam. Ông đã và đang trực tiếp tham gia điều hành nhiều dự án lớn của AVSE Global với Việt Nam, đặc biệt trên các chủ đề kinh tế số hoá, kinh tế trí thức, phát triển bền vững, thương hiệu quốc gia, và thu hút nhân tài.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                                                Ông <b>JOSHUA JAMES</b>\n                                            </h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                            Thành viên Hội đồng quản trị Hiệp Hội Doanh Nghiệp Anh Quốc Tại Việt Nam (BritCham)<br>\n                                            Phó Chủ tịch Ban Nguồn Nhân lực và Đào Tạo Hiệp hội Doanh nghiệp Châu Âu tại Việt Nam (EuroCham)</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/joshua-2022.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với hơn 10 năm kinh nghiệm làm việc tại Việt Nam, ông Joshua James đã đóng góp vào sự phát triển của ngành Giáo dục và đào tạo ở cả khu vực tư nhân và nhà nước. Hiện Ông là thành viên Hội đồng quản trị của Hiệp Hội Doanh Nghiệp Anh Quốc Tại Việt Nam, Tổng giám đốc điều hành của Trường EMASI, và là Phó Chủ tịch Ban Nguồn Nhân lực và Đào Tạo Hiệp hội Doanh nghiệp Châu Âu tại Việt Nam</p>\n                                                 <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ông Joshua tin rằng giáo dục và kinh doanh có thể hợp tác cùng nhau để thay đổi thế giới tốt đẹp hơn.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>BÙI KIM THÙY</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Thành viên Hội đồng Cố vấn Harvard – Asia Pacific</p>\n                                            \n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/kimthuy-2022.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                                    Bà Bùi Kim Thùy là Thành viên Hội đồng Cố vấn Harvard khu vực châu Á – Thái Bình Dương kể từ tháng 4/2019. Bà cũng từng là thành viên nhiều năm liền hoạt động trong Hội đồng Kinh doanh Hoa Kỳ - ASEAN (USABC). Trước khi gia nhập USABC, Bà Thùy cũng có nhiều năm tham gia đàm phán các Hiệp định Thương mại Tự do (FTA) mà Việt Nam/ASEAN là thành viên.</p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                                    Bà Kim Thùy đã tư vấn chính sách cho các công ty Hoa Kỳ có hoạt động kinh doanh tại ASEAN/Việt Nam; hỗ trợ các doanh nghiệp Việt Nam gia nhập chuỗi cung ứng sản xuất/ chuỗi giá trị của các tập đoàn toàn cầu; tư vấn chính sách cho khu vực công của Việt Nam (bao gồm các địa phương) trong quá trình thiết kế xây dựng văn bản quy phạm pháp luật liên quan đến hoạt động kinh doanh của cộng đồng doanh nghiệp trong thời kỳ chuyển đổi số.</p>\n                                               \n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                \n\n                                \n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-bs-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" data-bs-slide-to=\"3\"></li>\n                                \n                                \n                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only visually-hidden\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only visually-hidden\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery5-6u",
+          "_isUserblock": true,
+          "_cid": "tJNvPsvpjU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
