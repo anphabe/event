@@ -1066,7 +1066,7 @@ a {
   }
 }
 .cid-tPUyMBompY {
-  background-image: url("../../../assets/images/microsoftteams-image-20.webp");
+  background-image: url("../../../assets/images/microsoftteams-image-18.webp");
 }
 .cid-tPUyMBompY .mbr-fallback-image.disabled {
   display: none;
@@ -1234,6 +1234,9 @@ a {
 }
 .cid-tPUFaHaHaC .mbr-section-btn {
   margin-bottom: 1.2rem;
+}
+.cid-tPUFaHaHaC .widthbutton {
+  padding: 0.8rem 6rem;
 }
 .cid-twozrwXc1i {
   padding-top: 5rem;
