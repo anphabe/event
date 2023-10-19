@@ -1056,6 +1056,7 @@ a {
 .cid-thu4KqfSVx {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-image: url("../../../assets/images/bg-kv-2023.jpg");
 }
 .cid-thu4KqfSVx .mbr-fallback-image.disabled {
   display: none;
@@ -1068,7 +1069,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/bg-kv.jpg");
 }
 .cid-thu4KqfSVx .number-wrap {
   color: #bbbbbb;
@@ -2492,7 +2492,7 @@ a {
   height: fit-content;
   margin-bottom: 0.4rem;
   min-height: 160px;
-  box-shadow: 1px 2px 4px grey;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (min-width: 992px) {
   .cid-sQrzBbkyLU .card {
@@ -2552,7 +2552,7 @@ a {
 }
 .cid-t890lW7ir0 {
   padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
 .cid-t890lW7ir0 img {
@@ -2567,7 +2567,7 @@ a {
   margin-right: 1rem;
   margin-left: 1rem;
   min-height: 110px;
-  box-shadow: 1px 2px 4px grey;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (min-width: 992px) {
   .cid-t890lW7ir0 .card {
