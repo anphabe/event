@@ -2588,6 +2588,26 @@ a {
     padding-top: 1.5rem;
   }
 }
+.cid-tTjqXsVcu6 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tTjqXsVcu6 img {
+  width: 120px;
+  margin: auto;
+}
+.cid-tTjqXsVcu6 .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-tTjqXsVcu6 .card {
+    max-width: 15.5%;
+  }
+}
 .cid-thv1ku6ptz {
   padding-top: 0rem;
   padding-bottom: 0rem;
