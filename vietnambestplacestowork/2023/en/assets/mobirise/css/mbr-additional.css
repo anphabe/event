@@ -1521,6 +1521,7 @@ a {
   flex-wrap: wrap;
   padding: 0;
   margin: -7.5px;
+  padding-bottom: 1rem;
 }
 .cid-thuFemIHB6 ul.speaker-list li {
   list-style: none;
@@ -1597,6 +1598,9 @@ a {
   .cid-thuFemIHB6 .icon-title.mb-4 {
     margin-bottom: 0!important;
   }
+}
+.cid-thuFemIHB6 .pd-b {
+  margin-bottom: 1rem;
 }
 .cid-thXIZlMXgp {
   padding-top: 0rem;
@@ -2586,6 +2590,30 @@ a {
 @media (max-width: 778px) {
   .cid-thv1jC59GN {
     padding-top: 1.5rem;
+  }
+}
+.cid-tTjqXsVcu6 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tTjqXsVcu6 img {
+  width: 120px;
+  margin: auto;
+}
+.cid-tTjqXsVcu6 .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  min-height: 110px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media (min-width: 992px) {
+  .cid-tTjqXsVcu6 .card {
+    max-width: 17.5%;
   }
 }
 .cid-thv1ku6ptz {
