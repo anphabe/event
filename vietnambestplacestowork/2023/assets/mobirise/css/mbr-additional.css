@@ -1521,6 +1521,7 @@ a {
   flex-wrap: wrap;
   padding: 0;
   margin: -7.5px;
+  padding-bottom: 1rem;
 }
 .cid-thuFemIHB6 ul.speaker-list li {
   list-style: none;
@@ -1597,6 +1598,9 @@ a {
   .cid-thuFemIHB6 .icon-title.mb-4 {
     margin-bottom: 0!important;
   }
+}
+.cid-thuFemIHB6 .pd-b {
+  margin-bottom: 1rem;
 }
 .cid-thXIZlMXgp {
   padding-top: 0rem;
