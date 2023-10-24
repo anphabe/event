@@ -2670,14 +2670,21 @@ a {
 .cid-t7vCmRuf6R .card {
   transition: all 0.3s;
   height: fit-content;
-  padding: 0;
+  padding: 1rem 0;
   margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  min-height: 110px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (min-width: 992px) {
   .cid-t7vCmRuf6R .card .silver {
     max-width: 15.5%;
   }
   .cid-t7vCmRuf6R .card .gold {
+    max-width: 17.5%;
+  }
+  .cid-t7vCmRuf6R .card {
     max-width: 17.5%;
   }
 }
