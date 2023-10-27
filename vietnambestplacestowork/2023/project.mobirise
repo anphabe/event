@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Hội nghị trực tuyến Nơi Làm Việc Tốt Nhất Việt Nam 2023 ",
+    "name": "Hội nghị trực tuyến Nơi Làm Việc Tốt Nhất Việt Nam 2021 ",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -109,7 +109,7 @@
       }
     ],
     "uniqCompNum": 241,
-    "versionPublish": "5.9.0",
+    "versionPublish": "5.6.13",
     "screenshot": "screenshot.png",
     "imageResize": false,
     "favicon": false,
