@@ -2565,10 +2565,14 @@ a {
   height: fit-content;
   padding: 1rem 0;
   margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  min-height: 110px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (min-width: 992px) {
   .cid-tlgwyK50ES .card {
-    max-width: 12.5%;
+    max-width: 17.5%;
   }
 }
 .cid-t890l9Gjbu {
