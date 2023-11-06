@@ -108,7 +108,7 @@
         "url": "https://fonts.googleapis.com/css?family=Niramit:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i"
       }
     ],
-    "uniqCompNum": 241,
+    "uniqCompNum": 245,
     "versionPublish": "5.9.0",
     "screenshot": "screenshot.png",
     "imageResize": false,
@@ -126,9 +126,7 @@
     "global_footer_custom": "<script src=\"assets/js/form.js\"></script>\n<script src=\"assets/js/school.js\"></script>",
     "global_header_custom": "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-TGZGNVL');</script>\n\n<script>\nfunction keep_url_query(){\n    let query = window.location.search;\n    \n    if(query == \"\") {\n        return false;\n    }\n    let searchParams = new URLSearchParams(query);\n\n    let atags = document.getElementsByTagName(\"a\"); \n    let i;\n    for (i = 0; i < atags.length; i++) {\n        let new_url = new URL(atags[i].href);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        atags[i].href = new_url.toString();  \n    } \n\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n</script>",
     "global_after_body": "  <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TGZGNVL\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
-    "usedWebp": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "usedWebp": false
   },
   "pages": {
     "index.html": {
@@ -829,60 +827,6 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#353535"
-            },
-            ".highlight": {
-              "color": "#99ca3c"
-            },
-            "@media (max-width: 768px)": {
-              "padding-top": "(@paddingTop * 0.5rem)",
-              ".mb-4": {
-                "margin-bottom": "0!important"
-              }
-            }
-          },
-          "_name": "content4",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"><font color=\"#99ca3c\"><b>Cùng nhìn lại Hội nghị NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM® 2022</b></font></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "content4-6o",
-          "_isUserblock": true,
-          "_cid": "tTFENYYFBC",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
             "padding-top": "10px",
             "padding-bottom": "10px",
             "& when (@bg-type = 'color')": {
@@ -915,7 +859,7 @@
           },
           "_name": "video2",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background2-1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=NURpT6xyWuQ&list=PLi8qK7zvfgccz_s8MeIt1bOhbaRP7pt8S&index=4\"></iframe>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background2-1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=B29h52SZlEU\"></iframe>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "video2-6k",
@@ -1254,12 +1198,510 @@
           },
           "_name": "features13",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icon Size\" name=\"iconSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">        \n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-2.png\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">        \n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-12 schedule-header\">\n                <div class=\"item mbr-flex item-heading\">\n                    <div class=\"icon-box\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"29\" height=\"29\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5 date-schedule\" data-app-selector=\".icon-text\">\n                            <b>Ngày 23.11.2023</b> – HỘI NGHỊ NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023®</h5>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-12 schedule-wrapper\">\n                <div class=\"item mbr-flex item-border align-items-center\">\n                    <div class=\"time-wrapper\">                                          \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:00</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Phiên sáng - Đón khách &amp; Networking</b></h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex item-border align-items-center\">\n                    <div class=\"time-wrapper\">                                          \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:10</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                            <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeLeap: ĐỐI THOẠI VỚI TƯƠNG LAI</b></h5>\n                            <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                                Trả lời nhưng câu hỏi khó của NGÀY MAI để thực thi và chuẩn bị từ HÔM NAY. Lần đầu tiên trên sân khấu, sẽ có một màn đối đáp thú vị giữa 2 CEO danh tiếng và 1 nhân vật giả tưởng mang tên “Tương Lai\".\n                            </h4>\n                            <div class=\"schedule-speakers mb-4\">\n                                <div class=\"speaker-title\">\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                        <b>Diễn giả</b></p>\n                                </div>\n                                <ul class=\"speaker-list\">\n                                    <li>\n                                        <div class=\"speaker-img\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/mr.-binu-jacob-tng-gim-c-nestl-vit-nam.jpeg\" alt=\"Binu Jacob\">\n                                        </div>\n                                        <div class=\"speaker-detail\">\n                                            <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                                Ông <b>BINU JACOB</b><br><i>Tổng Giám Đốc<br> Nestlé Việt Nam</i></h4>\n                                        </div>\n                                    </li>\n                                    <li>\n                                        <div class=\"speaker-img\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/emin-turan-1-sanofi.jpeg\" alt=\"Lê Trí Thông\">\n                                        </div>\n                                        <div class=\"speaker-detail\">\n                                            <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                                Ông <b>TURAN EMIN</b><br><i>Tổng Giám Đốc<br>Sanofi Việt Nam</i></h4>\n                                        </div>\n                                    </li>\n                                </ul>\n                            </div>\n                            <div class=\"speaker-title\">\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                        <b>Moderator</b></p>\n                                </div>\n                            <ul class=\"speaker-list\">\n                                    <li>\n                                        <div class=\"speaker-img\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/mr.-hao-tran-3.jpeg\" alt=\"Binu Jacob\">\n                                        </div>\n                                        <div class=\"speaker-detail\">\n                                            <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                                Ông <b>HẢO TRẦN</b><br><i>Đồng Sáng Lập &amp; Giám Đốc Điều Hành<br>Vietcetera Media</i></h4>\n                                        </div>\n                                    </li>\n                              </ul>\n                        </div>\n                </div>\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeFreeze: CHRO – NHỮNG NĂNG LỰC MỚI</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Đặc sản của sự kiện Anphabe với các chia sẻ súc tích nhưng đầy cảm hứng từ các chuyên gia hàng đầu.\n                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/maiphuong-thumb-1.jpg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">Bà <b>TRỊNH MAI PHƯƠNG</b><br><i>Phó Chủ Tịch Phụ Trách Nhân Sự Unilever Việt Nam\n</i><div><i>Kiêm Nhân Sự Ngành Hàng Chăm sóc Cá nhân, Unilever Đông Nam Á</i></div></h4>\n                                    </div>\n                                </li>\n                      \n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:55</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>HR Multiverse: ĐA VŨ TRỤ HR - TÂM TÌNH MUỐN NÓI</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Thông qua những câu ‘hỏi xoáy – đáp xoay’ từ chính nhân viên, hãy cùng lắng nghe những tư vấn thông minh cùng những tâm sự chân thành từ 4 HRD giàu kinh nghiệm để có thêm những bài học về quản lý và phát triển con người.\n                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list pd-b\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/mr.-tn-tht-anh-v-manulife-.jpeg\" alt=\"Ton That Anh Vu\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>TÔN THẤT ANH VŨ</b><br><i>Phó Tổng Giám Đốc, Khối Nhân Sự</i><br><i>Manulife Việt Nam&nbsp;</i></h4>\n                                    </div>\n                                </li>\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/a-thuc-itl.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>SIMON THÚC</b><br><i>Phó Tổng Giám Đốc, VP Nguồn Nhân Lực</i><br><i>Tập Đoàn ITL</i></h4>\n                                    </div>\n                                </li>\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/profile.png\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>HUỲNH THỊ NGỌC TRÚC</b><br><i>Phó Tổng Giám Đốc Nhân sự</i><br><i>Coca-Cola Vietnam</i></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/profile.png\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>Đang cập nhật</b><br><i><br></i></h4>\n                                    </div>\n                                </li>                                 \n                            </ul>\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Người điều phối</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/alexis-pham.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>Alexis Phạm</b><br><i>Giám đốc nhân sự<br>Home Credit Việt Nam</i></h4>\n                                    </div>\n                                </li>   \n                            </ul>                       \n                        </div>         \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">10:55</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Lễ vinh danh&nbsp;</b><b>DOANH NGHIỆP TIÊU BIỂU CÓ NGUỒN NHÂN LỰC HẠNH PHÚC 2023 - KHỐI DOANH NGHIỆP VỪA</b><br></h5> \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">11:05</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Lễ vinh danh 100 NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023® - KHỐI DOANH NGHIỆP VỪA</b><b><br></b></h5> \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">12:00</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Ăn trưa &amp; Networking</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">13:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Phiên chiều - Đón khách &amp; Networking</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">13:35</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeLapse - Báo cáo chuyên sâu độc quyền từ Khảo sát NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM® 2023\n</b><div><b>BUILDING A RESILIENT TOMORROW – KIÊN HOẠT TIẾN BƯỚC&nbsp;</b></div></h5>\n                          <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Trong bối cảnh đầy thay đổi và biến động, ‘năng lực kiên cường phục hồi &amp; linh hoạt thích ứng’ – Resilience chính là điều kiện tiên quyết để một tổ chức tồn tại và phát triển bền vững. Tái định nghĩa Resilience? Yếu tố nào thực sự thúc đẩy năng lực Resilience của tổ chức &amp; nguồn nhân lực? Cùng khám phá các xu hướng &amp; thực hành mới nhất từ khảo sát độc quyền của Anphabe.</h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/thanh-nguyen.jpg\" alt=\"Thanh Nguyễn\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>THANH NGUYỄN</b><br><i>GĐĐH &amp; Truyền cảm hứng Hạnh phúc<br>Anphabe</i></h4>\n                                    </div>\n                                </li>\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/vanluu-thumb.jpg\" alt=\"Vân Lưu\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>VÂN LƯU</b><br><i>Giám đốc nghiên cứu thị trường<br>Intage Việt Nam</i></h4>\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n                \n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">14:50</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeFreeze: 5 NGUYÊN TẮC LÃNH ĐẠO AGILE</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Đặc sản của sự kiện Anphabe với các chia sẻ súc tích nhưng đầy cảm hứng từ các chuyên gia hàng đầu.\n                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/prof-claire-macken-vertical.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Giáo sư <b>CLAIRE MACKEN</b><br><i>Tổng Giám Đốc<br>RMIT Việt Nam</i></h4>\n                                    </div>\n                                </li>\n                                \n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">15:20</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Tiệc trà &amp; Networking</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">15:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>AnphaTalk</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\"></h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/ms.-thanh-vu.jpeg\" alt=\"Thanh Vu\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>THANH VŨ</b><br><i>Người phụ nữ châu Á đầu tiên hoàn thành 4 Cuộc chạy qua Sa Mạc Grand Slam<br>Người phụ nữ châu Á đầu tiên vô địch Thế giới Cuộc đua Đa cực IUTA</i><br><i>Được mệnh danh là \"Nữ Hoàng Sa Mạc\" của Việt Nam</i></h4>\n                                    </div>\n                                </li>\n                                \n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">15:55</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>SpaceTime:  XUYÊN MƠ HỒ, LÁI THAY ĐỔI</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                          Những kinh nghiệm đa dạng, những bài học khác biệt, những bí quyết mang dấu ấn cá nhân của các lãnh đạo dày dạn đến từ những tổ chức đã &amp; đang từng bước “Ngược gió vươn cao”!                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">                              \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/ms.-nguyn-th-thu-ha-adp-group.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>NGUYỄN THỊ THU HÒA</b><br><i>Tổng Giám Đốc<br>ADP Group</i></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/linkedin-rohit-kalsy.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Ông <b>ROHIT KALSY</b><br><i>LinkedIn Regional Head</i><br><i>LinkedIn</i></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/trithong-thumb.jpg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">Ông <b>LÊ TRÍ THÔNG</b><br><i>Phó Chủ Tịch HĐQT/Tổng Giám Đốc\n</i><div><i>PNJ Group</i></div></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/profile.png\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>Đang cập nhật</b><br><i><br></i></h4>\n                                    </div>\n                                </li> \n                            </ul>\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Moderator</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">                              \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/thanh-nguyen.jpg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>THANH NGUYỄN</b><br><i>GĐĐH &amp; Truyền cảm hứng Hạnh phúc<br>Anphabe</i></h4>\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">16:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Đêm vinh danh - Đón khách &amp; Networking</b></h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">17:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Khai mạc lễ vinh danh</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">17:50</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Lễ vinh danh THƯƠNG HIỆU NHÀ TUYỂN DỤNG HẤP DẤN VỚI SINH VIÊN VIỆT NAM 2023</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">18:10</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Lễ vinh danh DOANH NGHIỆP TIÊU BIỂU CÓ NGUỒN NHÂN LỰC HẠNH PHÚC 2023 - KHỐI DOANH NGHIỆP LỚN</b></h5>\n                    </div>\n                </div>                \n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">18:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Lễ vinh danh 100 NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023® - KHỐI DOANH NGHIỆP LỚN</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">19:45</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Tiệc tối</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">20:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Chụp ảnh vinh danh</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex item-border last\">\n                    <div class=\"time-wrapper\">     \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">21:00</div>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Doorgift</b>\n                        </h5>\n                    </div>\n                </div>\n\n            </div>\n        </div>        \n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icon Size\" name=\"iconSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">        \n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-2.png\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">        \n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-12 schedule-header\">\n                <div class=\"item mbr-flex item-heading\">\n                    <div class=\"icon-box\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"29\" height=\"29\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5 date-schedule\" data-app-selector=\".icon-text\"><b>Phiên sáng - 23.11.2023</b> – HỘI NGHỊ NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023®</h5>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-12 schedule-wrapper\">\n                <div class=\"item mbr-flex item-border align-items-center\">\n                    <div class=\"time-wrapper\">                                          \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:00</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Phiên sáng - Đón khách &amp; Networking</b></h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex item-border align-items-center\">\n                    <div class=\"time-wrapper\">                                          \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:10</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                            <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeLeap: ĐỐI THOẠI VỚI TƯƠNG LAI</b></h5>\n                            <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                                Trả lời nhưng câu hỏi khó của NGÀY MAI để thực thi và chuẩn bị từ HÔM NAY. Lần đầu tiên trên sân khấu, sẽ có một màn đối đáp thú vị giữa 2 CEO danh tiếng và 1 nhân vật giả tưởng mang tên “Tương Lai\".\n                            </h4>\n                            <div class=\"schedule-speakers mb-4\">\n                                <div class=\"speaker-title\">\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                        <b>Diễn giả</b></p>\n                                </div>\n                                <ul class=\"speaker-list\">\n                                    <li>\n                                        <div class=\"speaker-img\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/mr.-binu-jacob-tng-gim-c-nestl-vit-nam.jpeg\" alt=\"Binu Jacob\">\n                                        </div>\n                                        <div class=\"speaker-detail\">\n                                            <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                                Ông <b>BINU JACOB</b><br><i>Tổng Giám Đốc<br> Nestlé Việt Nam</i></h4>\n                                        </div>\n                                    </li>\n                                    <li>\n                                        <div class=\"speaker-img\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/emin-turan-1-sanofi.jpeg\" alt=\"Lê Trí Thông\">\n                                        </div>\n                                        <div class=\"speaker-detail\">\n                                            <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                                Ông <b>TURAN EMIN</b><br><i>Tổng Giám Đốc<br>Sanofi Việt Nam</i></h4>\n                                        </div>\n                                    </li>\n                                </ul>\n                            </div>\n                            <div class=\"speaker-title\">\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                        <b>Moderator</b></p>\n                                </div>\n                            <ul class=\"speaker-list\">\n                                    <li>\n                                        <div class=\"speaker-img\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/mr.-hao-tran-3.jpeg\" alt=\"Binu Jacob\">\n                                        </div>\n                                        <div class=\"speaker-detail\">\n                                            <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                                Ông <b>HẢO TRẦN</b><br><i>Đồng Sáng Lập &amp; Giám Đốc Điều Hành<br>Vietcetera Media</i></h4>\n                                        </div>\n                                    </li>\n                              </ul>\n                        </div>\n                </div>\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeFreeze: CHRO – NHỮNG NĂNG LỰC MỚI</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Đặc sản của sự kiện Anphabe với các chia sẻ súc tích nhưng đầy cảm hứng từ các chuyên gia hàng đầu.\n                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/maiphuong-thumb-1.jpg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">Bà <b>TRỊNH MAI PHƯƠNG</b><br><i>Phó Chủ Tịch Phụ Trách Nhân Sự Unilever Việt Nam\n</i><div><i>Kiêm Nhân Sự Ngành Hàng Chăm sóc Cá nhân, Unilever Đông Nam Á</i></div></h4>\n                                    </div>\n                                </li>\n                      \n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">9:55</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>HR Multiverse: ĐA VŨ TRỤ HR - TÂM TÌNH MUỐN NÓI</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Thông qua những câu ‘hỏi xoáy – đáp xoay’ từ chính nhân viên, hãy cùng lắng nghe những tư vấn thông minh cùng những tâm sự chân thành từ 4 HRD giàu kinh nghiệm để có thêm những bài học về quản lý và phát triển con người.\n                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list pd-b\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/mr.-tn-tht-anh-v-manulife-.jpeg\" alt=\"Ton That Anh Vu\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>TÔN THẤT ANH VŨ</b><br><i>Phó Tổng Giám Đốc, Khối Nhân Sự</i><br><i>Manulife Việt Nam&nbsp;</i></h4>\n                                    </div>\n                                </li>\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/a-thuc-itl.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>SIMON THÚC</b><br><i>Phó Tổng Giám Đốc, VP Nguồn Nhân Lực</i><br><i>Tập Đoàn ITL</i></h4>\n                                    </div>\n                                </li>\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/profile.png\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>HUỲNH THỊ NGỌC TRÚC</b><br><i>Phó Tổng Giám Đốc Nhân sự</i><br><i>Coca-Cola Vietnam</i></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/profile.png\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>Đang cập nhật</b><br><i><br></i></h4>\n                                    </div>\n                                </li>                                 \n                            </ul>\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Người điều phối</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/alexis-pham.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>Alexis Phạm</b><br><i>Giám đốc nhân sự<br>Home Credit Việt Nam</i></h4>\n                                    </div>\n                                </li>   \n                            </ul>                       \n                        </div>         \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">10:45</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Khai mạc lễ vinh danh</b></h5> \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">10:55</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Lễ vinh danh DOANH NGHIỆP TIÊU BIỂU CÓ NGUỒN NHÂN LỰC HẠNH PHÚC 2023 - KHỐI DOANH NGHIỆP VỪA</b></h5> \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">11:05</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Lễ vinh danh 100 NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023® - KHỐI DOANH NGHIỆP VỪA</b><b><br></b></h5> \n                    </div>\n                </div>\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">11:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Chụp ảnh vinh danh</b></h5> \n                    </div>\n                </div>\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">11:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Doorgift</b></h5> \n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">12:00</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Ăn trưa &amp; Networking</b>\n                        </h5>\n                    </div>\n                </div>\n\n            </div>\n        </div>        \n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "ngay1",
           "_isUserblock": true,
           "_cid": "thuFemIHB6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".item-border": {
+              "border-bottom": "1px solid #e1e1e1",
+              "padding-bottom": "1.5rem",
+              "padding-top": "1.5rem"
+            },
+            ".icon-box": {
+              "width": "0px",
+              "min-width": "48px",
+              "height": "60px",
+              "display": "flex",
+              "align-items": "center",
+              "font-size": "40px",
+              "color": "#ed9d11",
+              "@media (max-width: 768px)": {
+                "display": "none!important"
+              }
+            },
+            ".icon-box img": {
+              "border-radius": "50px",
+              "width": "70%"
+            },
+            ".mbr-iconfont": {
+              "font-size": "2rem",
+              "color": "#99CA3C"
+            },
+            ".mb-30": {
+              "margin-bottom": "30px"
+            },
+            ".ml-10": {
+              "margin-left": "10px"
+            },
+            ".ml-50": {
+              "margin-left": "30px"
+            },
+            ".ml-85": {
+              "margin-left": "85px"
+            },
+            "@media (max-width: 991px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              },
+              ".card-wrapper": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".schedule-wrapper": {
+              "padding": "0 50px",
+              "background-color": "#ffffff"
+            },
+            ".display-7": {
+              "line-height": "1.5"
+            },
+            ".schedule-header": {
+              "background-color": "#99CA3C",
+              "padding-left": "50px",
+              "padding-right": "50px"
+            },
+            ".icon-text": {
+              "color": "#2C2C2C",
+              "padding-top": "0.5rem"
+            },
+            ".date-schedule": {
+              "color": "#2C2C2C",
+              "font-size": "1.4rem"
+            },
+            ".schedule-header .icon-box": {
+              "color": "#2C2C2C"
+            },
+            "H4": {
+              "color": "#232323"
+            },
+            ".time-slot": {
+              "color": "#565656",
+              "font-size": "1.2rem",
+              "width": "180px"
+            },
+            "ul li": {
+              "font-size": "1rem"
+            },
+            "ul": {
+              "margin-bottom": "1.2rem"
+            },
+            ".item.item-heading": {
+              "margin": "0 !important",
+              "padding": "0 !important"
+            },
+            ".item-border.last": {
+              "border": "none"
+            },
+            ".time-wrapper": {},
+            ".mbr-section-title": {
+              "color": "#353535",
+              "text-align": "center"
+            },
+            ".gt-heading.gt-align-center .gt-separate": {
+              "justify-content": "center"
+            },
+            ".gt-separate": {
+              "align-items": "center",
+              "display": "flex",
+              "margin": "3px auto 0",
+              "justify-content": "center"
+            },
+            ".gt-separate:before, .gt-separate:after": {
+              "content": "''",
+              "display": "block",
+              "height": "1px",
+              "width": "125px",
+              "background": "currentColor",
+              "opacity": ".15"
+            },
+            ".gt-separate svg": {
+              "margin": "0 20px",
+              "width": "23px",
+              "height": "auto",
+              "opacity": ".15"
+            },
+            ".title": {
+              "text-align": "center"
+            },
+            ".highlight": {
+              "color": "#99ca3c"
+            },
+            ".schedule-speakers": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "align-items": "center"
+            },
+            ".speaker-img": {
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "overflow": "hidden",
+              "margin-right": "1rem"
+            },
+            "ul.speaker-list": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "list-style": "none",
+              "flex-wrap": "wrap",
+              "padding": "0",
+              "margin": "-7.5px",
+              "padding-bottom": "1rem"
+            },
+            "ul.speaker-list li": {
+              "list-style": "none",
+              "font-size": "0.8rem",
+              "background": "#f6f6f6",
+              "padding": "15px",
+              "border-radius": "5px",
+              "display": "flex",
+              "align-items": "center",
+              "margin-right": "1rem"
+            },
+            ".speaker-title": {
+              "font-weight": "600",
+              "display": "inline-block",
+              "padding": "5px 35px 5px 0",
+              "width": "100%"
+            },
+            "ul.list li": {
+              "margin-left": "-1rem"
+            },
+            ".speaker-list .display-7, .speaker-title .display-7": {
+              "font-size": "0.8rem"
+            },
+            ".text-box .display-5": {
+              "font-size": "1.2rem"
+            },
+            "@media (max-width: 778px)": {
+              ".schedule-header": {
+                "padding-left": "20px",
+                "padding-right": "20px"
+              },
+              ".number-wrap": {
+                "min-width": "90px"
+              },
+              ".schedule-wrapper": {
+                "padding": "0 18px 18px 20px"
+              },
+              ".speaker-title": {
+                "padding-top": "25px"
+              },
+              ".item-border": {
+                "padding-bottom": "0.5rem"
+              },
+              ".item": {
+                "padding-top": "0.5rem",
+                "display": "block!important",
+                "margin-top": "1rem"
+              },
+              ".time-slot": {
+                "background-color": "#99ca3c",
+                "color": "#232323",
+                "padding": "2px 5px"
+              },
+              "ul.list.mb-4": {
+                "margin-bottom": "0!important"
+              },
+              "ul.speaker-list": {
+                "margin": "-7.5px 0 0 0",
+                "width": "100%!important"
+              },
+              "ul.speaker-list li": {
+                "margin-right": "0",
+                "width": "100%",
+                "margin-bottom": "1rem"
+              },
+              ".schedule-speakers.mb-4": {
+                "margin-bottom": "0!important"
+              },
+              ".icon-title.mb-4": {
+                "margin-bottom": "0!important"
+              },
+              "padding-top": "0rem",
+              "padding-bottom": "3rem"
+            },
+            ".pd-b": {
+              "margin-bottom": "1rem"
+            }
+          },
+          "_name": "features13",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icon Size\" name=\"iconSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">        \n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-2.png\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">        \n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-12 schedule-header\">\n                <div class=\"item mbr-flex item-heading\">\n                    <div class=\"icon-box\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"29\" height=\"29\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5 date-schedule\" data-app-selector=\".icon-text\"><b>Phiên chiều - 23.11.2023</b> – HỘI NGHỊ NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023®</h5>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-12 schedule-wrapper\">            \n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">13:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Phiên chiều - Đón khách &amp; Networking</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">13:35</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeLapse - Báo cáo chuyên sâu độc quyền từ Khảo sát NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM® 2023\n</b><div><b>BUILDING A RESILIENT TOMORROW – KIÊN HOẠT TIẾN BƯỚC&nbsp;</b></div></h5>\n                          <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Trong bối cảnh đầy thay đổi và biến động, ‘năng lực kiên cường phục hồi &amp; linh hoạt thích ứng’ – Resilience chính là điều kiện tiên quyết để một tổ chức tồn tại và phát triển bền vững. Tái định nghĩa Resilience? Yếu tố nào thực sự thúc đẩy năng lực Resilience của tổ chức &amp; nguồn nhân lực? Cùng khám phá các xu hướng &amp; thực hành mới nhất từ khảo sát độc quyền của Anphabe.</h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/thanh-nguyen.jpg\" alt=\"Thanh Nguyễn\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>THANH NGUYỄN</b><br><i>GĐĐH &amp; Truyền cảm hứng Hạnh phúc<br>Anphabe</i></h4>\n                                    </div>\n                                </li>\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/vanluu-thumb.jpg\" alt=\"Vân Lưu\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>VÂN LƯU</b><br><i>Giám đốc nghiên cứu thị trường<br>Intage Việt Nam</i></h4>\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n                \n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">14:50</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>TimeFreeze: 5 NGUYÊN TẮC LÃNH ĐẠO AGILE</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                            Đặc sản của sự kiện Anphabe với các chia sẻ súc tích nhưng đầy cảm hứng từ các chuyên gia hàng đầu.\n                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/prof-claire-macken-vertical.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Giáo sư <b>CLAIRE MACKEN</b><br><i>Tổng Giám Đốc<br>RMIT Việt Nam</i></h4>\n                                    </div>\n                                </li>\n                                \n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">15:20</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Tiệc trà &amp; Networking</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">15:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>AnphaTalk</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\"></h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/ms.-thanh-vu.jpeg\" alt=\"Thanh Vu\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>THANH VŨ</b><br><i>Người phụ nữ châu Á đầu tiên hoàn thành 4 Cuộc chạy qua Sa Mạc Grand Slam<br>Người phụ nữ châu Á đầu tiên vô địch Thế giới Cuộc đua Đa cực IUTA</i><br><i>Được mệnh danh là \"Nữ Hoàng Sa Mạc\" của Việt Nam</i></h4>\n                                    </div>\n                                </li>\n                                \n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">15:55</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>SpaceTime:  XUYÊN MƠ HỒ, LÁI THAY ĐỔI</b></h5>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style mb-4 display-7\">\n                          Những kinh nghiệm đa dạng, những bài học khác biệt, những bí quyết mang dấu ấn cá nhân của các lãnh đạo dày dạn đến từ những tổ chức đã &amp; đang từng bước “Ngược gió vươn cao”!                        </h4>\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">                              \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/ms.-nguyn-th-thu-ha-adp-group.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>NGUYỄN THỊ THU HÒA</b><br><i>Tổng Giám Đốc<br>ADP Group</i></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/linkedin-rohit-kalsy.jpeg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Ông <b>ROHIT KALSY</b><br><i>LinkedIn Regional Head</i><br><i>LinkedIn</i></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/trithong-thumb.jpg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">Ông <b>LÊ TRÍ THÔNG</b><br><i>Phó Chủ Tịch HĐQT/Tổng Giám Đốc\n</i><div><i>PNJ Group</i></div></h4>\n                                    </div>\n                                </li>  \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/profile.png\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            <b>Đang cập nhật</b><br><i><br></i></h4>\n                                    </div>\n                                </li> \n                            </ul>\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Moderator</b></p>\n                            </div>\n                            <ul class=\"speaker-list\">                              \n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/thanh-nguyen.jpg\" alt>\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>THANH NGUYỄN</b><br><i>GĐĐH &amp; Truyền cảm hứng Hạnh phúc<br>Anphabe</i></h4>\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">16:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Giải lao</b></h5>\n                    </div>\n                </div>\n            </div>\n        </div>        \n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features13-6r",
+          "_isUserblock": true,
+          "_cid": "tUNuxYo1Cx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".item-border": {
+              "border-bottom": "1px solid #e1e1e1",
+              "padding-bottom": "1.5rem",
+              "padding-top": "1.5rem"
+            },
+            ".icon-box": {
+              "width": "0px",
+              "min-width": "48px",
+              "height": "60px",
+              "display": "flex",
+              "align-items": "center",
+              "font-size": "40px",
+              "color": "#ed9d11",
+              "@media (max-width: 768px)": {
+                "display": "none!important"
+              }
+            },
+            ".icon-box img": {
+              "border-radius": "50px",
+              "width": "70%"
+            },
+            ".mbr-iconfont": {
+              "font-size": "2rem",
+              "color": "#99CA3C"
+            },
+            ".mb-30": {
+              "margin-bottom": "30px"
+            },
+            ".ml-10": {
+              "margin-left": "10px"
+            },
+            ".ml-50": {
+              "margin-left": "30px"
+            },
+            ".ml-85": {
+              "margin-left": "85px"
+            },
+            "@media (max-width: 991px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              },
+              ".card-wrapper": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".schedule-wrapper": {
+              "padding": "0 50px",
+              "background-color": "#ffffff"
+            },
+            ".display-7": {
+              "line-height": "1.5"
+            },
+            ".schedule-header": {
+              "background-color": "#99CA3C",
+              "padding-left": "50px",
+              "padding-right": "50px"
+            },
+            ".icon-text": {
+              "color": "#2C2C2C",
+              "padding-top": "0.5rem"
+            },
+            ".date-schedule": {
+              "color": "#2C2C2C",
+              "font-size": "1.4rem"
+            },
+            ".schedule-header .icon-box": {
+              "color": "#2C2C2C"
+            },
+            "H4": {
+              "color": "#232323"
+            },
+            ".time-slot": {
+              "color": "#565656",
+              "font-size": "1.2rem",
+              "width": "180px"
+            },
+            "ul li": {
+              "font-size": "1rem"
+            },
+            "ul": {
+              "margin-bottom": "1.2rem"
+            },
+            ".item.item-heading": {
+              "margin": "0 !important",
+              "padding": "0 !important"
+            },
+            ".item-border.last": {
+              "border": "none"
+            },
+            ".time-wrapper": {},
+            ".mbr-section-title": {
+              "color": "#353535",
+              "text-align": "center"
+            },
+            ".gt-heading.gt-align-center .gt-separate": {
+              "justify-content": "center"
+            },
+            ".gt-separate": {
+              "align-items": "center",
+              "display": "flex",
+              "margin": "3px auto 0",
+              "justify-content": "center"
+            },
+            ".gt-separate:before, .gt-separate:after": {
+              "content": "''",
+              "display": "block",
+              "height": "1px",
+              "width": "125px",
+              "background": "currentColor",
+              "opacity": ".15"
+            },
+            ".gt-separate svg": {
+              "margin": "0 20px",
+              "width": "23px",
+              "height": "auto",
+              "opacity": ".15"
+            },
+            ".title": {
+              "text-align": "center"
+            },
+            ".highlight": {
+              "color": "#99ca3c"
+            },
+            ".schedule-speakers": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "align-items": "center"
+            },
+            ".speaker-img": {
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "overflow": "hidden",
+              "margin-right": "1rem"
+            },
+            "ul.speaker-list": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "list-style": "none",
+              "flex-wrap": "wrap",
+              "padding": "0",
+              "margin": "-7.5px",
+              "padding-bottom": "1rem"
+            },
+            "ul.speaker-list li": {
+              "list-style": "none",
+              "font-size": "0.8rem",
+              "background": "#f6f6f6",
+              "padding": "15px",
+              "border-radius": "5px",
+              "display": "flex",
+              "align-items": "center",
+              "margin-right": "1rem"
+            },
+            ".speaker-title": {
+              "font-weight": "600",
+              "display": "inline-block",
+              "padding": "5px 35px 5px 0",
+              "width": "100%"
+            },
+            "ul.list li": {
+              "margin-left": "-1rem"
+            },
+            ".speaker-list .display-7, .speaker-title .display-7": {
+              "font-size": "0.8rem"
+            },
+            ".text-box .display-5": {
+              "font-size": "1.2rem"
+            },
+            "@media (max-width: 778px)": {
+              ".schedule-header": {
+                "padding-left": "20px",
+                "padding-right": "20px"
+              },
+              ".number-wrap": {
+                "min-width": "90px"
+              },
+              ".schedule-wrapper": {
+                "padding": "0 18px 18px 20px"
+              },
+              ".speaker-title": {
+                "padding-top": "25px"
+              },
+              ".item-border": {
+                "padding-bottom": "0.5rem"
+              },
+              ".item": {
+                "padding-top": "0.5rem",
+                "display": "block!important",
+                "margin-top": "1rem"
+              },
+              ".time-slot": {
+                "background-color": "#99ca3c",
+                "color": "#232323",
+                "padding": "2px 5px"
+              },
+              "ul.list.mb-4": {
+                "margin-bottom": "0!important"
+              },
+              "ul.speaker-list": {
+                "margin": "-7.5px 0 0 0",
+                "width": "100%!important"
+              },
+              "ul.speaker-list li": {
+                "margin-right": "0",
+                "width": "100%",
+                "margin-bottom": "1rem"
+              },
+              ".schedule-speakers.mb-4": {
+                "margin-bottom": "0!important"
+              },
+              ".icon-title.mb-4": {
+                "margin-bottom": "0!important"
+              },
+              "padding-top": "0rem",
+              "padding-bottom": "3rem"
+            },
+            ".pd-b": {
+              "margin-bottom": "1rem"
+            }
+          },
+          "_name": "features13",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icon Size\" name=\"iconSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">        \n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-2.png\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">        \n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-12 schedule-header\">\n                <div class=\"item mbr-flex item-heading\">\n                    <div class=\"icon-box\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"29\" height=\"29\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5 date-schedule\" data-app-selector=\".icon-text\"><b>Phiên tối - 23.11.2023</b> – HỘI NGHỊ NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023®</h5>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-12 schedule-wrapper\">       \n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">17:15</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Đón khách &amp; Networking</b></h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">17:40</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Khai mạc lễ vinh danh</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">17:50</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Lễ vinh danh THƯƠNG HIỆU NHÀ TUYỂN DỤNG HẤP DẤN VỚI SINH VIÊN VIỆT NAM 2023</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">18:10</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Lễ vinh danh DOANH NGHIỆP TIÊU BIỂU CÓ NGUỒN NHÂN LỰC HẠNH PHÚC 2023 - KHỐI DOANH NGHIỆP LỚN</b></h5>\n                    </div>\n                </div>                \n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">18:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Lễ vinh danh 100 NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023® - KHỐI DOANH NGHIỆP LỚN</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">19:45</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Tiệc tối</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex  item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">20:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Chụp ảnh vinh danh</b>\n                        </h5>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex item-border last\">\n                    <div class=\"time-wrapper\">     \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">21:00</div>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Doorgift</b>\n                        </h5>\n                    </div>\n                </div>\n\n            </div>\n        </div>        \n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features13-6s",
+          "_isUserblock": true,
+          "_cid": "tUNuAFg3dC",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1497,9 +1939,9 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features12 witsec-draft-mode\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Items\" name=\"items\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Icon Size\" name=\"iconSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">        \n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-2.png\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected=\"\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">        \n        <div class=\"row justify-content-center\">  \n            <div class=\"col-md-12 col-lg-12 schedule-header\">\n                <div class=\"item mbr-flex item-heading\">\n                    <div class=\"icon-box\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"29\" height=\"29\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n                    </div>\n                    <div class=\"text-box\">\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style mt-2\" mbr-theme-style=\"display-5 date-schedule\" data-app-selector=\".icon-text\">\n                            <b>Ngày 24.11.2023</b> – ĐÀO TẠO LÃNH ĐẠO</h5>\n                    </div>\n                </div>\n            </div>       \n            <div class=\"col-md-12 col-lg-12 schedule-wrapper\">\n                <div class=\"item mbr-flex item-border align-items-center\">\n                    <div class=\"time-wrapper\">\n                        <div class=\"mbr-black mbr-fonts-style mt-3\" mbr-theme-style=\"display-7 time-slot\">08:30</div>\n                    </div>\n                    \n                    <div class=\"text-box\">   \n                         <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\">\n                            <b>Huấn luyện độc quyền: GẮN KẾT THẾ HỆ\n</b><div><b>Bí mật hóa giải xung đột &amp; thúc đẩy hợp tác trong tổ chức hiện đại&nbsp;</b></div></h5> \n                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">Phiền muộn với những mâu thuẫn nơi công sở? Khó khăn khi lãnh đạo một môi trường làm việc đa thế hệ? Hãy tham gia buổi workshop sôi động và tương tác của chúng tôi để giải quyết những thách thức này một cách trực diện! <br><br>Trang bị cho bạn bộ kiến thức và công cụ cần thiết để xây dựng đội ngũ mạnh mẽ và gắn kết hơn:</h4>\n                   \n                        <ul class=\"list mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline=\"\" mbr-article=\"\">\n                            <li>Hiểu về Hội chứng Chia rẽ XYZ.\n</li><li>Khám phá những Xung đột &amp; Thiên kiến Thế hệ thông qua góc nhìn của Những Khuôn mẫu Thế hệ.</li>\n                            <li><span style=\"font-size: 1rem;\">Trang bị kỹ năng thực tế để đối mặt với những cuộc trao đổi khó khăn &amp; thúc đẩy sự hòa hợp giữa các thế hệ.\n</span></li><li><span style=\"font-size: 1rem;\">Hiểu được Thách thức &amp; Quan điểm của đồng nghiệp &amp; đội nhóm giữa các thế hệ khác nhau để tạo ra mối liên kết sâu sắc hơn.\n</span></li><li><span style=\"font-size: 1rem;\">Phát triển kỹ năng Thấu cảm Thế hệ thông qua những bài tập mở mang tầm nhìn để tăng cường năng suất, sự gắn kết và văn hóa nơi làm việc.</span></li>\n                        </ul>\n                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">Phiên trình bày của nhà đào tạo quốc tế Bà RACHELE FOCARDI - Top 6 nữ diễn giả có tầm ảnh hưởng nhất trong lĩnh vực nhân sự, cây viết best seller và chuyên gia Thương hiệu nhà tuyển dụng &amp; chiến lược nhân tài.<br><br></h4>\n\n                        <div class=\"schedule-speakers mb-4\">\n                            <div class=\"speaker-title\">\n                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    <b>Diễn giả:</b>\n                                </p>\n                            </div>\n                            <ul class=\"speaker-list\">\n                                <li>\n                                    <div class=\"speaker-img\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/portrait-2.jpg\" alt=\"Rachele Focardi\">\n                                    </div>\n                                    <div class=\"speaker-detail\">\n                                        <h4 class=\"icon-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                            Bà <b>RACHELE FOCARDI</b><br>\n                                            <i>Nhà Đào Tạo Quốc Tế</i></h4>\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"item mbr-flex item-border last\">\n                    <div class=\"time-wrapper\">                                          \n                        <div class=\"mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7 time-slot\">12:30</div>\n                    </div>\n                    <div class=\"text-box\">                        \n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".icon-text\"><b>Ăn trưa &amp; Networking</b></h5>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n<style class=\"witsec-draft-mode-style\">.witsec-draft-mode { border: 3px dashed red; }</style></section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
-          "_anchor": "ngay2",
+          "_anchor": "features13-6q",
           "_isUserblock": true,
-          "_cid": "thXIZlMXgp",
+          "_cid": "tUNs1Ng5pK",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
