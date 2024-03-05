@@ -80,10 +80,10 @@
         "main": true,
         "title": "Đăng ký sự kiện Xu hướng nhân sự ngành I Anphabe",
         "meta_descr": "Chuỗi sự kiện cập nhật xu hướng Nhân tài chuyên sâu dành riêng cho nhà quản lý Nhân sự.",
-        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/f40357b1dc0706595f16.jpeg"
+        "socialSharingUrl": "https://event.anphabe.com/c/breakfast/assets/images/index-meta.jpeg"
       },
       "components": [
         {
