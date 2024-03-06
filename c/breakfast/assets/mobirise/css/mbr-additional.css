@@ -883,7 +883,7 @@ a {
 }
 @media (max-width: 768px) {
   .cid-u6319yKajZ form {
-    padding: 38px 10px 50px 10px;
+    padding: 38px 10px 30px 10px;
   }
 }
 .cid-u6319yKajZ .mbr-form {
@@ -997,7 +997,7 @@ a {
   .cid-u6319yKajZ .mbr-form {
     border-radius: 16px;
   }
-  .cid-u6319yKajZ .rs-font {
+  .cid-u6319yKajZ .aln-top {
     margin-top: 2rem;
     line-height: 1.5;
   }
@@ -2235,7 +2235,7 @@ a {
 }
 .cid-u68DG9Wv2D {
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   background-color: #fafafa;
 }
 .cid-u68DG9Wv2D .mbr-fallback-image.disabled {
