@@ -421,6 +421,10 @@
             "@media (max-width: 768px)": {
               ".mbr-form": {
                 "border-radius": "16px"
+              },
+              ".rs-font": {
+                "margin-top": "2rem",
+                "line-height": "1.5"
               }
             },
             ".rs-font": {
@@ -735,6 +739,11 @@
             },
             ".hideul": {
               "border-bottom": "1px !important"
+            },
+            "@media (max-width: 768px)": {
+              ".schedule-header": {
+                "margin-top": "2rem"
+              }
             }
           },
           "_name": "features13",

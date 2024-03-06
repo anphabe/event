@@ -997,6 +997,10 @@ a {
   .cid-u6319yKajZ .mbr-form {
     border-radius: 16px;
   }
+  .cid-u6319yKajZ .rs-font {
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
 }
 .cid-u6319yKajZ .rs-font {
   font-size: 30px;
@@ -1295,6 +1299,11 @@ a {
 }
 .cid-u62FPOPZYg .hideul {
   border-bottom: 1px !important;
+}
+@media (max-width: 768px) {
+  .cid-u62FPOPZYg .schedule-header {
+    margin-top: 2rem;
+  }
 }
 .cid-txdqvDaPyj {
   max-height: 100vh;
