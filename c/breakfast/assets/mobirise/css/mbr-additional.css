@@ -735,7 +735,7 @@ a {
 .cid-u6319yKajZ {
   padding-top: 4rem;
   padding-bottom: 2rem;
-  background: url("file:///C:/mobirise/event/c/breakfast/assets/images/mbr-3.jpg") #087096;
+  background: url("https://event.anphabe.com/c/breakfast/assets/images/mbr-3.jpg") #087096;
 }
 .cid-u6319yKajZ .logo {
   width: 180px;
@@ -898,8 +898,8 @@ a {
 }
 .cid-u6319yKajZ .mbr-form .btn-primary,
 .cid-u6319yKajZ .mbr-form .btn-primary:active {
-  background-color: #99CA3C   !important;
-  border-color: #99CA3C   !important;
+  background-color: #FF9A00   !important;
+  border-color: #FF9A00   !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 ;
 }
@@ -987,7 +987,7 @@ a {
 }
 .cid-u6319yKajZ .mbr-section-subtitle {
   text-align: left;
-  color: #99ca3c;
+  color: #FF9A00;
 }
 .cid-u6319yKajZ .btn {
   border-radius: 15px;
@@ -1025,7 +1025,7 @@ a {
   padding: 10px;
 }
 .cid-u6319yKajZ .icon-box {
-  background: #087096;
+  background: #99ca3c;
   width: 60px;
   min-width: 60px;
   height: 60px;
@@ -1063,8 +1063,8 @@ a {
   font-size: 0.75rem;
 }
 .cid-u6319yKajZ .btn-danger {
-  background-color: #99CA3C !important;
-  border-color: #99ca3c !important;
+  background-color: #FF9A00 !important;
+  border-color: #FF9A00 !important;
 }
 .cid-u62FPOPZYg {
   padding-top: 4rem;
@@ -2102,6 +2102,10 @@ a {
 .cid-txjHqz46fw .mbr-section-btn {
   color: #353535;
 }
+.cid-txjHqz46fw .btn-primary {
+  background-color: #FF9A00 !important;
+  border-color: #FF9A00 !important;
+}
 .cid-u67w5bXuLP {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -2510,6 +2514,10 @@ a {
 }
 .cid-u68DG9Wv2D H6 {
   text-align: center;
+}
+.cid-u68DG9Wv2D .btn-primary {
+  background-color: #FF9A00!important;
+  border-color: #FF9A00!important;
 }
 .cid-twozrwXc1i {
   padding-top: 5rem;
