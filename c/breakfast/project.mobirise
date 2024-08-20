@@ -72,7 +72,9 @@
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KG2VC3R\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n<style>\nsection{\noverflow-x: hidden;\n}\n</style>",
     "witsec-jquery": "3.6.0",
     "usedWebp": true,
-    "witsec-anphabe-js": false
+    "witsec-anphabe-js": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
