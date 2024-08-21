@@ -147,7 +147,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="features1 cid-thusHksmq2 mbr-parallax-background" id="sukien">
+<section data-bs-version="5.1" class="features1 cid-thusHksmq2" id="sukien">
     
 
     
@@ -201,6 +201,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </section>
+
+
 
 
 
@@ -301,9 +303,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="text-box">                        
                             <h5 class="icon-text mbr-black mbr-fonts-style display-5"><strong>Báo cáo chuyên sâu độc quyền từ Khảo sát NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM® 2024</strong></h5>
-                            <h4 class="icon-title mbr-black mbr-fonts-style mb-4 display-7">
+                            <!--<h4 class="icon-title mbr-black mbr-fonts-style mb-4 display-7">
                                 Description
-                            </h4>
+                            </h4>-->
                             <div class="schedule-speakers mb-4">
                                 <div class="speaker-title">
                                     <p class="mbr-text mbr-fonts-style display-7">
@@ -608,7 +610,7 @@ console.log(c)
                             <p class="price-term mbr-fonts-style mb-3 display-7"><strong>VNĐ/VÉ</strong></p>
                         </div>
                     </div>
-                    <div class="plan-body">
+                    <div class="plan-body" id="early-price-plan">
                         <div class="plan-list mb-4">
                             <ul class="display-7">
                                 <li class="pb-2">Tiệc nhẹ giải lao</li>
@@ -618,6 +620,10 @@ console.log(c)
                             </ul>
                         </div>
                         <div class="mbr-section-btn text-center gr"><a href="https://event-register.anphabe.com/register.vi.html" class="btn btn-primary-outline gr display-4">ĐĂNG KÝ NGAY</a></div>
+                        <div class="mt-2 d-flex justify-content-center countdown-container">
+                          <span id="datecount" class="mbr-fonts-style display-7">25/09/2024</span>
+                          <span id="countdown" class="mbr-fonts-style display-7"></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -641,6 +647,7 @@ console.log(c)
                             </ul>
                         </div>
                         <div class="mbr-section-btn text-center"><a href="https://event-register.anphabe.com/register.vi.html" class="btn btn-primary-outline display-4">ĐĂNG KÝ NGAY</a></div>
+                        
                     </div>
                 </div>
             </div>
@@ -669,6 +676,32 @@ console.log(c)
             </div>
         </div>
     </div>
+    <script>
+      function updateCountdown(targetDate) {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24)).toString().padStart(2, '0');
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, '0');
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, '0');
+
+          document.getElementById('countdown').innerHTML =
+              `${days} : ${hours} : ${minutes} : ${seconds}`;
+
+          if (distance < 0) {
+              clearInterval(countdownInterval);
+              document.getElementById('countdown').innerHTML = "EXPIRED";
+          }
+      }
+
+      const targetDate = new Date("Sep 26, 2024 00:00:00").getTime();
+      const countdownInterval = setInterval(() => {
+          updateCountdown(targetDate);
+      }, 1000);
+
+      updateCountdown(targetDate);
+    </script>
 </section>
 
 <section data-bs-version="5.1" class="video2 cid-ulT6kZuWSn" id="video2-6x">
@@ -708,9 +741,110 @@ console.log(c)
     </div>
 </section>
 
+<section data-bs-version="5.1" class="gallery1 cid-ti2pVUAExC" id="gallery1-5r">
+    
+    
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/1.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/2-1.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam">
+                    </div>                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/3-1.png" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/4.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" title="">
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</section>
 
-
-
+<section data-bs-version="5.1" class="gallery1 cid-ti2xd2klqD" id="gallery1-5t">
+    
+    
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/5.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" data-slide-to="0" data-bs-slide-to="0">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/6.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" data-slide-to="1" data-bs-slide-to="1">
+                    </div>                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/7.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/8.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/9.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" title="" data-slide-to="4" data-bs-slide-to="4">
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/10.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" title="" data-slide-to="5" data-bs-slide-to="5">
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/11.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" title="" data-slide-to="6" data-bs-slide-to="6">
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/12.jpeg" alt="100 Nơi Làm Việc Tốt Nhất Việt Nam" title="" data-slide-to="7" data-bs-slide-to="7">
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
 
 <section data-bs-version="5.1" class="content4 cid-sQrzABLycu" id="taitro">
     
@@ -798,7 +932,7 @@ console.log(c)
     <div class="container">
         <div class="row mbr-white">         
                 
-            <div class="col-12 col-md-6 col-lg-56">
+            <div class="col-12 col-md-6 col-lg-4">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>LIÊN HỆ ĐỂ ĐƯỢC TƯ VẤN</strong></h5>
                 <ul class="list mbr-fonts-style display-4">
                     <li class="mbr-text item-wrap"><span style="font-size: 1rem;">(028) 62682222 - EXT.122</span><br></li>
@@ -806,13 +940,13 @@ console.log(c)
                     <li class="mbr-text item-wrap"><a href="mailto:clientsolution@anphabe.com" class="text-primary">clientsolution@anphabe.com&nbsp;</a>&nbsp;</li>
                 </ul>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-5">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>SỰ KIỆN CŨ</strong></h5>
                 <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap link-style"><a href="https://www.youtube.com/watch?v=B29h52SZlEU&autoplay=1" class="text-primary" target="_blank">Hội nghị 100 Nơi làm việc tốt nhất Việt Nam® 2023</a></li>
                     <li class="mbr-text item-wrap link-style"><a href="https://www.youtube.com/watch?v=iDsD3XecCs0" class="text-primary" target="_blank">Hội nghị 100 Nơi làm việc tốt nhất Việt Nam® 2022</a></li>
                     <li class="mbr-text item-wrap link-style"><a href="https://www.youtube.com/watch?v=v5AkjSwJaL0" class="text-primary" target="_blank">Hội nghị 100 Nơi làm việc tốt nhất Việt Nam® 2021</a></li>
                     <li class="mbr-text item-wrap link-style"><a href="https://youtu.be/V2TJq-b95j0" class="text-primary" target="_blank">Hội nghị 100 Nơi làm việc tốt nhất Việt Nam® 2020</a></li>
-                    <li class="mbr-text item-wrap link-style"><a href="https://youtu.be/Kn30TcK6Mvc" class="text-primary" target="_blank">Hội nghị 100 Nơi làm việc tốt nhất Việt Nam® 2019</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
@@ -845,7 +979,7 @@ console.log(c)
             </div>                
             <div class="col-12 mt-4">
                 <p class="mbr-text mb-0 mbr-fonts-style copyright align-left display-7">
-                    Anphabe © 2023 - All Rights Reserved
+                    Anphabe © 2024 - All Rights Reserved
                 </p>
             </div>
         </div>

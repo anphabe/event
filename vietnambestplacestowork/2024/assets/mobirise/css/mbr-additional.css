@@ -1211,7 +1211,7 @@ a {
 .cid-thusHksmq2 {
   padding-top: 0rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/bg-bar.jpg");
+  background-color: #fafafa;
 }
 .cid-thusHksmq2 .mbr-fallback-image.disabled {
   display: none;
@@ -1245,10 +1245,10 @@ a {
 }
 .cid-thusHksmq2 .card-title,
 .cid-thusHksmq2 .iconfont-wrapper {
-  color: #ffffff;
+  color: #000000;
 }
 .cid-thusHksmq2 .card-text {
-  color: #fafafa;
+  color: #232323;
 }
 .cid-thusHksmq2 .up {
   margin: 0 auto;
@@ -1270,6 +1270,99 @@ a {
   .cid-thusHksmq2 .card-box {
     padding-bottom: 1rem;
   }
+}
+.cid-um4FQBaX2p {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #fafafa;
+}
+.cid-um4FQBaX2p .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-um4FQBaX2p .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-um4FQBaX2p .mbr-iconfont {
+  display: block;
+  font-size: 4rem;
+  color: #fd9405;
+  margin-bottom: 2rem;
+}
+.cid-um4FQBaX2p .item-wrapper {
+  min-height: 220px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+}
+.cid-um4FQBaX2p .card {
+  position: relative;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+.cid-um4FQBaX2p .card::before,
+.cid-um4FQBaX2p .card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+.cid-um4FQBaX2p .card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+.cid-um4FQBaX2p .card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+.cid-um4FQBaX2p .card:hover::before,
+.cid-um4FQBaX2p .card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.cid-um4FQBaX2p .card:hover::after {
+  content: "";
+  white-space: pre;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+  line-height: 1.5;
+  color: black;
+}
+.cid-um4FQBaX2p .card:hover::after .cc {
+  display: block;
+  z-index: 100!important;
+}
+.cid-um4FQBaX2p .cc {
+  display: none;
+}
+.cid-um4FQBaX2p .cl {
+  display: block;
 }
 .cid-ulSyydvHkZ {
   padding-top: 6rem;
@@ -2161,7 +2254,10 @@ a {
   padding: .5rem 3.25rem;
 }
 .cid-thY5j53c25 .plan-body {
-  padding-bottom: 2rem;
+  padding-bottom: 3.4rem;
+}
+.cid-thY5j53c25 #early-price-plan {
+  padding-bottom: 1.5rem!important;
 }
 .cid-thY5j53c25 .plan-header {
   padding-top: 1rem;
@@ -2287,6 +2383,25 @@ a {
   color: #99ca3c;
   font-size: 16px;
   line-height: 1.5;
+}
+.cid-thY5j53c25 #countdown,
+.cid-thY5j53c25 #datecount {
+  font-weight: bold;
+  font-size: 15px;
+}
+.cid-thY5j53c25 #datecount {
+  margin-right: 15px;
+  position: relative;
+}
+.cid-thY5j53c25 #datecount::after {
+  content: "";
+  position: absolute;
+  right: -0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 20px;
+  background-color: #ccc;
 }
 .cid-ulT6kZuWSn {
   padding-top: 3rem;
