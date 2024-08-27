@@ -1210,6 +1210,10 @@ a {
   .cid-thu4KqfSVx .fixed-register-button {
     display: block!important;
   }
+  .cid-thu4KqfSVx .social-share,
+  .cid-thu4KqfSVx .fixed-button {
+    display: none!important;
+  }
 }
 .cid-thu4KqfSVx .fixed-button {
   position: fixed;
@@ -1324,7 +1328,7 @@ a {
   pointer-events: none;
 }
 .cid-thu4KqfSVx .fixed-register-button.show {
-  opacity: 1;
+  opacity: 1!important;
   pointer-events: auto;
 }
 .cid-thu4KqfSVx .fixed-register-button:hover {
@@ -1594,6 +1598,8 @@ a {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .cid-thuFemIHB6 .icon-box {
   width: 0px;
@@ -1638,8 +1644,8 @@ a {
   }
 }
 .cid-thuFemIHB6 .schedule-wrapper {
-  padding: 0 50px;
   background-color: #ffffff;
+  padding: 0!important;
 }
 .cid-thuFemIHB6 .display-7 {
   line-height: 1.5;
@@ -1827,6 +1833,7 @@ a {
   align-items: center;
   display: flex;
   padding: 1rem 1rem 0;
+  transition: all 10s ease;
 }
 .cid-thuFemIHB6 .txt {
   text-align: center;
@@ -1839,13 +1846,14 @@ a {
   text-align: center;
   font-style: normal;
   font-weight: 700;
+  transition: color 0.3s ease;
 }
 .cid-thuFemIHB6 .date {
   font-size: 16px;
   line-height: 28px;
   padding-bottom: 1rem;
   box-shadow: inset 0 0 0 0 #99ca3c;
-  transition: box-shadow 0.5 ease;
+  transition: box-shadow 0.3s ease;
 }
 .cid-thuFemIHB6 .w-agenda:hover .stt {
   color: #99ca3c;
@@ -1864,6 +1872,9 @@ a {
 }
 .cid-thuFemIHB6 .w-agenda.active .date {
   box-shadow: inset 0 -3px 0 0 #99ca3c;
+}
+.cid-thuFemIHB6 .item-border:hover {
+  background-color: #f5f5f5;
 }
 .cid-t6DIf0NN1P {
   padding-top: 0rem;

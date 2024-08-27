@@ -149,7 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
         <a href="https://event-register.anphabe.com/register.vi.html" class="button-link">
-        <button class="fixed-button mbr-fonts-style display-7">Đăng ký ngay</button>
+        <button class="fixed-button mbr-fonts-style d-block display-7">Đăng ký ngay</button>
         </a>
         <ul class="social-share">
 						<li>
@@ -213,7 +213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </a>
             </li>
 				</ul>
-        <a href="https://event.anphabe.com/vietnambestplacestowork/2024" class="fixed-register-button mbr-fonts-style display-7">Đăng ký ngay</a>
+        <a href="https://event-register.anphabe.com/register.vi.html" class="fixed-register-button mbr-fonts-style d-none display-7">Đăng ký ngay</a>
 
     </div>
     <script>
@@ -237,19 +237,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             element.classList.remove("copied");
         }, 1000);
       }
-
-      // document.addEventListener('scroll', function() {
-      //     const button = document.querySelector('.fixed-register-button');
-      //     const section = document.getElementById('video2-6w');
-      //     const sectionTop = section.getBoundingClientRect().top;
-
-      //     if (sectionTop <= window.innerHeight && sectionTop >= 0) {
-      //         button.classList.add('show'); // Hiển thị nút khi cuộn đến id="ok"
-      //     } else {
-      //         button.classList.remove('show'); // Ẩn nút khi cuộn ra khỏi id="ok"
-      //     }
-      // });
+      
     </script>
+        <script>
+  document.addEventListener('scroll', function() {
+    const button = document.querySelector('.fixed-register-button');
+    const section = document.getElementById('content-kv');
+    const sectionTop = section.getBoundingClientRect().top;
+    const sectionBottom = section.getBoundingClientRect().bottom;
+
+    if (sectionTop <= window.innerHeight && sectionBottom >= 0) {
+        button.classList.add('show'); // Hiển thị nút khi cuộn đến id="ok"
+    }
+});
+</script>
 </section>
 
 <section data-bs-version="5.1" class="features1 cid-thusHksmq2" id="sukien">
@@ -257,8 +258,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     
-    <div class="container">        
-        <div class="row justify-content-center col-12">
+    <div class="d-flex justify-content-center container">        
+        <div class="row col-12">
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
@@ -365,7 +366,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<section data-bs-version="5.1" class="video2 cid-ulT0khMrrq mbr-parallax-background" id="video2-6w">
+<section data-bs-version="5.1" class="video2 cid-ulT0khMrrq mbr-parallax-background" id="content-kv">
     
     
     
