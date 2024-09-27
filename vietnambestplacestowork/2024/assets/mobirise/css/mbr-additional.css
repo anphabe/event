@@ -1509,9 +1509,15 @@ a {
 }
 .cid-ulT0khMrrq .mbr-section-subtitle {
   color: #ffffff;
+  text-align: left;
 }
 .cid-ulT0khMrrq .mbr-section-title {
   color: #ffffff;
+}
+.cid-ulT0khMrrq UL {
+  color: #ffffff;
+  padding-left: 1rem!important;
+  margin-bottom: 0!important;
 }
 .cid-thXIc3Co0K {
   padding-top: 5rem;
@@ -2468,40 +2474,6 @@ a {
 }
 .cid-thY5j53c25 .pricecount {
   color: #99ca3c;
-}
-.cid-umaykHzbAu {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-umaykHzbAu img {
-  width: auto;
-}
-.cid-umaykHzbAu .carousel-container {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-}
-.cid-umaykHzbAu .carousel-content {
-  display: inline-block;
-  white-space: nowrap;
-  animation: scroll-right 100s linear infinite;
-}
-.cid-umaykHzbAu .carousel-content span {
-  display: inline-block;
-  padding-left: 50px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-@keyframes scroll-right {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
 }
 .cid-ulT6kZuWSn {
   padding-top: 3rem;
