@@ -1193,6 +1193,7 @@ a {
 @media (max-width: 768px) {
   .cid-thu4KqfSVx {
     padding-top: 0.2rem;
+    padding-bottom: 0rem;
   }
   .cid-thu4KqfSVx .image-wrapper svg {
     display: none;
@@ -1209,6 +1210,12 @@ a {
   .cid-thu4KqfSVx .social-share,
   .cid-thu4KqfSVx .fixed-button {
     display: none!important;
+  }
+  .cid-thu4KqfSVx .image-wrap img {
+    margin: 2.5rem auto 0;
+  }
+  .cid-thu4KqfSVx .text-wrapper {
+    margin-left: 1rem;
   }
 }
 .cid-thu4KqfSVx .fixed-button {
@@ -1379,6 +1386,13 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 768px) {
+  .cid-ulT0khMrrq .display-2 {
+    font-weight: bold!important;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+}
 .cid-thXIc3Co0K {
   padding-top: 2rem;
   padding-bottom: 0rem;
@@ -1449,6 +1463,9 @@ a {
   }
   .cid-thXIc3Co0K h3.mb-3 {
     margin-bottom: 0.5rem!important;
+  }
+  .cid-thXIc3Co0K .display-1 {
+    font-size: 2rem!important;
   }
 }
 .cid-thXIc3Co0K .display-1 {
@@ -1706,6 +1723,32 @@ a {
 .cid-upQbuStZmY .btn {
   border-radius: 0.1rem;
 }
+.cid-upQbuStZmY .small-text {
+  font-size: 1.2rem!important;
+}
+.cid-upQbuStZmY .update-text {
+  color: #aeaeae!important;
+}
+@media (max-width: 768px) {
+  .cid-upQbuStZmY {
+    padding-bottom: 1.5rem;
+  }
+  .cid-upQbuStZmY .date-schedule {
+    font-size: 1rem;
+  }
+  .cid-upQbuStZmY .time-slot {
+    color: aqua;
+    padding: 0;
+    width: ;
+    text-align: left;
+    font-size: 1.4rem;
+    background-color: transparent;
+  }
+  .cid-upQbuStZmY .small-text {
+    font-size: 0.8rem!important;
+    line-height: 0.8!important;
+  }
+}
 .cid-upVTZyA02a {
   padding-top: 4rem;
   padding-bottom: 0rem;
@@ -1776,6 +1819,10 @@ a {
   }
   .cid-upVTZyA02a h3.mb-3 {
     margin-bottom: 0.5rem!important;
+  }
+  .cid-upVTZyA02a .display-1 {
+    font-size: 2rem;
+    line-height: 3rem!important;
   }
 }
 .cid-upVTZyA02a .display-1 {
@@ -2150,6 +2197,12 @@ a {
 }
 .cid-thuR119nOU H4 {
   color: #ffffff;
+}
+@media (max-width: 768px) {
+  .cid-thuR119nOU {
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
 }
 .cid-thY5j53c25 {
   padding-top: 2rem;
