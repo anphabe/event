@@ -131,7 +131,9 @@
     "global_footer_custom": "<script src=\"assets/js/form.js\"></script>\n<script src=\"assets/js/school.js\"></script>",
     "global_header_custom": "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-TGZGNVL');</script>\n\n<script>\nfunction keep_url_query(){\n    let query = window.location.search;\n    \n    if(query == \"\") {\n        return false;\n    }\n    let searchParams = new URLSearchParams(query);\n\n    let atags = document.getElementsByTagName(\"a\"); \n    let i;\n    for (i = 0; i < atags.length; i++) {\n        let new_url = new URL(atags[i].href);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        atags[i].href = new_url.toString();  \n    } \n\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n</script>",
     "global_after_body": "  <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TGZGNVL\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -139,7 +141,7 @@
         "main": true,
         "title": "Vietnam Best Places To Work® Summit 2024",
         "meta_descr": "An annual thought leadership event, bringing updates on the latest talent trends; a forum to share experiences and best practices for CEOs and HRDs.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"An annual thought leadership event, bringing updates on the latest talent trends; a forum to share experiences and best practices for CEOs and HRDs.\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta name=\"author\" content=\"Anphabe\">\n<meta name=\"title\" property=\"og:title\" content=\"Vietnam Best Places To Work Summit 2024\">\n<meta name=\"twitter:image:src\" content=\"https://event.anphabe.com/vietnambestplacestowork/2024/assets/images/vnbptw-summit-2024.jpg\">\n<meta name=\"image\" property=\"og:image\" content=\"https://event.anphabe.com/vietnambestplacestowork/2024/assets/images/vnbptw-summit-2024.jpg\">\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://event.anphabe.com/vietnambestplacestowork/2024/assets/images/vnbptw-summit-2024.jpg\"/>\n<meta name=\"description\" property=\"og:description\" content=\"An annual thought leadership event, bringing updates on the latest talent trends; a forum to share experiences and best practices for CEOs and HRDs.\">",
+        "header_custom": "<meta property=\"og:site_name\" content=\"An annual thought leadership event, bringing updates on the latest talent trends; a forum to share experiences and best practices for CEOs and HRDs.\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta name=\"author\" content=\"Anphabe\">\n<meta name=\"title\" property=\"og:title\" content=\"Vietnam Best Places To Work Summit 2024\">\n<meta name=\"twitter:image:src\" content=\"https://event.anphabe.com/vietnambestplacestowork/2024/assets/images/vnbptw-summitE-2024.jpg\">\n<meta name=\"image\" property=\"og:image\" content=\"https://event.anphabe.com/vietnambestplacestowork/2024/assets/images/vnbptw-summitE-2024.jpg\">\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://event.anphabe.com/vietnambestplacestowork/2024/assets/images/vnbptw-summitE-2024.jpg\"/>\n<meta name=\"description\" property=\"og:description\" content=\"An annual thought leadership event, bringing updates on the latest talent trends; a forum to share experiences and best practices for CEOs and HRDs.\">",
         "footer_custom": "",
         "html_before": ""
       },
@@ -2009,7 +2011,10 @@
             },
             "@media (max-width: 768px)": {
               "padding-top": "(@paddingBottom * 0rem)",
-              "padding-bottom": "(@paddingBottom * 0.5rem)"
+              "padding-bottom": "(@paddingBottom * 0.5rem)",
+              ".item": {
+                "margin-bottom": "1.5rem"
+              }
             }
           },
           "_name": "gallery5",
