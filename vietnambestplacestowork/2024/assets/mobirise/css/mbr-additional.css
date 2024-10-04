@@ -2328,7 +2328,7 @@ a {
     padding-bottom: 1.5rem;
   }
   .cid-thuR119nOU .item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 }
 .cid-thY5j53c25 {
@@ -2353,22 +2353,31 @@ a {
   padding: .5rem 3.25rem;
 }
 .cid-thY5j53c25 .plan-body {
-  padding-bottom: 3.4rem;
+  padding-bottom: 1.4rem;
   padding-top: 3rem!important;
+  height: 100%;
 }
 .cid-thY5j53c25 .plan-header {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: aqua;
+  height: 100%;
 }
 .cid-thY5j53c25 .plan {
+  height: 100%;
+  padding-bottom: 2.5rem;
   word-break: break-word;
   background: rgba(2, 15, 38, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(141, 235, 253, 0.25);
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .cid-thY5j53c25 .plan .list-group-item {
   position: relative;
@@ -2449,6 +2458,9 @@ a {
   .cid-thY5j53c25 .gt-separate.mb-3 {
     margin-bottom: 0 !important;
   }
+  .cid-thY5j53c25 .plan-body {
+    padding-top: 0!important;
+  }
 }
 .cid-thY5j53c25 H6 {
   color: #000000;
@@ -2457,13 +2469,19 @@ a {
   color: #ffffff;
 }
 .cid-thY5j53c25 ul {
-  text-align: center;
   list-style-type: none;
   color: #ffffff;
-  padding: 0;
+  padding: 2rem 4rem;
+}
+@media (max-width: 768px) {
+  .cid-thY5j53c25 ul {
+    padding-bottom: 0;
+  }
 }
 .cid-thY5j53c25 ul li {
-  line-height: 1.4;
+  line-height: 1.8;
+  padding-left: 2rem;
+  position: relative;
 }
 .cid-thY5j53c25 #countdown,
 .cid-thY5j53c25 #datecount {
@@ -2525,6 +2543,9 @@ a {
   margin-top: 0.5rem;
   color: aqua;
   font-weight: 700;
+  top: 0;
+  left: 2px;
+  position: absolute;
 }
 .cid-thY5j53c25 .plan-title {
   color: #00ffff;
@@ -2542,6 +2563,20 @@ a {
 .cid-thY5j53c25 hr {
   width: 80%;
   margin: 1rem auto;
+}
+.cid-thY5j53c25 UL {
+  text-align: left;
+}
+.cid-thY5j53c25 .price-s {
+  font-size: 1.2rem!important;
+  text-decoration-line: line-through;
+  color: #fff!important;
+}
+.cid-thY5j53c25 .mbr-section-btn {
+  bottom: 2rem;
+}
+.cid-thY5j53c25 .plan-footer {
+  margin-top: auto;
 }
 .cid-ulYNsEyKcb {
   padding-top: 2rem;
