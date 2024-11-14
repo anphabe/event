@@ -1887,6 +1887,9 @@ a {
 .cid-upQbuStZmY .space-right {
   margin-right: 8rem!important;
 }
+.cid-upQbuStZmY .space-right2 {
+  margin-right: 14rem!important;
+}
 @media (max-width: 768px) {
   .cid-upQbuStZmY {
     padding-bottom: 1.5rem;
@@ -1909,7 +1912,8 @@ a {
   .cid-upQbuStZmY .speaker-img {
     width: 60px!important;
   }
-  .cid-upQbuStZmY .space-right {
+  .cid-upQbuStZmY .space-right,
+  .cid-upQbuStZmY .space-right2 {
     margin-right: 0!important;
   }
   .cid-upQbuStZmY .speaker-img img {
