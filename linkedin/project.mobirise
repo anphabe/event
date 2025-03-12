@@ -88,11 +88,11 @@
         "main": true,
         "title": "Linkedin Recruitathon 2025",
         "meta_descr": "Sự kiện dành riêng cho các chuyên gia tuyển dụng – từ những recruiter giàu kinh nghiệm đến những ai mới bắt đầu hành trình chinh phục nhân tài trên nền tảng LinkedIn.",
-        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n<meta property=\"og:image\" content=\"https://event.anphabe.com/linkedin-recruitathon-2025/assets/images/20250312-165358.jpg\">",
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/li-learning-thumb.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/20250312-165358.jpg"
       },
       "components": [
         {
