@@ -91,8 +91,7 @@
         "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n<meta property=\"og:image\" content=\"https://event.anphabe.com/linkedin-recruitathon-2025/assets/images/20250312-165358.jpg\">",
         "footer_custom": "",
         "html_before": "",
-        "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/20250312-165358.jpg"
+        "socialSharingUrl": ""
       },
       "components": [
         {
