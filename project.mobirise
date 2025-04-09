@@ -100,7 +100,7 @@
     ],
     "imageResize": false,
     "uniqCompNum": 753,
-    "versionPublish": "5.9.17",
+    "versionPublish": "5.9.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
     "robotsSwitcher": false,
@@ -117,9 +117,7 @@
     "global_header_custom": "    <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P9VZ8L');</script>\n<!-- End Google Tag Manager -->\n<script>\nfunction keep_url_query(){\n    let query = window.location.search;\n    \n    if(query == \"\") {\n        return false;\n    }\n    let searchParams = new URLSearchParams(query);\n\n    let atags = document.getElementsByTagName(\"a\"); \n    let i;\n    for (i = 0; i < atags.length; i++) {\n        let new_url = new URL(atags[i].href);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        atags[i].href = new_url.toString();  \n    } \n\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n</script>\n\n<style>\n#floating-phone {\n    position: fixed;\n    right: 20px;\n    bottom: 20px;\n    height: 60px;\n    width: 60px;\n    background: #0052cc url(https://callnowbutton.com/phone/callbutton01.png) center/50px no-repeat;\n    z-index: 99;\n    color: #fff;\n    font-size: 45px;\n    line-height: 55px;\n    text-align: center;\n    border-radius: 50%;\n    -webkit-box-shadow: 0 2px 5px rgb(0 0 0 / 50%);\n    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5);\n    box-shadow: 0 2px 5px rgb(0 0 0 / 50%);\n}\n\n</style>",
     "global_after_body": "    <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-P9VZ8L\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "witsec-jquery": "3.5.1",
-    "witsec-anphabe": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-anphabe": false
   },
   "pages": {
     "index.html": {
@@ -127,7 +125,7 @@
         "main": true,
         "title": "Giải pháp Thương hiệu Nhà tuyển dụng &amp; Nơi làm việc hạnh phúc | Anphabe",
         "meta_descr": "Anphabe – Công ty tư vấn tiên phong về các giải pháp toàn diện xây dựng Nguồn nhân lực Hạnh phúc và Thương hiệu Nhà tuyển dụng hấp dẫn.",
-        "header_custom": "<link rel=\"canonical\" href=\"https://www.anphabe.com/vi/\"/>\n<meta property=\"og:url\" content=\"https://www.anphabe.com/vi/\" />\n<meta property=\"og:title\" content=\"Giải pháp Thương hiệu Nhà tuyển dụng &amp; Nơi làm việc hạnh phúc | Anphabe\" />\n<meta property=\"og:description\" content=\"Anphabe – Công ty tư vấn tiên phong về các giải pháp toàn diện xây dựng Nguồn nhân lực Hạnh phúc và Thương hiệu Nhà tuyển dụng hấp dẫn.\" />\n\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:site_name\" content=\"anphabe.com\" />\n<meta property=\"fb:app_id\" content=\"1031407750295029\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/anphabe\"/>",
+        "header_custom": "<link rel=\"canonical\" href=\"https://www.anphabe.com/vi/\"/>\n<meta property=\"og:url\" content=\"https://www.anphabe.com/vi/\" />\n<meta property=\"og:title\" content=\"Giải pháp Thương hiệu Nhà tuyển dụng &amp; Nơi làm việc hạnh phúc | Anphabe\" />\n<meta property=\"og:description\" content=\"Anphabe – Công ty tư vấn tiên phong về các giải pháp toàn diện xây dựng Nguồn nhân lực Hạnh phúc và Thương hiệu Nhà tuyển dụng hấp dẫn.\" />\n\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:site_name\" content=\"anphabe.com\" />\n<meta property=\"fb:app_id\" content=\"1031407750295029\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/anphabe\"/>\n<meta http-equiv=\"refresh\" content=\"0; url=https://event.anphabe.com/vietnamexcellence/2025/\">",
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "https://www.anphabe.com/vi/assets/images/index-meta.jpg"
