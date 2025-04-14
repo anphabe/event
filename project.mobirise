@@ -118,6 +118,8 @@
     "global_after_body": "    <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-P9VZ8L\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "witsec-jquery": "3.5.1",
     "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "usedWebp": false
   },
   "pages": {

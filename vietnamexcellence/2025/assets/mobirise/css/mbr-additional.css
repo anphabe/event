@@ -1318,6 +1318,31 @@ a {
   color: #ffffff;
   text-align: left;
 }
+.cid-uIk7Rc25xz {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #01264d;
+}
+.cid-uIk7Rc25xz .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uIk7Rc25xz .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uIk7Rc25xz .video-wrapper iframe {
+  width: 100%;
+}
+.cid-uIk7Rc25xz .mbr-section-title,
+.cid-uIk7Rc25xz .mbr-section-subtitle,
+.cid-uIk7Rc25xz .mbr-text {
+  text-align: center;
+}
 .cid-thXIc3Co0K {
   padding-top: 5rem;
   padding-bottom: 0rem;
