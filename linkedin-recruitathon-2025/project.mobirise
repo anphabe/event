@@ -78,7 +78,9 @@
     "witsec-jquery": "3.6.0",
     "usedWebp": false,
     "witsec-anphabe-js": false,
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
