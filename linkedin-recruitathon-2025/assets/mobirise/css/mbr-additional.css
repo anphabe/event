@@ -2178,7 +2178,7 @@ a {
 .cid-uF7Rnqb7sq .row {
   align-items: center;
   justify-content: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 @media (max-width: 767px) {
   .cid-uF7Rnqb7sq .row .row {
