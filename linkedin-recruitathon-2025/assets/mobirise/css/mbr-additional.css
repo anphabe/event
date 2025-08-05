@@ -1275,6 +1275,9 @@ a {
   font-size: 28px;
   text-align: center;
 }
+.cid-uF2jZt4Ey2 .mbr-form .row {
+  flex-direction: row;
+}
 .cid-uF2jZt4Ey2 .form-control {
   padding: 1rem;
   line-height: 1.5rem !important;

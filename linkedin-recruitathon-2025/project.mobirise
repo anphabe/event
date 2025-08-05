@@ -761,6 +761,9 @@
                 "color": "#232323",
                 "font-size": "28px",
                 "text-align": "center"
+              },
+              ".row": {
+                "flex-direction": "row"
               }
             },
             ".form-control": {
