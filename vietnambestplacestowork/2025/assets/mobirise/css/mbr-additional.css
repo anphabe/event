@@ -1175,7 +1175,7 @@ a {
   list-style: none;
 }
 .cid-uVHtjWhRDD .ul-event .svg-icon {
-  width: 16px;
+  width: 18px;
 }
 .cid-uVHtjWhRDD .title-txt {
   text-align: center;
@@ -1187,6 +1187,13 @@ a {
   }
   .cid-uVHtjWhRDD .mb-5 {
     margin-bottom: 1rem!important;
+  }
+  .cid-uVHtjWhRDD .fs {
+    font-size: 1.6rem!important;
+    line-height: 1.3;
+  }
+  .cid-uVHtjWhRDD ul li {
+    margin-left: -1rem;
   }
 }
 .cid-uq0NaHiqu6 {
