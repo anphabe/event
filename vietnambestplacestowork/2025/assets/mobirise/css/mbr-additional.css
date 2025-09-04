@@ -1086,12 +1086,12 @@ a {
 }
 @media (max-width: 768px) {
   .cid-uVHamTuNOw {
-    min-height: 60vh!important;
+    min-height: 48vh!important;
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
   .cid-uVHamTuNOw .mt-negative {
-    margin-top: -3rem !important;
+    margin-top: 22rem !important;
   }
 }
 @media (min-width: 992px) {
