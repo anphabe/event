@@ -1067,7 +1067,6 @@ a {
 }
 .cid-uVHamTuNOw {
   background-image: url("../../../assets/images/bg-cover-wide.png");
-  min-height: 65vh!important;
 }
 .cid-uVHamTuNOw .mbr-fallback-image.disabled {
   display: none;
@@ -1098,6 +1097,7 @@ a {
   .cid-uVHamTuNOw {
     padding-top: 6rem;
     padding-bottom: 0rem;
+    min-height: 65vh!important;
   }
 }
 @media (min-width: 1280px) {

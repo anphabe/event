@@ -609,7 +609,6 @@
                 "background-image": "url(@fallBackImage)"
               }
             },
-            "min-height": "65vh!important",
             ".mt-negative": {
               "margin-top": "-7rem !important"
             },
@@ -623,7 +622,8 @@
             },
             "@media (min-width: 992px)": {
               "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 0rem)"
+              "padding-bottom": "(@paddingBottom * 0rem)",
+              "min-height": "65vh!important"
             },
             "@media (min-width: 1280px)": {
               "min-height": "75vh!important",
