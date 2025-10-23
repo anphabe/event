@@ -1664,11 +1664,11 @@ a {
   text-align: center;
 }
 .cid-uVIiPVxVil .card-subtitle {
-  color: #ffffff;
+  color: #cfd9df;
 }
 .cid-uVIiPVxVil .mbr-text,
 .cid-uVIiPVxVil .social-row {
-  color: #ffffff;
+  color: #cfd9df;
 }
 @media (max-width: 768px) {
   .cid-uVIiPVxVil {
@@ -1718,6 +1718,9 @@ a {
 .cid-uVIiPVxVil .nav-tabs .nav-link:not(.active) {
   color: #fff!important;
   opacity: 0.4;
+}
+.cid-uVIiPVxVil p {
+  margin-bottom: 0;
 }
 .cid-uVIDqktajo {
   padding-top: 6rem;
