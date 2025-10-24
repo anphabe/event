@@ -2006,7 +2006,11 @@ a {
   overflow: auto;
 }
 .cid-uVIDqktajo .fs-30 {
-  font-size: 30px;
+  font-size: 28px;
+}
+.cid-uVIDqktajo .name {
+  text-transform: uppercase!important;
+  font-weight: bold;
 }
 .cid-uVIUPlaaNG {
   padding-top: 0;
