@@ -2527,6 +2527,9 @@ a {
   top: -6px;
   right: -6px;
 }
+.cid-thY5j53c25 .soldout {
+  pointer-events: none;
+}
 .cid-ulYNsEyKcb {
   padding-top: 4rem;
   padding-bottom: 1rem;
