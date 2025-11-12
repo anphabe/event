@@ -3060,16 +3060,16 @@ a {
     padding-top: 1.5rem;
   }
 }
-.cid-v1aD9cZz8i {
+.cid-v2kSp0pxik {
   padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-bottom: 7rem;
   background-color: #ffffff;
 }
-.cid-v1aD9cZz8i img {
+.cid-v2kSp0pxik img {
   width: 150px;
   margin: auto;
 }
-.cid-v1aD9cZz8i .card {
+.cid-v2kSp0pxik .card {
   transition: all 0.3s;
   height: fit-content;
   padding: 1rem 0;
@@ -3080,7 +3080,7 @@ a {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (min-width: 992px) {
-  .cid-v1aD9cZz8i .card {
+  .cid-v2kSp0pxik .card {
     max-width: 17.5%;
   }
 }
