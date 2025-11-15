@@ -1181,6 +1181,9 @@ a {
 .cid-uVHamTuNOw .btn {
   text-transform: uppercase;
 }
+.cid-uVHamTuNOw .soldout {
+  pointer-events: none;
+}
 .cid-uVHtjWhRDD {
   padding-top: 3rem;
   padding-bottom: 0rem;
@@ -1731,6 +1734,9 @@ a {
 }
 .cid-uVIiPVxVil .line {
   border-bottom: 1px solid #7e909e;
+}
+.cid-uVIiPVxVil .soldout {
+  pointer-events: none;
 }
 .cid-uVIDqktajo {
   padding-top: 6rem;
