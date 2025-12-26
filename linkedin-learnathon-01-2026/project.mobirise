@@ -79,7 +79,9 @@
     "usedWebp": false,
     "witsec-anphabe-js": false,
     "witsec-anphabe": false,
-    "witsec-language": false
+    "witsec-language": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
