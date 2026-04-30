@@ -1,7 +1,7 @@
 // Configuration
 const CONFIG = {
     APP_URL: 'https://www.anphabe.com/aapi-lead/v2',
-    CRM_API_URL: 'http://localhost:8080/api/public/leads/submit',
+    CRM_API_URL: 'https://crm.anphabe.com/api/public/leads/submit',
     CRM_API_KEY: 'lpk_0b3ebdae8414234fae840c4be204a8028bfffe71367d341b964cb24b1e5bac3a', // TODO: Set your API key here (lpk_xxx)
     MAUTIC_TIMEOUT: 5000,
     GTM_TIMEOUT: 2000
